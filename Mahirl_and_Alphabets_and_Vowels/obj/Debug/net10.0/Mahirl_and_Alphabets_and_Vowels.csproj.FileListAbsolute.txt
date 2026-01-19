@@ -1,0 +1,15 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\bin\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.exe
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\bin\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\bin\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.runtimeconfig.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\bin\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\bin\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\refint\Mahirl_and_Alphabets_and_Vowels.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\Mahirl_and_Alphabets_and_Vowels.genruntimeconfig.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Mahirl_and_Alphabets_and_Vowels\obj\Debug\net10.0\ref\Mahirl_and_Alphabets_and_Vowels.dll
