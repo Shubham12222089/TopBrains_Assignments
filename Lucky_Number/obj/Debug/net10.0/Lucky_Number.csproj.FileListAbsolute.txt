@@ -1,0 +1,15 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\bin\Debug\net10.0\Lucky_Number.exe
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\bin\Debug\net10.0\Lucky_Number.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\bin\Debug\net10.0\Lucky_Number.runtimeconfig.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\bin\Debug\net10.0\Lucky_Number.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\bin\Debug\net10.0\Lucky_Number.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\refint\Lucky_Number.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\Lucky_Number.genruntimeconfig.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Lucky_Number\obj\Debug\net10.0\ref\Lucky_Number.dll

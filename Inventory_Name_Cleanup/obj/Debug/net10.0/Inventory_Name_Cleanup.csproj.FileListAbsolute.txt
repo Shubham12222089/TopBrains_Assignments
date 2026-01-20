@@ -1,0 +1,15 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\bin\Debug\net10.0\Inventory_Name_Cleanup.exe
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\bin\Debug\net10.0\Inventory_Name_Cleanup.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\bin\Debug\net10.0\Inventory_Name_Cleanup.runtimeconfig.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\bin\Debug\net10.0\Inventory_Name_Cleanup.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\bin\Debug\net10.0\Inventory_Name_Cleanup.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\refint\Inventory_Name_Cleanup.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\Inventory_Name_Cleanup.genruntimeconfig.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\Inventory_Name_Cleanup\obj\Debug\net10.0\ref\Inventory_Name_Cleanup.dll
