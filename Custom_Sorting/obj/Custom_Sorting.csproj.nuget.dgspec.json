@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj": {}
+    "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj": {}
   },
   "projects": {
-    "c:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj": {
+    "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj",
+        "projectUniqueName": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj",
         "projectName": "Custom_Sorting",
-        "projectPath": "c:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj",
+        "projectPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\Custom_Sorting.csproj",
         "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\obj\\",
+        "outputPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\Custom_Sorting\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
