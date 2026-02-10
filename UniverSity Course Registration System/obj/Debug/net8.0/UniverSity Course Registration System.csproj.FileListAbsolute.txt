@@ -1,0 +1,15 @@
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.exe
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.deps.json
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.runtimeconfig.json
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.dll
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.pdb
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.AssemblyInfoInputs.cache
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.AssemblyInfo.cs
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.csproj.CoreCompileInputs.cache
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.sourcelink.json
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.dll
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\refint\UniverSity Course Registration System.dll
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.pdb
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.genruntimeconfig.cache
+C:\Users\shubh\Downloads\UniverSity Course Registration System\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\ref\UniverSity Course Registration System.dll
