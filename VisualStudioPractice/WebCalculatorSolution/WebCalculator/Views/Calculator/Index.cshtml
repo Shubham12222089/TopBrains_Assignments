@@ -1,0 +1,22 @@
+﻿<h2>Calculator</h2>
+
+<form method="post">
+    <input id="a" name="a" type="number" />
+    <input id="b" name="b" type="number" />
+
+    <select id="op" name="op">
+        <option value="+">Add</option>
+        <option value="-">Subtract</option>
+        <option value="*">Multiply</option>
+        <option value="/">Divide</option>
+    </select>
+
+    <button id="calculate" type="submit">Calculate</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <div id="result" class="alert alert-success mt-3">
+        Result: @ViewBag.Result
+    </div>
+}

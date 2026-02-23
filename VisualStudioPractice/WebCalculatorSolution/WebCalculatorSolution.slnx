@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WebCalculator.SeleniumTests/WebCalculator.SeleniumTests.csproj" />
+  <Project Path="WebCalculator/WebCalculator.csproj" />
+</Solution>

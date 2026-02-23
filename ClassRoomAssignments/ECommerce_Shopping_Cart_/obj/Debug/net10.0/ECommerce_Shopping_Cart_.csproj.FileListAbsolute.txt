@@ -1,0 +1,15 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\bin\Debug\net10.0\ECommerce_Shopping_Cart_.exe
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\bin\Debug\net10.0\ECommerce_Shopping_Cart_.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\bin\Debug\net10.0\ECommerce_Shopping_Cart_.runtimeconfig.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\bin\Debug\net10.0\ECommerce_Shopping_Cart_.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\bin\Debug\net10.0\ECommerce_Shopping_Cart_.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\refint\ECommerce_Shopping_Cart_.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ECommerce_Shopping_Cart_.genruntimeconfig.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\ClassRoomAssignments\ECommerce_Shopping_Cart_\obj\Debug\net10.0\ref\ECommerce_Shopping_Cart_.dll

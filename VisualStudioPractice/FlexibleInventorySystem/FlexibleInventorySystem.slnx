@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FlexibleInventorySystem.Tests/FlexibleInventorySystem.Tests.csproj" />
+  <Project Path="FlexibleInventorySystem/FlexibleInventorySystem.csproj" />
+</Solution>
