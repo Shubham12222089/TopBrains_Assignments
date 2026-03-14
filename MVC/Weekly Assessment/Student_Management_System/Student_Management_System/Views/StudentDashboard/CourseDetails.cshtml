@@ -1,0 +1,78 @@
+@model Course
+
+@{
+    ViewData["Title"] = "My Course Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h2 class="mb-0">My Course Details</h2>
+                </div>
+                <div class="card-body">
+                    @if (Model != null)
+                    {
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <h4 class="text-primary">@Model.CourseName</h4>
+                                <hr />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label"><strong>Course ID:</strong></label>
+                                <p>@Model.CourseId</p>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label"><strong>Course Name:</strong></label>
+                                <p>@Model.CourseName</p>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label"><strong>Duration:</strong></label>
+                                <p>@Model.Duration</p>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label"><strong>Fees:</strong></label>
+                                <p class="text-success fw-bold">@Model.Fees.ToString("C")</p>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label class="form-label"><strong>Department:</strong></label>
+                                <p>@(Model.Department?.DepartmentName ?? "N/A")</p>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label class="form-label"><strong>Department Description:</strong></label>
+                                <p>@(Model.Department?.Description ?? "N/A")</p>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="mb-3">
+                            <a href="/StudentDashboard/Profile" class="btn btn-primary">View Profile</a>
+                            <a href="/StudentDashboard/Index" class="btn btn-secondary">Back to Dashboard</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            No course has been assigned to you yet. Please contact your administrator.
+                        </div>
+                        <a href="/StudentDashboard/Index" class="btn btn-secondary">Back to Dashboard</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

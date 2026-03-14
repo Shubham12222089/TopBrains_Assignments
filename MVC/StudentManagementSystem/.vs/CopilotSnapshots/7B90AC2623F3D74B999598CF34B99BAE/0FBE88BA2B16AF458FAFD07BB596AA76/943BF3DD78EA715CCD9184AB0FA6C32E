@@ -1,0 +1,52 @@
+﻿@model Student
+
+<h2>Edit Student</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.StudentId)
+
+    <p>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </p>
+
+    <p>
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+        @Html.ValidationMessageFor(m => m.Email)
+    </p>
+
+    <p>
+        @Html.LabelFor(m => m.Password)
+        @Html.PasswordFor(m => m.Password)
+        @Html.ValidationMessageFor(m => m.Password)
+    </p>
+
+    <p>
+        @Html.LabelFor(m => m.Age)
+        @Html.TextBoxFor(m => m.Age)
+        @Html.ValidationMessageFor(m => m.Age)
+    </p>
+
+    <p>
+        @Html.LabelFor(m => m.Gender)
+        @Html.DropDownListFor(m => m.Gender, new List<SelectListItem>
+        {
+            new SelectListItem { Text = "Male", Value = "Male" },
+            new SelectListItem { Text = "Female", Value = "Female" },
+            new SelectListItem { Text = "Other", Value = "Other" }
+        }, "Select Gender")
+        @Html.ValidationMessageFor(m => m.Gender)
+    </p>
+
+    <p>
+        @Html.LabelFor(m => m.DepartmentId)
+        @Html.DropDownListFor(m => m.DepartmentId, new SelectList(ViewBag.Departments, "DepartmentId", "Name"), "Select Department")
+        @Html.ValidationMessageFor(m => m.DepartmentId)
+    </p>
+
+    <input type="submit" value="Update" />
+}

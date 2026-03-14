@@ -1,0 +1,69 @@
+using Microsoft.AspNetCore.Mvc;
+using Student_Management_System.Data;
+using Student_Management_System.Models;
+using Student_Management_System.ViewModels;
+
+namespace Student_Management_System.Controllers
+{
+    public class AccountController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public AccountController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Users.Add(user);
+                _context.SaveChanges();
+
+                return RedirectToAction("Login");
+            }
+
+            return View(user);
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginViewModel model)
+        {
+            var user = _context.Users
+                .FirstOrDefault(u => u.Email == model.Email && u.Password == model.Password);
+
+            if (user != null)
+            {
+                HttpContext.Session.SetString("UserRole", user.Role);
+                HttpContext.Session.SetString("UserName", user.FullName);
+                HttpContext.Session.SetInt32("UserId", user.UserId);
+
+                if (user.Role == "Teacher")
+                    return RedirectToAction("Index", "TeacherDashboard");
+                else
+                    return RedirectToAction("Index", "StudentDashboard");
+            }
+
+            ViewBag.Message = "Invalid Email or Password";
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
+        }
+    }
+}

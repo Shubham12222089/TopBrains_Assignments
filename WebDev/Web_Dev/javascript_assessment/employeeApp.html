@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ES6 Employee Management App</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .employee-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .employee-card:hover {
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🔥 ES6 Employee Management App</h2>
+
+    <h3>Add Employee</h3>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="dept" placeholder="Department">
+    <input type="number" id="salary" placeholder="Salary">
+    <button id="addBtn">Add Employee</button>
+
+    <h3>Search Employee</h3>
+    <input type="text" id="search" placeholder="Search by Name">
+
+    <h3>Employee List</h3>
+    <div id="employeeList"></div>
+
+    <h3>Salary Statistics</h3>
+    <button id="totalSalaryBtn">Total Salary</button>
+    <button id="avgSalaryBtn">Average Salary</button>
+    <button id="highestSalaryBtn">Highest Paid</button>
+
+    <p id="result"></p>
+
+    <script>
+        class Employee {
+            constructor(id, name, dept, salary) {
+                this.id = id;
+                this.name = name;
+                this.dept = dept;
+                this.salary = salary;
+            }
+
+            getAnnualSalary = () => this.salary * 12;
+        }
+
+        let employees = [];
+        let idCounter = 1;
+
+        const displayEmployees = (list) => {
+            const container = document.getElementById("employeeList");
+            container.innerHTML = "";
+
+            list.forEach(emp => {
+                const { id, name, dept, salary } = emp;
+
+                container.innerHTML += `
+            <div class="employee-card">
+                <strong>${name}</strong><br>
+                Dept: ${dept}<br>
+                Salary: ₹${salary}<br>
+                <button onclick="deleteEmployee(${id})">Delete</button>
+            </div>
+        `;
+            });
+        };
+
+
+        document.getElementById("addBtn")
+            .addEventListener("click", () => {
+
+                const name = document.getElementById("name").value;
+                const dept = document.getElementById("dept").value;
+                const salary = Number(document.getElementById("salary").value);
+
+                if (!name || !dept || !salary) {
+                    alert("Please fill all fields");
+                    return;
+                }
+
+                const newEmployee = new Employee(idCounter++, name, dept, salary);
+
+                employees = [...employees, newEmployee];
+
+                displayEmployees(employees);
+
+                document.getElementById("name").value = "";
+                document.getElementById("dept").value = "";
+                document.getElementById("salary").value = "";
+            });
+
+
+
+        const deleteEmployee = (id) => {
+            employees = employees.filter(emp => emp.id !== id);
+            displayEmployees(employees);
+        };
+
+
+        document.getElementById("search")
+            .addEventListener("input", (e) => {
+                const value = e.target.value.toLowerCase();
+
+                const filtered = employees.filter(emp =>
+                    emp.name.toLowerCase().includes(value)
+                );
+
+                displayEmployees(filtered);
+            });
+
+
+        document.getElementById("totalSalaryBtn")
+            .addEventListener("click", () => {
+                const total = employees.reduce((sum, emp) => sum + emp.salary, 0);
+                document.getElementById("result").textContent =
+                    `Total Salary: ₹${total}`;
+            });
+
+        document.getElementById("avgSalaryBtn")
+            .addEventListener("click", () => {
+                if (employees.length === 0) return;
+
+                const total = employees.reduce((sum, emp) => sum + emp.salary, 0);
+                const avg = total / employees.length;
+
+                document.getElementById("result").textContent =
+                    `Average Salary: ₹${avg}`;
+            });
+
+        document.getElementById("highestSalaryBtn")
+            .addEventListener("click", () => {
+                if (employees.length === 0) return;
+
+                const highest = employees.reduce((max, emp) =>
+                    emp.salary > max.salary ? emp : max
+                );
+
+                document.getElementById("result").textContent =
+                    `Highest Paid: ${highest.name} (₹${highest.salary})`;
+            });
+
+    </script>
+
+</body>
+
+</html>

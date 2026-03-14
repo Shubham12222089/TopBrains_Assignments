@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Only Admin users can see this page.</p>
+
+<div class="alert alert-info" role="alert">
+    Welcome to the Admin Dashboard! You have access to administrative features.
+</div>

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        Simple Reduce Example
+    </head>
+    <body>
+        <h2>Reduce Method Example</h2>
+        <p>Numbers: 10, 20, 30, 40</p>
+        <button onclick="calculateTotal()">calculateTotal</button>
+        <h3 id="result"></h3>
+        <script>
+            function calculateTotal(){
+                const numbers = [10,20,30,40];
+
+                const total = numbers.reduce((sum, num)=>{
+                    return sum+num;
+                },0);
+                document.getElementById("result").textContent="Total Sum: "+total;
+            }
+        </script>
+    </body>
+</html>

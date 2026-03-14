@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advanced ES6 Employee App</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            margin: 5px;
+            padding: 6px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+        }
+
+        .card:hover {
+            background-color: #f5f5f5;
+        }
+
+        .dept-title {
+            background-color: #e0e0e0;
+            padding: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🔥 Advanced ES6 Employee Management</h2>
+
+    <h3>Add / Edit Employee</h3>
+    <input type="hidden" id="editId">
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="dept" placeholder="Department">
+    <input type="number" id="salary" placeholder="Salary">
+    <button id="saveBtn">Save Employee</button>
+
+    <h3>Employee List</h3>
+    <div id="employeeList"></div>
+
+    <script>
+
+        class Employee {
+            constructor(id, name, dept, salary) {
+                this.id = id;
+                this.name = name;
+                this.dept = dept;
+                this.salary = salary;
+            }
+        }
+
+
+        let employees = JSON.parse(localStorage.getItem("employees")) || [];
+        let idCounter = employees.length > 0
+            ? Math.max(...employees.map(e => e.id)) + 1
+            : 1;
+
+        const saveToLocalStorage = () => {
+            localStorage.setItem("employees", JSON.stringify(employees));
+        };
+
+
+
+        const groupByDepartment = () => {
+            return employees.reduce((groups, emp) => {
+                if (!groups[emp.dept]) {
+                    groups[emp.dept] = [];
+                }
+                groups[emp.dept].push(emp);
+                return groups;
+            }, {});
+        };
+
+
+
+        const displayEmployees = () => {
+            const container = document.getElementById("employeeList");
+            container.innerHTML = "";
+
+            const grouped = groupByDepartment();
+
+            for (let dept in grouped) {
+                container.innerHTML += `<div class="dept-title">${dept} Department</div>`;
+
+                grouped[dept].forEach(emp => {
+                    container.innerHTML += `
+                <div class="card">
+                    <strong>${emp.name}</strong><br>
+                    Salary: ₹${emp.salary}<br>
+                    <button onclick="editEmployee(${emp.id})">Edit</button>
+                    <button onclick="deleteEmployee(${emp.id})">Delete</button>
+                </div>
+            `;
+                });
+            }
+        };
+
+
+        document.getElementById("saveBtn")
+            .addEventListener("click", () => {
+
+                const editId = document.getElementById("editId").value;
+                const name = document.getElementById("name").value;
+                const dept = document.getElementById("dept").value;
+                const salary = Number(document.getElementById("salary").value);
+
+                if (!name || !dept || !salary) {
+                    alert("Please fill all fields");
+                    return;
+                }
+
+                if (editId) {
+                    employees = employees.map(emp =>
+                        emp.id == editId
+                            ? { ...emp, name, dept, salary }
+                            : emp
+                    );
+                } else {
+                    const newEmployee = new Employee(idCounter++, name, dept, salary);
+                    employees = [...employees, newEmployee];
+                }
+
+                saveToLocalStorage();
+                displayEmployees();
+                clearForm();
+            });
+
+
+
+        window.editEmployee = (id) => {
+            const emp = employees.find(emp => emp.id === id);
+
+            document.getElementById("editId").value = emp.id;
+            document.getElementById("name").value = emp.name;
+            document.getElementById("dept").value = emp.dept;
+            document.getElementById("salary").value = emp.salary;
+        };
+
+
+        window.deleteEmployee = (id) => {
+            employees = employees.filter(emp => emp.id !== id);
+            saveToLocalStorage();
+            displayEmployees();
+        };
+
+
+        const clearForm = () => {
+            document.getElementById("editId").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("dept").value = "";
+            document.getElementById("salary").value = "";
+        };
+
+
+        displayEmployees();
+    </script>
+</body>
+
+</html>

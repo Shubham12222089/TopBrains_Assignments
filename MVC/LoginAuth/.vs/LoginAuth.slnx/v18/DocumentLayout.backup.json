@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\authenticateloginrepository\\authenticatelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\authenticateloginrepository\\authenticatelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\authenticateloginrepository\\iauthenticatelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\authenticateloginrepository\\iauthenticatelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Migrations\\20260312100239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoginAuth\\Migrations\\20260312100239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\loginauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\loginauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\models\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\models\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\controllers\\statemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\controllers\\statemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\views\\statemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\views\\statemanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\loginauth\\loginauth\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA38216E-2D44-D0EC-9144-9C7828684A97}|LoginAuth\\LoginAuth.csproj|solutionrelative:loginauth\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "LoginAuth\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "LoginAuth\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T10:19:48.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LoginAuth\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LoginAuth\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T10:18:54.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginAuth\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:16:17.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "LoginAuth\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "LoginAuth\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T10:11:13.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "LoginAuth\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:04:31.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthenticateLogin.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\AuthenticateLoginRepository\\IAuthenticateLogin.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\AuthenticateLoginRepository\\IAuthenticateLogin.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\AuthenticateLoginRepository\\IAuthenticateLogin.cs",
+              "RelativeToolTip": "LoginAuth\\AuthenticateLoginRepository\\IAuthenticateLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:38:07.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticateLogin.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\AuthenticateLoginRepository\\AuthenticateLogin.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\AuthenticateLoginRepository\\AuthenticateLogin.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\AuthenticateLoginRepository\\AuthenticateLogin.cs",
+              "RelativeToolTip": "LoginAuth\\AuthenticateLoginRepository\\AuthenticateLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:40:46.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260312100239_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Migrations\\20260312100239_InitialCreate.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Migrations\\20260312100239_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Migrations\\20260312100239_InitialCreate.cs",
+              "RelativeToolTip": "LoginAuth\\Migrations\\20260312100239_InitialCreate.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:02:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Models\\LoginDbContext.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Models\\LoginDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Models\\LoginDbContext.cs",
+              "RelativeToolTip": "LoginAuth\\Models\\LoginDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:32:35.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\appsettings.json",
+              "RelativeDocumentMoniker": "LoginAuth\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\appsettings.json",
+              "RelativeToolTip": "LoginAuth\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T09:23:16.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginAuth.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\LoginAuth.csproj",
+              "RelativeDocumentMoniker": "LoginAuth\\LoginAuth.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\LoginAuth.csproj",
+              "RelativeToolTip": "LoginAuth\\LoginAuth.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-12T09:36:48.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StateManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\StateManagementController.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Controllers\\StateManagementController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Controllers\\StateManagementController.cs",
+              "RelativeToolTip": "LoginAuth\\Controllers\\StateManagementController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T09:08:09.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Program.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Program.cs",
+              "RelativeToolTip": "LoginAuth\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T09:31:11.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Views\\StateManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "LoginAuth\\Views\\StateManagement\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Views\\StateManagement\\Index.cshtml",
+              "RelativeToolTip": "LoginAuth\\Views\\StateManagement\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T09:21:36.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "LoginAuth\\Models\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\LoginAuth\\LoginAuth\\Models\\UserLogin.cs",
+              "RelativeToolTip": "LoginAuth\\Models\\UserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:26:46.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron bg-light p-5 rounded">
+                <h1 class="display-4">Welcome to Student Management System</h1>
+                <p class="lead">Manage students, courses, and departments efficiently</p>
+                <hr class="my-4">
+
+                @if (Context.Session.GetString("UserRole") == null)
+                {
+                    <p>Please log in to access the system.</p>
+                    <div>
+                        <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Login" role="button">Login</a>
+                        <a class="btn btn-success btn-lg" asp-controller="Account" asp-action="Register" role="button">Register</a>
+                    </div>
+                }
+                else if (Context.Session.GetString("UserRole") == "Teacher")
+                {
+                    <p>Welcome Teacher! You have access to manage all academic data.</p>
+                    <a class="btn btn-primary btn-lg" asp-controller="TeacherDashboard" asp-action="Index" role="button">Go to Dashboard</a>
+                }
+                else if (Context.Session.GetString("UserRole") == "Student")
+                {
+                    <p>Welcome Student! You can view your profile and course details.</p>
+                    <a class="btn btn-success btn-lg" asp-controller="StudentDashboard" asp-action="Index" role="button">Go to Dashboard</a>
+                }
+            </div>
+        </div>
+    </div>
+
+    @if (Context.Session.GetString("UserRole") == null)
+    {
+        <div class="row mt-5">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">For Teachers</h5>
+                        <p class="card-text">Manage students, courses, and departments with ease.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">For Students</h5>
+                        <p class="card-text">View your profile, course details, and track your progress.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Features</h5>
+                        <p class="card-text">Complete management system with role-based access control.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

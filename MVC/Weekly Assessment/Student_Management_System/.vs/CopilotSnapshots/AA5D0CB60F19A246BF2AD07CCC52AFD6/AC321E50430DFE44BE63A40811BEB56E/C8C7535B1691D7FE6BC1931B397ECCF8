@@ -1,0 +1,25 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Student_Management_System.Data;
+
+namespace Student_Management_System.Controllers
+{
+    public class StudentDashboardController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public StudentDashboardController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
+    }
+}

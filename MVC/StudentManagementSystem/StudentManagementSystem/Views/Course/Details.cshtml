@@ -1,0 +1,78 @@
+@model StudentManagementSystem.Models.Course
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-info text-white">
+                    <h4><i class="bi bi-info-circle"></i> Course Details</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Course Name</dt>
+                        <dd class="col-sm-8">@Model.CourseName</dd>
+
+                        <dt class="col-sm-4">Duration</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge bg-info">@Model.Duration</span>
+                        </dd>
+
+                        <dt class="col-sm-4">Department</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge bg-primary">@Model.Department?.DepartmentName</span>
+                        </dd>
+
+                        <dt class="col-sm-4">Location</dt>
+                        <dd class="col-sm-8">@Model.Department?.Location</dd>
+                    </dl>
+
+                    @if (Model.Students != null && Model.Students.Any())
+                    {
+                        <hr />
+                        <h5 class="mt-3">Enrolled Students (@Model.Students.Count)</h5>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Age</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var student in Model.Students)
+                                    {
+                                        <tr>
+                                            <td>@student.Name</td>
+                                            <td>@student.Email</td>
+                                            <td>@student.Age</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning mt-3">
+                            No students enrolled in this course yet.
+                        </div>
+                    }
+
+                    <div class="mt-4">
+                        <a asp-action="Edit" asp-route-id="@Model.CourseId" class="btn btn-warning">
+                            <i class="bi bi-pencil"></i> Edit
+                        </a>
+                        <a asp-action="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

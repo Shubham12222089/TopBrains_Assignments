@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CodeFirstDemo.Models.Employee>
+@{
+	ViewData["Title"] = "Employee List";
+}
+
+<h2>Employee Details</h2>
+<p>
+	@Html.ActionLink("Create New Employee","Create")
+</p>
+
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.EmpName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model =>model.Address)
+			</th>
+
+			<th>
+				@Html.DisplayNameFor(model => model.Salary)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Email)
+			</th>
+			<th>
+				Actions
+			</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach(var item  in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem=>item.EmpName)
+				</td>
+
+				<td>
+					@Html.DisplayFor(modelItem => item.Address)
+				</td>
+
+				<td>
+					@Html.DisplayFor(modelItem => item.Salary)
+				</td>
+
+				<td>
+					@Html.DisplayFor(modelItem => item.Email)
+				</td>
+				<td>
+					@Html.ActionLink("Edit","Edit", new {id=item.EmpId}) | 
+					@Html.ActionLink("Details","Details", new{id=item.EmpId}) |
+					@Html.ActionLink("Delete", "Delete", new { id = item.EmpId })
+				</td>
+			</tr>
+		}
+
+	</tbody>
+</table>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pro ES6 Employee App</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        body.dark {
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        input,
+        button {
+            margin: 5px;
+            padding: 6px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+        }
+
+        body.dark .card {
+            background-color: #333;
+            border-color: #555;
+        }
+
+        .dept-title {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .dashboard {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        body.dark .dashboard {
+            background-color: #2c2c2c;
+            border-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🔥 ES6 Employee Management Pro</h2>
+
+    <button id="darkModeBtn">Toggle Dark Mode</button>
+
+    <h3>Add / Edit Employee</h3>
+    <input type="hidden" id="editId">
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="dept" placeholder="Department">
+    <input type="number" id="salary" placeholder="Salary">
+    <button id="saveBtn">Save</button>
+
+    <h3>Search Employee</h3>
+    <input type="text" id="search" placeholder="Search by Name">
+
+    <h3>Employee List</h3>
+    <div id="employeeList"></div>
+
+    <h3>📊 Salary Analytics Dashboard</h3>
+    <div class="dashboard">
+        <button id="totalBtn">Total Salary</button>
+        <button id="avgBtn">Average Salary</button>
+        <button id="highestBtn">Highest Paid</button>
+        <button id="deptStatsBtn">Department Wise Total</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+
+
+
+        class Employee {
+            constructor(id, name, dept, salary) {
+                this.id = id;
+                this.name = name;
+                this.dept = dept;
+                this.salary = salary;
+            }
+        }
+
+
+
+        let employees = JSON.parse(localStorage.getItem("employees")) || [];
+        let idCounter = employees.length > 0
+            ? Math.max(...employees.map(e => e.id)) + 1
+            : 1;
+
+
+
+        const saveData = () =>
+            localStorage.setItem("employees", JSON.stringify(employees));
+
+
+
+        const displayEmployees = (list = employees) => {
+            const container = document.getElementById("employeeList");
+            container.innerHTML = "";
+
+            const grouped = list.reduce((groups, emp) => {
+                if (!groups[emp.dept]) groups[emp.dept] = [];
+                groups[emp.dept].push(emp);
+                return groups;
+            }, {});
+
+            for (let dept in grouped) {
+                container.innerHTML += `<div class="dept-title">${dept}</div>`;
+
+                grouped[dept].forEach(emp => {
+                    container.innerHTML += `
+                <div class="card">
+                    <strong>${emp.name}</strong><br>
+                    Salary: ₹${emp.salary}<br>
+                    <button onclick="editEmployee(${emp.id})">Edit</button>
+                    <button onclick="deleteEmployee(${emp.id})">Delete</button>
+                </div>
+            `;
+                });
+            }
+        };
+
+
+
+        document.getElementById("saveBtn")
+            .addEventListener("click", () => {
+
+                const editId = document.getElementById("editId").value;
+                const name = document.getElementById("name").value;
+                const dept = document.getElementById("dept").value;
+                const salary = Number(document.getElementById("salary").value);
+
+                if (!name || !dept || !salary) {
+                    alert("Fill all fields");
+                    return;
+                }
+
+                if (editId) {
+                    employees = employees.map(emp =>
+                        emp.id == editId ? { ...emp, name, dept, salary } : emp
+                    );
+                } else {
+                    employees = [...employees, new Employee(idCounter++, name, dept, salary)];
+                }
+
+                saveData();
+                displayEmployees();
+                clearForm();
+            });
+
+
+
+        window.editEmployee = (id) => {
+            const emp = employees.find(e => e.id === id);
+            document.getElementById("editId").value = emp.id;
+            document.getElementById("name").value = emp.name;
+            document.getElementById("dept").value = emp.dept;
+            document.getElementById("salary").value = emp.salary;
+        };
+
+
+
+        window.deleteEmployee = (id) => {
+            employees = employees.filter(emp => emp.id !== id);
+            saveData();
+            displayEmployees();
+        };
+
+
+
+        const clearForm = () => {
+            document.getElementById("editId").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("dept").value = "";
+            document.getElementById("salary").value = "";
+        };
+
+
+
+        document.getElementById("search")
+            .addEventListener("input", e => {
+                const value = e.target.value.toLowerCase();
+                const filtered = employees.filter(emp =>
+                    emp.name.toLowerCase().includes(value)
+                );
+                displayEmployees(filtered);
+            });
+
+
+
+        document.getElementById("totalBtn")
+            .addEventListener("click", () => {
+                const total = employees.reduce((sum, e) => sum + e.salary, 0);
+                document.getElementById("result").textContent =
+                    `Total Salary: ₹${total}`;
+            });
+
+        document.getElementById("avgBtn")
+            .addEventListener("click", () => {
+                if (!employees.length) return;
+                const avg = employees.reduce((sum, e) => sum + e.salary, 0) / employees.length;
+                document.getElementById("result").textContent =
+                    `Average Salary: ₹${avg.toFixed(2)}`;
+            });
+
+        document.getElementById("highestBtn")
+            .addEventListener("click", () => {
+                if (!employees.length) return;
+                const highest = employees.reduce((max, e) =>
+                    e.salary > max.salary ? e : max
+                );
+                document.getElementById("result").textContent =
+                    `Highest Paid: ${highest.name} (₹${highest.salary})`;
+            });
+
+        document.getElementById("deptStatsBtn")
+            .addEventListener("click", () => {
+                const deptTotals = employees.reduce((acc, emp) => {
+                    acc[emp.dept] = (acc[emp.dept] || 0) + emp.salary;
+                    return acc;
+                }, {});
+
+                let output = "Department Totals:\n";
+                for (let dept in deptTotals) {
+                    output += `${dept}: ₹${deptTotals[dept]} | `;
+                }
+
+                document.getElementById("result").textContent = output;
+            });
+
+
+        document.getElementById("darkModeBtn")
+            .addEventListener("click", () => {
+                document.body.classList.toggle("dark");
+            });
+
+
+
+        displayEmployees();
+
+    </script>
+
+</body>
+
+</html>

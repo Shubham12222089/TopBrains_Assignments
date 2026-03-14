@@ -1,0 +1,95 @@
+﻿using CodeFirstDemo.Context;
+using CodeFirstDemo.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
+
+namespace CodeFirstDemo.EmployeeRepositories
+{
+    public class EmployeeRepository : IEmployeeRepository
+    {
+        private readonly EmployeeContext _employeeContext;
+        public EmployeeRepository(EmployeeContext _employeeContext) 
+        { 
+            this._employeeContext = _employeeContext;
+        }
+        public async Task<IEnumerable<Employee>> GetAll()
+        {
+            try
+            {
+                var employee = await _employeeContext.Employees.ToListAsync();
+                return employee;
+            }
+            catch
+            {
+                throw;
+            }
+            
+        }
+        public async Task<Employee> GetEmployeeById(int? id)
+        {
+            try
+            {
+                if (id == null)
+                {
+                    return null;
+                }
+                var employee = await _employeeContext.Employees.FirstOrDefaultAsync(e => e.EmpId == id.Value);
+                return employee;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task Add(Employee employee)
+        {
+            _employeeContext.Employees.Add(employee);
+            try
+            {
+                await _employeeContext.SaveChangesAsync();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task Update(int id,Employee employee)
+        {
+            try
+            {
+                Employee Emp = await _employeeContext.Employees.FindAsync(id);
+                if (Emp != null)
+                {
+                    Emp.EmpName = employee.EmpName;
+                    Emp.Address = employee.Address;
+                    Emp.Salary = employee.Salary;
+                    Emp.Email = employee.Email;
+
+                    await _employeeContext.SaveChangesAsync();
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task Delete(int id)
+        {
+            try
+            {
+                Employee employee = await _employeeContext.Employees.FindAsync(id);
+                _employeeContext.Employees.Remove(employee);
+                _employeeContext.SaveChanges();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public Task Delete(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

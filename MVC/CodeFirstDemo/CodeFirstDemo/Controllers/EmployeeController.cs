@@ -1,0 +1,134 @@
+﻿using CodeFirstDemo.Context;
+using CodeFirstDemo.EmployeeRepositories;
+using CodeFirstDemo.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace CodeFirstDemo.Controllers
+{
+    public class EmployeeController : Controller
+    {
+        //private EmployeeContext _employeeContext;
+        private IEmployeeRepository _employeeRepository;
+        public EmployeeController(IEmployeeRepository _employeeRepository)
+        {
+            this._employeeRepository=_employeeRepository;
+        }
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            
+            return View(await _employeeRepository.GetAll());
+
+        }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _employeeRepository.GetEmployeeById(id.Value);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            return View(employee);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("EmpId,EmpName,Address,Salary,Email")] Employee employee)
+        {
+            if (ModelState.IsValid)
+            {
+                await _employeeRepository.Add(employee);
+
+                return RedirectToAction(nameof(Index));
+            }
+            return View(employee);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var employee = await _employeeRepository.GetEmployeeById(id.Value);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("EmpId,EmpName,Address,Salary,Email")] Employee employee)
+        {
+            if (id != employee.EmpId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _employeeRepository.Update(id, employee);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    var exists = await _employeeRepository.GetEmployeeById(id);
+                    if (exists == null)
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+            }
+            return View(employee);
+        }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _employeeRepository.GetEmployeeById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var employee = await _employeeRepository.GetEmployeeById(id);
+
+            if (employee != null)
+            {
+                await _employeeRepository.Delete(employee);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+    }
+}

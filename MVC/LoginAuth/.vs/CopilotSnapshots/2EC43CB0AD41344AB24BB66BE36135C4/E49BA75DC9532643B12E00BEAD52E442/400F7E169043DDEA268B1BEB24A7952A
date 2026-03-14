@@ -1,0 +1,34 @@
+﻿using LoginAuth.AuthenticateLoginRepository;
+using Microsoft.AspNetCore.Mvc;
+
+namespace LoginAuth.Controllers
+{
+    public class LoginController : Controller
+    {
+        private readonly IAuthenticateLogin _loginUser;
+
+        public LoginController(IAuthenticateLogin Loguser)
+        {
+            _loginUser = Loguser;
+        }
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult Index(string username, string passcode)
+        {
+            var user = _loginUser.AuthenticateUser(username, passcode);
+            if (user.Result != null)
+            {
+                ViewBag.username = string.Format("Successfully logged in as {0}", username);
+                TempData["username"] = "Abc";
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ViewBag.username = string.Format("Login Failed ",username);
+                return View();
+            }
+        }
+    }
+}

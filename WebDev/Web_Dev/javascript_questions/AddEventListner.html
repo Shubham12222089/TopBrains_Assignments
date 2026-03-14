@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <h3>
+            Click Event (Inline)
+        </h3>
+        <button onclick="console.log('Button Clicked')">Button1</button>
+
+        <h3>Click Event (External)</h3>
+        <button id="myBtn">Click Me(JS Handler)</button>
+
+        <h3>Right Click Evenr</h3>
+        <button oncontextmenu="console.log('Right Click Detected')"></button>
+
+        <h3>Mouse Events</h3>
+        <button
+            onmouseover="console.log('Mouse Over Button')"
+            onmouseout="console.log('Mouse Left Button')">
+            Hover Over Me
+        </button>
+        <br><br>
+        <h3>Keyboard Events</h3>
+        <input type="text"
+            placeholder="Type Something"
+            onkeydown="console.log('Key Down Event')">
+        <br><br>
+
+        <textarea
+            placeholder="Type inside textarea"
+            onkeydown="console.log('Key Pressed in textarea')"></textarea>
+
+        <h3>Form Events</h3>
+        <form id="myForm">
+            <input type="text" placeholder="Enter Name" required>
+            <button type="Submit" id="mybtn">Submit</button>
+        </form>
+        <script>
+            document.getElementById('myBtn').addEventListener("click",function(){
+                console.log("Welcome to Web Development");
+            })
+        </script>
+    </body>
+</html>

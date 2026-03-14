@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\migrations\\20260312111203_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\migrations\\20260312111203_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\identitydemo\\identitydemo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BC4DB6-8A22-52AA-85F2-066142E6EFB8}|IdentityDemo\\IdentityDemo.csproj|solutionrelative:identitydemo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IdentityDemo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T08:43:29.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemo\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "IdentityDemo\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:11:28.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "IdentityDemo\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T07:03:07.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IdentityDemo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:24:13.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemo\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "IdentityDemo\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T08:54:50.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "IdentityDemo\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:57:31.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemo\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "IdentityDemo\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:05:52.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Program.cs",
+              "RelativeToolTip": "IdentityDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:04:38.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "IdentityDemo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:09:59.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IdentityDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:42:37.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "IdentityDemo\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:20:57.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260312111203_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Migrations\\20260312111203_InitialCreate.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\Migrations\\20260312111203_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\Migrations\\20260312111203_InitialCreate.cs",
+              "RelativeToolTip": "IdentityDemo\\Migrations\\20260312111203_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:12:03.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\appsettings.json",
+              "RelativeToolTip": "IdentityDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T11:02:03.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "IdentityDemo\\data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\IdentityDemo\\IdentityDemo\\data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "IdentityDemo\\data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:00:00.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

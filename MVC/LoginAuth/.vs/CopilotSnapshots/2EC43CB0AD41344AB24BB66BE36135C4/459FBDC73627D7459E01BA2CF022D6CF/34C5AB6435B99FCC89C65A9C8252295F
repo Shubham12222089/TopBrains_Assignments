@@ -1,0 +1,19 @@
+﻿namespace LoginAuth.Models
+{
+    public class LoginDbContext : DbContext
+    {
+        public LoginDbContext(DbContextOptions<LoginDbContext> options) : base(options)
+        {
+        }
+        public DbSet<UserLogin> UserLogins { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<UserLogin>(IdentityApiEndpointRouteBuilderExtensions =>
+            {
+                entity.PassKey = "UserLogin";
+            })
+        }
+    }
+}

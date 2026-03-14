@@ -1,0 +1,10 @@
+﻿using LoginAuth.Models;
+
+namespace LoginAuth.AuthenticateLoginRepository
+{
+    public class IAuthenticateLogin
+    {
+        Task<IEnumerable<UserLogin>> getuser();
+        Task<userlogin> AuthenticateUser(string username, string password);
+    }
+}

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\seed\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\seed\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\aspnetcoreidentityrolebasedidentity\\aspnetcoreidentityrolebasedidentity\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E848DCD-D6B8-BF1E-82A4-294A9C0F0CEB}|AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity.csproj|solutionrelative:aspnetcoreidentityrolebasedidentity\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Program.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Program.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:38:57.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:39:20.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:39:07.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:39:29.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:38:30.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewCYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:38:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:12:37.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAvwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:01:34.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Seed\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Seed\\RoleSeeder.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Seed\\RoleSeeder.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Seed\\RoleSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:11:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:11:32.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260314060548_Added.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314060548_Added.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:05:49.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\appsettings.json",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\appsettings.json",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T05:47:00.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260314055308_IdentityMigration.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Migrations\\20260314055308_IdentityMigration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:53:08.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T05:51:01.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:02:39.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\AspNetCoreIdentityRoleBasedIdentity\\AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "AspNetCoreIdentityRoleBasedIdentity\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:39:33.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

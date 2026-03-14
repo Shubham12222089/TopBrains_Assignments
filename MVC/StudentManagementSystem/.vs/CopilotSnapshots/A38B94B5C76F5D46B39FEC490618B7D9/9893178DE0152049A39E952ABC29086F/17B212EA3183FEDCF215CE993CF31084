@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Department>
+
+<h2>Departments</h2>
+
+<p>
+    @Html.ActionLink("Create New Department", "Create")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Department Name</th>
+            <th>Location</th>
+            <th>Number of Students</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.DepartmentName</td>
+                <td>@department.Location</td>
+                <td>@(department.Students?.Count ?? 0)</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = department.DepartmentId }) |
+                    @Html.ActionLink("Edit", "Edit", new { id = department.DepartmentId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = department.DepartmentId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

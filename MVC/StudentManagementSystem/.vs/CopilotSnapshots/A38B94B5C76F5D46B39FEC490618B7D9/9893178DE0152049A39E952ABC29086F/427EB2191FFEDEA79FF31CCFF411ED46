@@ -1,0 +1,74 @@
+﻿@model Student
+
+<h2>Student Details</h2>
+
+<div>
+    <h4>Student Information</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.StudentId)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.StudentId)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt class="col-sm-3">
+            Department
+        </dt>
+        <dd class="col-sm-9">
+            @if (Model.Department != null)
+            {
+                @Model.Department.DepartmentName
+            }
+            else
+            {
+                <span class="text-muted">Not Assigned</span>
+            }
+        </dd>
+
+        @if (Model.Department != null)
+        {
+            <dt class="col-sm-3">
+                Department Location
+            </dt>
+            <dd class="col-sm-9">
+                @Model.Department.Location
+            </dd>
+        }
+    </dl>
+</div>
+
+<div>
+    <a href="@Url.Action("Edit", new { id = Model.StudentId })" class="btn btn-primary">Edit</a>
+    <a href="@Url.Action("Delete", new { id = Model.StudentId })" class="btn btn-danger">Delete</a>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+</div>

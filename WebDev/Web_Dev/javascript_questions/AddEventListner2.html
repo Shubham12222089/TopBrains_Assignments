@@ -1,0 +1,56 @@
+<h2>========== addEventListener Demo =========</h2>
+
+<!-- 1️ Click Event -->
+<button id="clickBtn">Click Me</button>
+
+<!-- 2️ Double Click Event -->
+<button id="dblClickBtn">Double Click Me</button>
+
+<!-- 3️ Mouse Events -->
+<div id="box">Hover Over Me</div>
+
+<!-- 4️ Keyboard Event -->
+<br><br>
+<input type="text" id="keyInput" placeholder="Type Something">
+
+<!-- 5️ Input Event -->
+<br><br>
+<input type="text" id="liveInput" placeholder="Live Typing">
+
+<p id="liveOutput"></p>
+
+<!-- 6️ Form Submit -->
+<form id="myForm">
+    <input type="text" placeholder="Enter Name" required>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- 7️ Event Bubbling -->
+<h3>Event Bubbling Example</h3>
+<div id="parent">
+    Parent Div
+    <div id="child">
+        Child Div
+    </div>
+</div>
+<script>
+    document.getElementById("clickbtn").addEventListener("click",function(){
+        console.log("Button Clicked");
+    })
+
+    document.getElementById("dblClickBtn").addEventListener("dblclick",function(){
+        console.log("Button Double Clicked");
+    })
+
+    let box = document.getElementById("Box");
+    box.addEventListener("mouseover",function(){
+        box.style.backgroundColor="yellow";
+        console.log("Mouse Over Me");
+    })
+    box.addEventListener("mouseout",function(){
+        box.style.backgroundColor="lightblue";
+        console.log("Mouse left Box");
+    })
+</script>
+</body>
+</html>

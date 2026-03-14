@@ -1,0 +1,41 @@
+﻿using Microsoft.EntityFrameworkCore;
+using StudentManagementSystem.Models;
+
+namespace StudentManagementSystem.Data
+{
+    public class StudentDbContext: DbContext
+    {
+        public StudentDbContext(DbContextOptions<StudentDbContext> options)
+        : base(options)
+        {
+        }
+
+        public DbSet<Student> Students { get; set; }
+
+        public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Course> Courses { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>()
+                .HasOne(s => s.Department)
+                .WithMany(d => d.Students)
+                .HasForeignKey(s => s.DepartmentId);
+
+            modelBuilder.Entity<Department>()
+                .HasMany(d => d.Courses)
+                .WithOne(c => c.Department)
+                .HasForeignKey(c => c.DepartmentId);
+
+            // Seed data for Departments
+            modelBuilder.Entity<Department>().HasData(
+                new Department { DepartmentId = 1, DepartmentName = "Computer Science", Location = "Building A" },
+                new Department { DepartmentId = 2, DepartmentName = "Electrical Engineering", Location = "Building B" },
+                new Department { DepartmentId = 3, DepartmentName = "Mechanical Engineering", Location = "Building C" },
+                new Department { DepartmentId = 4, DepartmentName = "Civil Engineering", Location = "Building D" },
+                new Department { DepartmentId = 5, DepartmentName = "Business Administration", Location = "Building E" }
+            );
+        }
+    }
+}

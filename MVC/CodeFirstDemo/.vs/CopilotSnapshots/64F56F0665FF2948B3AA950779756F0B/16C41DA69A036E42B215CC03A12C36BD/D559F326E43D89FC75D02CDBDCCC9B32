@@ -1,0 +1,39 @@
+﻿using CodeFirstDemo.Context;
+using CodeFirstDemo.EmployeeRepositories;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace CodeFirstDemo.Controllers
+{
+    public class EmployeeController : Controller
+    {
+        //private EmployeeContext _employeeContext;
+        private IEmployeeRepository _employeeRepository;
+        public EmployeeController(IEmployeeRepository _employeeRepository)
+        {
+            this._employeeRepository=_employeeRepository;
+        }
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            
+            return View(await _employeeRepository.GetAll());
+
+        }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _employeeRepository.GetEmployeeById(id.Value);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            return View(employee);
+        }
+    }
+}

@@ -1,0 +1,3 @@
+﻿@using AspNetCoreIdentityRoleBasedIdentity
+@using AspNetCoreIdentityRoleBasedIdentity.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

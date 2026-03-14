@@ -1,0 +1,59 @@
+﻿using Microsoft.EntityFrameworkCore;
+using StudentManagementSystem.Data;
+using StudentManagementSystem.UnitOfWork;
+
+namespace StudentManagementSystem
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Add services to the container.
+            builder.Services.AddDbContext<StudentDbContext>(options =>
+                options.UseSqlServer(
+                builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // Register Unit of Work
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
+
+            builder.Services.AddControllersWithViews();
+
+            var app = builder.Build();
+
+            // Seed the database
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<StudentDbContext>();
+
+                // Apply pending migrations
+                context.Database.Migrate();
+
+                // Seed initial data
+                context.SeedData();
+            }
+
+            // Configure the HTTP request pipeline.
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseExceptionHandler("/Home/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.MapStaticAssets();
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}")
+                .WithStaticAssets();
+
+            app.Run();
+        }
+    }
+}

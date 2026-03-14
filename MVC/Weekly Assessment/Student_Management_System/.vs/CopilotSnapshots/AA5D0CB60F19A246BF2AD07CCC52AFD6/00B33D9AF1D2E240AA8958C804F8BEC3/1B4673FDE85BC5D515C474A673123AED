@@ -1,0 +1,9 @@
+﻿<h2>Teacher Dashboard</h2>
+
+<a asp-controller="Department" asp-action="Index">Manage Departments</a>
+<br />
+
+<a asp-controller="Course" asp-action="Index">Manage Courses</a>
+<br />
+
+<a asp-controller="Student" asp-action="Index">Manage Students</a>

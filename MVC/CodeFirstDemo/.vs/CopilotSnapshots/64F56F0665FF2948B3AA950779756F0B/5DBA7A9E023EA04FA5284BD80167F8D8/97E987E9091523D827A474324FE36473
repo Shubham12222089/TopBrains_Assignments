@@ -1,0 +1,44 @@
+﻿using CodeFirstDemo.Context;
+using CodeFirstDemo.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace CodeFirstDemo.EmployeeRepositories
+{
+    public class EmployeeRepository : IEmployeeRepository
+    {
+        private readonly EmployeeContext _employeeContext;
+        public EmployeeRepository(EmployeeContext _employeeContext) 
+        { 
+            this._employeeContext = _employeeContext;
+        }
+        public async Task<IEnumerable<Employee>> GetAll()
+        {
+            try
+            {
+                var employee = await _employeeContext.Employees.ToListAsync();
+                return employee;
+            }
+            catch
+            {
+                throw;
+            }
+            
+        }
+        public Employee GetEmployeeById(int id)
+        {
+            throw new NotImplementedException();
+        }
+        public void Add(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+        public void Update(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+        public void Delete(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

@@ -1,0 +1,185 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using StudentManagementSystem.Models;
+using StudentManagementSystem.UnitOfWork;
+
+namespace StudentManagementSystem.Controllers
+{
+    public class StudentController : Controller
+    {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public StudentController(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
+        public IActionResult Index()
+        {
+            var students = _unitOfWork.Students.GetStudentsWithDepartment();
+            return View(students);
+        }
+
+        public IActionResult Create()
+        {
+            ViewBag.Departments = _unitOfWork.Departments.GetAll();
+            ViewBag.Courses = _unitOfWork.Courses.GetAll();
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Student student)
+        {
+            ModelState.Remove("Department");
+            ModelState.Remove("Course");
+
+            if (ModelState.IsValid)
+            {
+                _unitOfWork.Students.Insert(student);
+                _unitOfWork.Save();
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.Departments = _unitOfWork.Departments.GetAll();
+            ViewBag.Courses = _unitOfWork.Courses.GetAll();
+            return View(student);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var student = _unitOfWork.Students.GetStudentWithDetails(id);
+            if (student == null)
+                return NotFound();
+
+            return View(student);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var student = _unitOfWork.Students.GetStudentWithDetails(id);
+            if (student == null)
+                return NotFound();
+
+            return View(student);
+        }
+
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            try
+            {
+                var student = _unitOfWork.Students.GetById(id);
+
+                if (student == null)
+                {
+                    TempData["ErrorMessage"] = "Student not found!";
+                    return RedirectToAction("Index");
+                }
+
+                _unitOfWork.Students.Delete(id);
+                _unitOfWork.Save();
+                TempData["SuccessMessage"] = "Student deleted successfully!";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = $"Error deleting student: {ex.InnerException?.Message ?? ex.Message}";
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Edit(int id)
+        {
+            var student = _unitOfWork.Students.GetById(id);
+            if (student == null)
+                return NotFound();
+
+            ViewBag.Departments = _unitOfWork.Departments.GetAll();
+            ViewBag.Courses = _unitOfWork.Courses.GetAll();
+            return View(student);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Student student)
+        {
+            ModelState.Remove("Department");
+            ModelState.Remove("Course");
+
+            if (ModelState.IsValid)
+            {
+                _unitOfWork.Students.Update(student);
+                _unitOfWork.Save();
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.Departments = _unitOfWork.Departments.GetAll();
+            ViewBag.Courses = _unitOfWork.Courses.GetAll();
+            return View(student);
+        }
+
+        // Advanced LINQ Query Scenarios
+
+        // 1. Search Student by Name
+        public IActionResult Search(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+                return RedirectToAction("Index");
+
+            var students = _unitOfWork.Students.SearchByName(name);
+            ViewBag.SearchTerm = name;
+            return View("Index", students);
+        }
+
+        // 2. Filter Students by Department
+        public IActionResult ByDepartment(int id)
+        {
+            var students = _unitOfWork.Students.GetByDepartment(id);
+            var department = _unitOfWork.Departments.GetById(id);
+            ViewBag.DepartmentName = department?.DepartmentName;
+            return View("Index", students);
+        }
+
+        // 3. Filter Students by Course
+        public IActionResult ByCourse(int id)
+        {
+            var students = _unitOfWork.Students.GetByCourse(id);
+            var course = _unitOfWork.Courses.GetById(id);
+            ViewBag.CourseName = course?.CourseName;
+            return View("Index", students);
+        }
+
+        // 4. Students Older Than specified age
+        public IActionResult OlderThan(int age = 25)
+        {
+            var students = _unitOfWork.Students.GetStudentsOlderThan(age);
+            ViewBag.Age = age;
+            return View("Index", students);
+        }
+
+        // 5. Students Admitted After specific date
+        public IActionResult AdmittedAfter(DateTime? date)
+        {
+            var filterDate = date ?? DateTime.Now.AddYears(-1);
+            var students = _unitOfWork.Students.GetStudentsAdmittedAfter(filterDate);
+            ViewBag.FilterDate = filterDate;
+            return View("Index", students);
+        }
+
+        // 6. Top 5 Recent Admissions
+        public IActionResult RecentAdmissions()
+        {
+            var students = _unitOfWork.Students.GetTop5RecentAdmissions();
+            ViewBag.Title = "Top 5 Recent Admissions";
+            return View("Index", students);
+        }
+
+        // 7. Student Statistics Per Department
+        public IActionResult Statistics()
+        {
+            var stats = _unitOfWork.Departments.GetStudentCountPerDepartment();
+            return View(stats);
+        }
+    }
+}

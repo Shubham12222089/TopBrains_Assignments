@@ -1,0 +1,79 @@
+@model Student
+
+@{
+    ViewData["Title"] = "Student Profile";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h2 class="mb-0">My Profile</h2>
+                </div>
+                <div class="card-body">
+                    @if (Model != null)
+                    {
+                        <form method="post" asp-action="UpdateProfile" asp-controller="StudentDashboard">
+                            <input type="hidden" name="StudentId" value="@Model.StudentId" />
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label"><strong>Student ID:</strong></label>
+                                    <input type="text" class="form-control" value="@Model.StudentId" disabled />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label"><strong>Full Name:</strong></label>
+                                    <input type="text" class="form-control" value="@Model.StudentName" disabled />
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label"><strong>Email:</strong></label>
+                                    <input type="email" class="form-control" value="@Model.Email" disabled />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label"><strong>Department:</strong></label>
+                                    <input type="text" class="form-control" value="@(Model.Department?.DepartmentName ?? "-")" disabled />
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label"><strong>Course:</strong></label>
+                                    <input type="text" class="form-control" value="@(Model.Course?.CourseName ?? "-")" disabled />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="PhoneNumber" class="form-label"><strong>Phone Number (Editable):</strong></label>
+                                    <input type="text" id="PhoneNumber" name="PhoneNumber" class="form-control" value="@Model.PhoneNumber" required />
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <label for="Address" class="form-label"><strong>Address (Editable):</strong></label>
+                                    <textarea id="Address" name="Address" class="form-control" rows="3" required>@Model.Address</textarea>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-success">Update Profile</button>
+                                <a href="/StudentDashboard/Index" class="btn btn-secondary">Back to Dashboard</a>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            Unable to load profile. Please <a href="/StudentDashboard/Index">return to dashboard</a>.
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

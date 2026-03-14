@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener Complete Guide</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        h1 { color: #333; margin-bottom: 20px; }
+        h2 { color: #555; margin: 20px 0 10px; border-bottom: 2px solid #007bff; padding-bottom: 5px; }
+        
+        .section { background: white; padding: 20px; margin: 15px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .note { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0; font-size: 14px; }
+        .output { background: #e9ecef; padding: 10px; margin: 10px 0; border-radius: 4px; min-height: 30px; }
+        
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; border: none; border-radius: 5px; font-size: 14px; }
+        .btn-primary { background: #007bff; color: white; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-danger { background: #dc3545; color: white; }
+        .btn-warning { background: #ffc107; color: black; }
+        .btn-info { background: #17a2b8; color: white; }
+        
+        input, select { padding: 10px; margin: 5px; border: 1px solid #ccc; border-radius: 4px; }
+        
+        .box { width: 150px; height: 100px; display: inline-flex; align-items: center; justify-content: center; margin: 10px; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: all 0.3s; }
+        .hover-box { background: #6c757d; }
+        .drag-box { background: #007bff; cursor: grab; }
+        .drop-zone { width: 200px; height: 120px; border: 3px dashed #ccc; display: inline-flex; align-items: center; justify-content: center; margin: 10px; border-radius: 8px; }
+        
+        .key-display { font-size: 24px; padding: 20px; background: #343a40; color: #00ff00; border-radius: 8px; text-align: center; }
+        
+        #scrollBox { height: 150px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; }
+        #scrollContent { height: 400px; background: linear-gradient(to bottom, #007bff, #28a745); }
+        
+        .form-demo { max-width: 300px; }
+        .form-demo input { width: 100%; margin: 5px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>🎯 addEventListener() Complete Guide</h1>
+
+    <!-- ==================== SECTION 1: BASIC SYNTAX ==================== -->
+    <div class="section">
+        <h2>1. Basic Syntax</h2>
+        <div class="note">
+            <strong>Syntax:</strong> element.addEventListener(event, function, useCapture)<br>
+            <strong>Parameters:</strong><br>
+            - event: Type of event ("click", "mouseover", etc.)<br>
+            - function: Function to execute when event occurs<br>
+            - useCapture (optional): true = capturing, false = bubbling (default)
+        </div>
+        
+        <button id="basicBtn" class="btn-primary">Click Me!</button>
+        <div class="output" id="basicOutput">Click the button above...</div>
+    </div>
+
+    <!-- ==================== SECTION 2: MOUSE EVENTS ==================== -->
+    <div class="section">
+        <h2>2. Mouse Events</h2>
+        <div class="note">
+            Common mouse events: click, dblclick, mousedown, mouseup, mousemove, mouseenter, mouseleave, mouseover, mouseout, contextmenu
+        </div>
+        
+        <button id="clickBtn" class="btn-primary">click</button>
+        <button id="dblclickBtn" class="btn-success">dblclick (Double Click)</button>
+        <button id="mousedownBtn" class="btn-warning">mousedown/mouseup</button>
+        <button id="contextBtn" class="btn-danger">Right Click Me</button>
+        
+        <div class="box hover-box" id="hoverBox">Hover Over Me</div>
+        
+        <div class="output" id="mouseOutput">Mouse event output will appear here...</div>
+    </div>
+
+    <!-- ==================== SECTION 3: KEYBOARD EVENTS ==================== -->
+    <div class="section">
+        <h2>3. Keyboard Events</h2>
+        <div class="note">
+            Keyboard events: keydown (key pressed), keyup (key released), keypress (deprecated)<br>
+            Use event.key for the character, event.code for physical key, event.keyCode (deprecated)
+        </div>
+        
+        <input type="text" id="keyInput" placeholder="Type here to see keyboard events...">
+        <div class="key-display" id="keyDisplay">Press any key...</div>
+        <div class="output" id="keyOutput">Key details will appear here...</div>
+    </div>
+
+    <!-- ==================== SECTION 4: FORM EVENTS ==================== -->
+    <div class="section">
+        <h2>4. Form Events</h2>
+        <div class="note">
+            Form events: submit, reset, focus, blur, change, input, select
+        </div>
+        
+        <div class="form-demo">
+            <form id="demoForm">
+                <input type="text" id="nameInput" placeholder="Name (focus/blur)">
+                <input type="text" id="textInput" placeholder="Type here (input event)">
+                <select id="selectBox">
+                    <option value="">Select option (change)</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <button type="submit" class="btn-success">Submit</button>
+                <button type="reset" class="btn-warning">Reset</button>
+            </form>
+        </div>
+        <div class="output" id="formOutput">Form event output will appear here...</div>
+    </div>
+
+    <!-- ==================== SECTION 5: WINDOW EVENTS ==================== -->
+    <div class="section">
+        <h2>5. Window/Document Events</h2>
+        <div class="note">
+            Window events: load, DOMContentLoaded, resize, scroll, beforeunload, unload
+        </div>
+        
+        <div>Window Size: <span id="windowSize">-</span></div>
+        <div>Scroll Position: <span id="scrollPos">-</span></div>
+        
+        <div id="scrollBox">
+            <div id="scrollContent">Scroll inside this box...</div>
+        </div>
+        <div class="output" id="windowOutput">Window event output...</div>
+    </div>
+
+    <!-- ==================== SECTION 6: DRAG & DROP EVENTS ==================== -->
+    <div class="section">
+        <h2>6. Drag & Drop Events</h2>
+        <div class="note">
+            Drag events: dragstart, drag, dragend, dragenter, dragover, dragleave, drop
+        </div>
+        
+        <div class="box drag-box" id="dragBox" draggable="true">Drag Me!</div>
+        <div class="drop-zone" id="dropZone">Drop Here</div>
+        <div class="output" id="dragOutput">Drag & drop output...</div>
+    </div>
+
+    <!-- ==================== SECTION 7: EVENT OBJECT ==================== -->
+    <div class="section">
+        <h2>7. Event Object Properties</h2>
+        <div class="note">
+            Important event properties:<br>
+            - event.type: Type of event<br>
+            - event.target: Element that triggered event<br>
+            - event.currentTarget: Element with the listener<br>
+            - event.preventDefault(): Stops default action<br>
+            - event.stopPropagation(): Stops event bubbling
+        </div>
+        
+        <div id="parentBox" style="background: #007bff; padding: 30px; display: inline-block; border-radius: 8px;">
+            <button id="childBtn" class="btn-warning">Click (Check target vs currentTarget)</button>
+        </div>
+        <div class="output" id="eventObjOutput">Event object details...</div>
+    </div>
+
+    <!-- ==================== SECTION 8: REMOVE EVENT LISTENER ==================== -->
+    <div class="section">
+        <h2>8. removeEventListener()</h2>
+        <div class="note">
+            To remove an event listener, you must use a named function (not anonymous).<br>
+            Syntax: element.removeEventListener(event, functionName)
+        </div>
+        
+        <button id="toggleBtn" class="btn-primary">Click Me (Counter)</button>
+        <button id="removeBtn" class="btn-danger">Remove Click Listener</button>
+        <button id="addBtn" class="btn-success">Add Click Listener</button>
+        <div class="output" id="removeOutput">Counter: 0</div>
+    </div>
+
+    <!-- ==================== SECTION 9: EVENT BUBBLING & CAPTURING ==================== -->
+    <div class="section">
+        <h2>9. Event Bubbling vs Capturing</h2>
+        <div class="note">
+            <strong>Bubbling (default):</strong> Event goes from target UP to parent elements<br>
+            <strong>Capturing:</strong> Event goes from parent DOWN to target element<br>
+            Set third parameter to true for capturing phase
+        </div>
+        
+        <div id="grandparent" style="background: #dc3545; padding: 30px; border-radius: 8px;">
+            GRANDPARENT
+            <div id="parent" style="background: #ffc107; padding: 30px; margin: 10px; border-radius: 8px;">
+                PARENT
+                <div id="child" style="background: #28a745; padding: 30px; margin: 10px; border-radius: 8px; color: white;">
+                    CHILD (Click me!)
+                </div>
+            </div>
+        </div>
+        <div class="output" id="bubbleOutput">Click to see bubbling/capturing order...</div>
+    </div>
+
+    <!-- ==================== SECTION 10: MULTIPLE LISTENERS ==================== -->
+    <div class="section">
+        <h2>10. Multiple Event Listeners</h2>
+        <div class="note">
+            You can add multiple listeners to the same element for the same event.
+            They will execute in the order they were added.
+        </div>
+        
+        <button id="multiBtn" class="btn-info">Click (Has 3 Listeners)</button>
+        <div class="output" id="multiOutput">Output will show all listeners executing...</div>
+    </div>
+
+    <!-- ==================== SECTION 11: EVENT DELEGATION ==================== -->
+    <div class="section">
+        <h2>11. Event Delegation</h2>
+        <div class="note">
+            Instead of adding listeners to each child, add one listener to the parent.
+            Use event.target to identify which child was clicked.
+            Efficient for dynamic content!
+        </div>
+        
+        <ul id="todoList" style="list-style: none; padding: 0;">
+            <li style="padding: 10px; margin: 5px 0; background: #e9ecef; cursor: pointer;">📌 Task 1 - Click to mark done</li>
+            <li style="padding: 10px; margin: 5px 0; background: #e9ecef; cursor: pointer;">📌 Task 2 - Click to mark done</li>
+            <li style="padding: 10px; margin: 5px 0; background: #e9ecef; cursor: pointer;">📌 Task 3 - Click to mark done</li>
+        </ul>
+        <button id="addTaskBtn" class="btn-primary">Add New Task</button>
+        <div class="output" id="delegateOutput">Click on tasks above...</div>
+    </div>
+
+    <!-- ==================== SECTION 12: ONCE OPTION ==================== -->
+    <div class="section">
+        <h2>12. Options: once, passive, capture</h2>
+        <div class="note">
+            addEventListener options (third parameter as object):<br>
+            - once: true = listener removed after first trigger<br>
+            - passive: true = won't call preventDefault (better scroll performance)<br>
+            - capture: true = use capturing phase
+        </div>
+        
+        <button id="onceBtn" class="btn-warning">Click Me (Only works ONCE)</button>
+        <div class="output" id="onceOutput">This button will only respond once...</div>
+    </div>
+
+    <!-- ==================== SECTION 13: TOUCH EVENTS ==================== -->
+    <div class="section">
+        <h2>13. Touch Events (Mobile)</h2>
+        <div class="note">
+            Touch events: touchstart, touchmove, touchend, touchcancel<br>
+            Use event.touches, event.targetTouches, event.changedTouches
+        </div>
+        
+        <div id="touchBox" style="width: 200px; height: 100px; background: #6f42c1; color: white; display: flex; align-items: center; justify-content: center; border-radius: 8px; cursor: pointer;">
+            Touch/Click Me
+        </div>
+        <div class="output" id="touchOutput">Touch events will appear here...</div>
+    </div>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // ============================================
+        // 1. BASIC SYNTAX EXAMPLE
+        // ============================================
+        const basicBtn = document.getElementById('basicBtn');
+        const basicOutput = document.getElementById('basicOutput');
+        
+        // Method 1: Anonymous function
+        basicBtn.addEventListener('click', function() {
+            basicOutput.textContent = '✅ Button clicked at ' + new Date().toLocaleTimeString();
+        });
+
+        // Method 2: Arrow function (modern syntax)
+        // basicBtn.addEventListener('click', () => {
+        //     basicOutput.textContent = 'Clicked with arrow function!';
+        // });
+
+        // Method 3: Named function
+        // function handleClick() {
+        //     basicOutput.textContent = 'Clicked with named function!';
+        // }
+        // basicBtn.addEventListener('click', handleClick);
+
+
+        // ============================================
+        // 2. MOUSE EVENTS
+        // ============================================
+        const mouseOutput = document.getElementById('mouseOutput');
+
+        // CLICK event
+        document.getElementById('clickBtn').addEventListener('click', function(e) {
+            mouseOutput.innerHTML = `<strong>CLICK</strong> at X:${e.clientX}, Y:${e.clientY}`;
+        });
+
+        // DOUBLE CLICK event
+        document.getElementById('dblclickBtn').addEventListener('dblclick', function() {
+            mouseOutput.innerHTML = '<strong>DOUBLE CLICK</strong> detected!';
+        });
+
+        // MOUSEDOWN and MOUSEUP events
+        const mousedownBtn = document.getElementById('mousedownBtn');
+        mousedownBtn.addEventListener('mousedown', function() {
+            mouseOutput.innerHTML = '<strong>MOUSEDOWN</strong> - Button pressed!';
+            this.style.transform = 'scale(0.95)';
+        });
+        mousedownBtn.addEventListener('mouseup', function() {
+            mouseOutput.innerHTML = '<strong>MOUSEUP</strong> - Button released!';
+            this.style.transform = 'scale(1)';
+        });
+
+        // CONTEXT MENU (Right Click) event
+        document.getElementById('contextBtn').addEventListener('contextmenu', function(e) {
+            e.preventDefault(); // Prevents default right-click menu
+            mouseOutput.innerHTML = '<strong>RIGHT CLICK</strong> detected! Default menu prevented.';
+        });
+
+        // MOUSEENTER and MOUSELEAVE events (don't bubble)
+        const hoverBox = document.getElementById('hoverBox');
+        hoverBox.addEventListener('mouseenter', function() {
+            this.style.background = '#28a745';
+            this.textContent = 'Mouse Entered!';
+            mouseOutput.innerHTML = '<strong>MOUSEENTER</strong> - Mouse entered the box';
+        });
+        hoverBox.addEventListener('mouseleave', function() {
+            this.style.background = '#6c757d';
+            this.textContent = 'Hover Over Me';
+            mouseOutput.innerHTML = '<strong>MOUSELEAVE</strong> - Mouse left the box';
+        });
+
+        // MOUSEMOVE event (fires continuously)
+        // hoverBox.addEventListener('mousemove', function(e) {
+        //     mouseOutput.innerHTML = `MOUSEMOVE: X:${e.offsetX}, Y:${e.offsetY}`;
+        // });
+
+
+        // ============================================
+        // 3. KEYBOARD EVENTS
+        // ============================================
+        const keyInput = document.getElementById('keyInput');
+        const keyDisplay = document.getElementById('keyDisplay');
+        const keyOutput = document.getElementById('keyOutput');
+
+        // KEYDOWN event - fires when key is pressed
+        keyInput.addEventListener('keydown', function(e) {
+            keyDisplay.textContent = e.key;
+            keyOutput.innerHTML = `
+                <strong>KEYDOWN</strong><br>
+                Key: "${e.key}" | Code: "${e.code}"<br>
+                Shift: ${e.shiftKey} | Ctrl: ${e.ctrlKey} | Alt: ${e.altKey}
+            `;
+        });
+
+        // KEYUP event - fires when key is released
+        keyInput.addEventListener('keyup', function(e) {
+            keyOutput.innerHTML += '<br><strong>KEYUP</strong> - Key released';
+        });
+
+        // Detect specific keys
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                alert('ESC key pressed!');
+            }
+            // Detect Ctrl+S
+            if (e.ctrlKey && e.key === 's') {
+                e.preventDefault(); // Prevent browser save dialog
+                console.log('Ctrl+S detected!');
+            }
+        });
+
+
+        // ============================================
+        // 4. FORM EVENTS
+        // ============================================
+        const formOutput = document.getElementById('formOutput');
+        const demoForm = document.getElementById('demoForm');
+
+        // SUBMIT event
+        demoForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent form from submitting
+            formOutput.innerHTML = '<strong>SUBMIT</strong> - Form submitted! (Prevented default)';
+        });
+
+        // RESET event
+        demoForm.addEventListener('reset', function() {
+            formOutput.innerHTML = '<strong>RESET</strong> - Form reset!';
+        });
+
+        // FOCUS event - when element gains focus
+        document.getElementById('nameInput').addEventListener('focus', function() {
+            this.style.borderColor = '#007bff';
+            this.style.boxShadow = '0 0 5px rgba(0,123,255,0.5)';
+            formOutput.innerHTML = '<strong>FOCUS</strong> - Input focused';
+        });
+
+        // BLUR event - when element loses focus
+        document.getElementById('nameInput').addEventListener('blur', function() {
+            this.style.borderColor = '#ccc';
+            this.style.boxShadow = 'none';
+            formOutput.innerHTML = '<strong>BLUR</strong> - Input lost focus';
+        });
+
+        // INPUT event - fires on every change (real-time)
+        document.getElementById('textInput').addEventListener('input', function(e) {
+            formOutput.innerHTML = `<strong>INPUT</strong> - Value: "${e.target.value}"`;
+        });
+
+        // CHANGE event - fires when value changes and element loses focus
+        document.getElementById('selectBox').addEventListener('change', function(e) {
+            formOutput.innerHTML = `<strong>CHANGE</strong> - Selected: "${e.target.value}"`;
+        });
+
+
+        // ============================================
+        // 5. WINDOW/DOCUMENT EVENTS
+        // ============================================
+        const windowSize = document.getElementById('windowSize');
+        const scrollPos = document.getElementById('scrollPos');
+        const windowOutput = document.getElementById('windowOutput');
+
+        // DOMContentLoaded - fires when HTML is parsed (before images load)
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOMContentLoaded: DOM is ready!');
+        });
+
+        // LOAD - fires when everything is loaded (including images)
+        window.addEventListener('load', function() {
+            windowOutput.innerHTML = '<strong>LOAD</strong> - Page fully loaded!';
+            windowSize.textContent = `${window.innerWidth} x ${window.innerHeight}`;
+        });
+
+        // RESIZE event
+        window.addEventListener('resize', function() {
+            windowSize.textContent = `${window.innerWidth} x ${window.innerHeight}`;
+        });
+
+        // SCROLL event (on element)
+        document.getElementById('scrollBox').addEventListener('scroll', function(e) {
+            scrollPos.textContent = `${this.scrollTop}px`;
+        });
+
+        // BEFOREUNLOAD - fires before page closes
+        // window.addEventListener('beforeunload', function(e) {
+        //     e.preventDefault();
+        //     e.returnValue = ''; // Shows confirmation dialog
+        // });
+
+
+        // ============================================
+        // 6. DRAG & DROP EVENTS
+        // ============================================
+        const dragBox = document.getElementById('dragBox');
+        const dropZone = document.getElementById('dropZone');
+        const dragOutput = document.getElementById('dragOutput');
+
+        // DRAGSTART - when drag begins
+        dragBox.addEventListener('dragstart', function(e) {
+            this.style.opacity = '0.5';
+            e.dataTransfer.setData('text/plain', 'Dragged element');
+            dragOutput.innerHTML = '<strong>DRAGSTART</strong> - Started dragging';
+        });
+
+        // DRAGEND - when drag ends
+        dragBox.addEventListener('dragend', function() {
+            this.style.opacity = '1';
+            dragOutput.innerHTML += '<br><strong>DRAGEND</strong> - Finished dragging';
+        });
+
+        // DRAGOVER - required for drop to work
+        dropZone.addEventListener('dragover', function(e) {
+            e.preventDefault(); // Required to allow drop
+            this.style.borderColor = '#28a745';
+            this.style.background = '#e8f5e9';
+        });
+
+        // DRAGLEAVE - when drag leaves element
+        dropZone.addEventListener('dragleave', function() {
+            this.style.borderColor = '#ccc';
+            this.style.background = 'transparent';
+        });
+
+        // DROP - when element is dropped
+        dropZone.addEventListener('drop', function(e) {
+            e.preventDefault();
+            const data = e.dataTransfer.getData('text/plain');
+            this.textContent = '✅ Dropped!';
+            this.style.borderColor = '#28a745';
+            this.style.background = '#c8e6c9';
+            dragOutput.innerHTML = `<strong>DROP</strong> - Element dropped! Data: "${data}"`;
+        });
+
+
+        // ============================================
+        // 7. EVENT OBJECT PROPERTIES
+        // ============================================
+        const parentBox = document.getElementById('parentBox');
+        const childBtn = document.getElementById('childBtn');
+        const eventObjOutput = document.getElementById('eventObjOutput');
+
+        parentBox.addEventListener('click', function(e) {
+            eventObjOutput.innerHTML = `
+                <strong>EVENT OBJECT PROPERTIES:</strong><br>
+                event.type: "${e.type}"<br>
+                event.target: ${e.target.tagName} (element that triggered)<br>
+                event.currentTarget: ${e.currentTarget.tagName} (element with listener)<br>
+                event.timeStamp: ${Math.round(e.timeStamp)}ms<br>
+                event.clientX/Y: ${e.clientX}, ${e.clientY}<br>
+                event.bubbles: ${e.bubbles}
+            `;
+        });
+
+
+        // ============================================
+        // 8. removeEventListener
+        // ============================================
+        const toggleBtn = document.getElementById('toggleBtn');
+        const removeOutput = document.getElementById('removeOutput');
+        let counter = 0;
+
+        // Named function (required for removeEventListener)
+        function incrementCounter() {
+            counter++;
+            removeOutput.textContent = `Counter: ${counter}`;
+        }
+
+        toggleBtn.addEventListener('click', incrementCounter);
+
+        document.getElementById('removeBtn').addEventListener('click', function() {
+            toggleBtn.removeEventListener('click', incrementCounter);
+            removeOutput.textContent += ' (Listener REMOVED!)';
+        });
+
+        document.getElementById('addBtn').addEventListener('click', function() {
+            toggleBtn.addEventListener('click', incrementCounter);
+            removeOutput.textContent = `Counter: ${counter} (Listener ADDED!)`;
+        });
+
+
+        // ============================================
+        // 9. EVENT BUBBLING vs CAPTURING
+        // ============================================
+        const bubbleOutput = document.getElementById('bubbleOutput');
+        let eventOrder = [];
+
+        // Bubbling (default - false or omit third parameter)
+        document.getElementById('grandparent').addEventListener('click', function() {
+            eventOrder.push('GRANDPARENT (bubble)');
+            bubbleOutput.textContent = 'Order: ' + eventOrder.join(' → ');
+        }, false);
+
+        document.getElementById('parent').addEventListener('click', function() {
+            eventOrder.push('PARENT (bubble)');
+            bubbleOutput.textContent = 'Order: ' + eventOrder.join(' → ');
+        }, false);
+
+        // Capturing (true - runs first, from outside to inside)
+        document.getElementById('child').addEventListener('click', function() {
+            eventOrder = []; // Reset
+            eventOrder.push('CHILD (capture)');
+            bubbleOutput.textContent = 'Order: ' + eventOrder.join(' → ');
+        }, true);
+
+        // stopPropagation example:
+        // document.getElementById('parent').addEventListener('click', function(e) {
+        //     e.stopPropagation(); // Stops bubbling to grandparent
+        // });
+
+
+        // ============================================
+        // 10. MULTIPLE LISTENERS
+        // ============================================
+        const multiBtn = document.getElementById('multiBtn');
+        const multiOutput = document.getElementById('multiOutput');
+
+        multiBtn.addEventListener('click', function() {
+            multiOutput.textContent = '1️⃣ First listener fired';
+        });
+
+        multiBtn.addEventListener('click', function() {
+            multiOutput.textContent += ' → 2️⃣ Second listener fired';
+        });
+
+        multiBtn.addEventListener('click', function() {
+            multiOutput.textContent += ' → 3️⃣ Third listener fired';
+        });
+
+
+        // ============================================
+        // 11. EVENT DELEGATION
+        // ============================================
+        const todoList = document.getElementById('todoList');
+        const delegateOutput = document.getElementById('delegateOutput');
+        let taskCounter = 3;
+
+        // Single listener on parent handles all children (including future ones!)
+        todoList.addEventListener('click', function(e) {
+            if (e.target.tagName === 'LI') {
+                e.target.style.textDecoration = 'line-through';
+                e.target.style.background = '#d4edda';
+                delegateOutput.textContent = `Task marked done: "${e.target.textContent}"`;
+            }
+        });
+
+        // Add new task dynamically
+        document.getElementById('addTaskBtn').addEventListener('click', function() {
+            taskCounter++;
+            const newTask = document.createElement('li');
+            newTask.textContent = `📌 Task ${taskCounter} - Click to mark done`;
+            newTask.style.cssText = 'padding: 10px; margin: 5px 0; background: #e9ecef; cursor: pointer;';
+            todoList.appendChild(newTask);
+            delegateOutput.textContent = `New task added! (Delegation handles it automatically)`;
+        });
+
+
+        // ============================================
+        // 12. ONCE OPTION
+        // ============================================
+        const onceBtn = document.getElementById('onceBtn');
+        const onceOutput = document.getElementById('onceOutput');
+
+        onceBtn.addEventListener('click', function() {
+            onceOutput.textContent = '✅ Clicked! This listener is now REMOVED automatically.';
+            onceBtn.disabled = true;
+        }, { once: true }); // Options object
+
+        // Other options example:
+        // element.addEventListener('scroll', handler, {
+        //     capture: true,  // Use capturing phase
+        //     passive: true,  // Won't call preventDefault (better performance)
+        //     once: true      // Remove after first trigger
+        // });
+
+
+        // ============================================
+        // 13. TOUCH EVENTS
+        // ============================================
+        const touchBox = document.getElementById('touchBox');
+        const touchOutput = document.getElementById('touchOutput');
+
+        touchBox.addEventListener('touchstart', function(e) {
+            this.style.background = '#28a745';
+            touchOutput.textContent = `TOUCHSTART - Touches: ${e.touches.length}`;
+        });
+
+        touchBox.addEventListener('touchend', function() {
+            this.style.background = '#6f42c1';
+            touchOutput.textContent = 'TOUCHEND - Touch released';
+        });
+
+        touchBox.addEventListener('touchmove', function(e) {
+            const touch = e.touches[0];
+            touchOutput.textContent = `TOUCHMOVE - X:${Math.round(touch.clientX)}, Y:${Math.round(touch.clientY)}`;
+        });
+
+        // Fallback for non-touch devices
+        touchBox.addEventListener('click', function() {
+            touchOutput.textContent = 'CLICK detected (non-touch device)';
+        });
+
+
+        // ============================================
+        // BONUS: Custom Events
+        // ============================================
+        // Create custom event
+        const customEvent = new CustomEvent('myCustomEvent', {
+            detail: { message: 'Hello from custom event!' }
+        });
+
+        // Listen for custom event
+        document.addEventListener('myCustomEvent', function(e) {
+            console.log('Custom event received:', e.detail.message);
+        });
+
+        // Dispatch custom event
+        // document.dispatchEvent(customEvent);
+
+
+        console.log('✅ All event listeners are set up!');
+    </script>
+
+</body>
+</html>

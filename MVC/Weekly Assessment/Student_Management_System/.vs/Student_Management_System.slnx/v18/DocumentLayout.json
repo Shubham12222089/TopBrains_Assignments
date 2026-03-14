@@ -1,0 +1,725 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\studentdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\studentdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\studentdashboard\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\studentdashboard\\coursedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\studentdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\studentdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\studentdashboard\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\studentdashboard\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\teacherdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\teacherdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\teacherdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\teacherdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\migrations\\20260314091126_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\migrations\\20260314091126_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\mvc\\weekly assessment\\student_management_system\\student_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08B286D-F62C-1F37-1BA5-09B741EDDF00}|Student_Management_System\\Student_Management_System.csproj|solutionrelative:student_management_system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\VIEWS_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VIEWS_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SYSTEM_COMPLETE_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SYSTEM_COMPLETE_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\QUICK_REFERENCE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QUICK_REFERENCE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\COMPLETION_CHECKLIST.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:COMPLETION_CHECKLIST.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_FIX_DOCUMENTATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SESSION_FIX_DOCUMENTATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\FIX_SUMMARY.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FIX_SUMMARY.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SESSION_RESOLUTION_COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\BEFORE_AND_AFTER.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BEFORE_AND_AFTER.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FIX_SUMMARY.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\FIX_SUMMARY.txt",
+              "RelativeDocumentMoniker": "FIX_SUMMARY.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\FIX_SUMMARY.txt",
+              "RelativeToolTip": "FIX_SUMMARY.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-14T10:41:42.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SESSION_FIX_DOCUMENTATION.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_FIX_DOCUMENTATION.md",
+              "RelativeDocumentMoniker": "SESSION_FIX_DOCUMENTATION.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_FIX_DOCUMENTATION.md",
+              "RelativeToolTip": "SESSION_FIX_DOCUMENTATION.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:41:32.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:32:53.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Program.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Program.cs",
+              "RelativeToolTip": "Student_Management_System\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:55:03.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SESSION_RESOLUTION_COMPLETE.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
+              "RelativeDocumentMoniker": "SESSION_RESOLUTION_COMPLETE.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
+              "RelativeToolTip": "SESSION_RESOLUTION_COMPLETE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:42:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BEFORE_AND_AFTER.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\BEFORE_AND_AFTER.md",
+              "RelativeDocumentMoniker": "BEFORE_AND_AFTER.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\BEFORE_AND_AFTER.md",
+              "RelativeToolTip": "BEFORE_AND_AFTER.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:42:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:34:10.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:04:06.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "COMPLETION_CHECKLIST.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\COMPLETION_CHECKLIST.md",
+              "RelativeDocumentMoniker": "COMPLETION_CHECKLIST.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\COMPLETION_CHECKLIST.md",
+              "RelativeToolTip": "COMPLETION_CHECKLIST.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:36:23.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "QUICK_REFERENCE.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\QUICK_REFERENCE.md",
+              "RelativeDocumentMoniker": "QUICK_REFERENCE.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\QUICK_REFERENCE.md",
+              "RelativeToolTip": "QUICK_REFERENCE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:35:43.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:34:42.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SYSTEM_COMPLETE_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SYSTEM_COMPLETE_GUIDE.md",
+              "RelativeDocumentMoniker": "SYSTEM_COMPLETE_GUIDE.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SYSTEM_COMPLETE_GUIDE.md",
+              "RelativeToolTip": "SYSTEM_COMPLETE_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:35:20.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:11.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:05:20.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\StudentDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAlwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:12.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\CourseDetails.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\StudentDashboard\\CourseDetails.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\CourseDetails.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\CourseDetails.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:31:03.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\StudentDashboardController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\StudentDashboardController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\StudentDashboardController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\StudentDashboardController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:07:28.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\StudentDashboard\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\StudentDashboard\\Profile.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:11.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeacherDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\TeacherDashboardController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\TeacherDashboardController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\TeacherDashboardController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\TeacherDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:06:23.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\TeacherDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\TeacherDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\TeacherDashboard\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\TeacherDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T09:55:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T09:51:35.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:05:15.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T09:57:39.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VIEWS_SUMMARY.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\VIEWS_SUMMARY.md",
+              "RelativeDocumentMoniker": "VIEWS_SUMMARY.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\VIEWS_SUMMARY.md",
+              "RelativeToolTip": "VIEWS_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:05:51.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAArwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:03:31.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:11.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:10.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:12.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:10.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:11.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T10:03:11.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_Management_System\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Student_Management_System\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T09:59:03.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260314091126_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Migrations\\20260314091126_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Migrations\\20260314091126_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Migrations\\20260314091126_InitialCreate.cs",
+              "RelativeToolTip": "Student_Management_System\\Migrations\\20260314091126_InitialCreate.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:11:27.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\appsettings.json",
+              "RelativeDocumentMoniker": "Student_Management_System\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\appsettings.json",
+              "RelativeToolTip": "Student_Management_System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T08:49:08.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Student_Management_System\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:02:03.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Student_Management_System\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:57:21.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Student_Management_System\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:56:45.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Student_Management_System\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:54:18.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Student.cs",
+              "RelativeToolTip": "Student_Management_System\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:53:22.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Course.cs",
+              "RelativeToolTip": "Student_Management_System\\Models\\Course.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:52:45.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\Department.cs",
+              "RelativeToolTip": "Student_Management_System\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:51:55.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Student_Management_System\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Models\\User.cs",
+              "RelativeToolTip": "Student_Management_System\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:50:31.257Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

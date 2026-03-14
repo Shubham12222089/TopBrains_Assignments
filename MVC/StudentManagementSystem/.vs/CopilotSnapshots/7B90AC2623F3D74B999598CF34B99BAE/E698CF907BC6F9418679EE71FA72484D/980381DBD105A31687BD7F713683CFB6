@@ -1,0 +1,38 @@
+﻿@model Department
+
+<h2>Delete Department</h2>
+
+<h3>Are you sure you want to delete this department?</h3>
+<div>
+    <h4>Department Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DepartmentId)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DepartmentId)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DepartmentName)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm("DeleteConfirmed", "Department", new { id = Model.DepartmentId }, FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+    }
+</div>

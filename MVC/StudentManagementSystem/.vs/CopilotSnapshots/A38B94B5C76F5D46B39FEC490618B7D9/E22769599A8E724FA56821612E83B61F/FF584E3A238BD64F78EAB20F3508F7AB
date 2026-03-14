@@ -1,0 +1,122 @@
+﻿using Microsoft.EntityFrameworkCore;
+using StudentManagementSystem.Models;
+
+namespace StudentManagementSystem.Data
+{
+    public class StudentDbContext: DbContext
+    {
+        public StudentDbContext(DbContextOptions<StudentDbContext> options)
+        : base(options)
+        {
+        }
+
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Course> Courses { get; set; }
+
+        // Method to seed data programmatically (called from Program.cs)
+        public void SeedData()
+        {
+            // Only seed if no data exists
+            if (!Departments.Any())
+            {
+                Departments.AddRange(
+                    new Department { DepartmentName = "Computer Science", Location = "Building A" },
+                    new Department { DepartmentName = "Information Technology", Location = "Building B" },
+                    new Department { DepartmentName = "Business Administration", Location = "Building C" }
+                );
+                SaveChanges();
+            }
+
+            if (!Courses.Any())
+            {
+                Courses.AddRange(
+                    new Course { CourseName = ".NET Full Stack Development", Duration = "6 Months", DepartmentId = 1 },
+                    new Course { CourseName = "Angular Development", Duration = "4 Months", DepartmentId = 1 },
+                    new Course { CourseName = "Cloud Computing", Duration = "6 Months", DepartmentId = 2 },
+                    new Course { CourseName = "Cyber Security", Duration = "5 Months", DepartmentId = 2 },
+                    new Course { CourseName = "Financial Management", Duration = "3 Months", DepartmentId = 3 }
+                );
+                SaveChanges();
+            }
+
+            if (!Students.Any())
+            {
+                Students.AddRange(
+                    new Student
+                    {
+                        Name = "Ravi Kumar",
+                        Email = "ravi@gmail.com",
+                        Age = 22,
+                        Gender = "Male",
+                        AdmissionDate = new DateTime(2024, 1, 15),
+                        DepartmentId = 1,
+                        CourseId = 1
+                    },
+                    new Student
+                    {
+                        Name = "Anjali Sharma",
+                        Email = "anjali@gmail.com",
+                        Age = 23,
+                        Gender = "Female",
+                        AdmissionDate = new DateTime(2024, 2, 10),
+                        DepartmentId = 2,
+                        CourseId = 3
+                    },
+                    new Student
+                    {
+                        Name = "Suresh Reddy",
+                        Email = "suresh@gmail.com",
+                        Age = 24,
+                        Gender = "Male",
+                        AdmissionDate = new DateTime(2024, 3, 5),
+                        DepartmentId = 1,
+                        CourseId = 2
+                    },
+                    new Student
+                    {
+                        Name = "Priya Nair",
+                        Email = "priya@gmail.com",
+                        Age = 21,
+                        Gender = "Female",
+                        AdmissionDate = new DateTime(2024, 4, 20),
+                        DepartmentId = 3,
+                        CourseId = 5
+                    }
+                );
+                SaveChanges();
+            }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configure relationships using Fluent API
+
+            // Student -> Department (Many to One)
+            modelBuilder.Entity<Student>()
+                .HasOne(s => s.Department)
+                .WithMany(d => d.Students)
+                .HasForeignKey(s => s.DepartmentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Student -> Course (Many to One)
+            modelBuilder.Entity<Student>()
+                .HasOne(s => s.Course)
+                .WithMany(c => c.Students)
+                .HasForeignKey(s => s.CourseId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Department -> Course (One to Many)
+            modelBuilder.Entity<Course>()
+                .HasOne(c => c.Department)
+                .WithMany(d => d.Courses)
+                .HasForeignKey(c => c.DepartmentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Note: Seed data has been moved to SeedData() method
+            // This prevents conflicts with existing data during migrations
+        }
+    }
+}
