@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Services/">
+    <Project Path="CapShop.AdminService/CapShop.AdminService.csproj" />
+    <Project Path="CapShop.ApiGateway/CapShop.ApiGateway.csproj" />
+    <Project Path="CapShop.AuthService/CapShop.AuthService.csproj" />
+    <Project Path="CapShop.CatalogService/CapShop.CatalogService.csproj" />
+    <Project Path="CapShop.OrderService/CapShop.OrderService.csproj" />
+  </Folder>
+</Solution>

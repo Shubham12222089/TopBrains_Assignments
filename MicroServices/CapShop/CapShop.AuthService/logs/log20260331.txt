@@ -1,0 +1,236 @@
+2026-03-31 09:42:21.986 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:42:22.635 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 09:42:22.650 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 09:42:22.957 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:42:22.974 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:42:22.975 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 09:43:41.735 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:43:42.616 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 09:43:42.619 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 09:43:42.693 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:43:42.705 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:43:42.706 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 09:47:30.150 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:47:30.772 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 09:47:30.837 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 09:47:30.922 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:47:30.926 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:47:30.927 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 09:48:12.883 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 09:48:13.004 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.5369ms
+2026-03-31 09:48:45.978 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 57
+2026-03-31 09:48:46.091 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 09:48:46.126 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 09:48:48.374 +05:30 [INF] Executed DbCommand (113ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 09:48:48.484 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 09:48:48.496 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 2359.653ms
+2026-03-31 09:48:48.499 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 09:48:48.526 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 2548.2434ms
+2026-03-31 09:52:35.923 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 09:52:35.955 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.1325ms
+2026-03-31 10:36:00.340 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 10:36:03.534 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 10:36:03.601 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 10:36:03.822 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 10:36:03.824 +05:30 [INF] Hosting environment: Development
+2026-03-31 10:36:03.825 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 10:36:22.862 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 10:36:23.047 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.5654ms
+2026-03-31 10:36:52.383 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 57
+2026-03-31 10:36:52.488 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 10:36:52.521 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 10:36:54.807 +05:30 [INF] Executed DbCommand (100ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 10:36:54.954 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 10:36:54.965 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 2433.8502ms
+2026-03-31 10:36:54.966 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 10:36:54.981 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 2598.7689ms
+2026-03-31 10:46:26.841 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 10:46:26.885 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.132ms
+2026-03-31 11:06:37.882 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:06:38.543 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:06:38.557 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:06:38.702 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:06:38.776 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:06:38.891 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 11:07:13.226 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 11:07:13.407 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 259.4605ms
+2026-03-31 11:07:27.497 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 11:07:27.508 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.5797ms
+2026-03-31 11:07:45.336 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 57
+2026-03-31 11:07:45.438 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 11:07:45.469 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 11:07:47.831 +05:30 [INF] Executed DbCommand (120ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 11:07:47.954 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 11:07:47.964 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 2485.3402ms
+2026-03-31 11:07:47.966 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 11:07:47.982 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 2645.7195ms
+2026-03-31 11:34:15.304 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:34:17.685 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:34:17.713 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:34:17.890 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:34:17.930 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:34:18.048 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 11:35:49.923 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:35:50.766 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:35:50.769 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:35:51.244 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:35:51.246 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:35:51.248 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 11:47:05.105 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:47:06.476 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:47:06.555 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:47:06.995 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:47:07.374 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:47:07.598 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 11:52:20.071 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:52:21.355 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:52:21.386 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:52:22.141 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:52:22.144 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:52:22.145 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 11:54:21.354 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:54:22.506 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 11:54:22.522 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 11:54:22.711 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:54:22.720 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:54:22.723 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 12:01:16.651 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:01:17.955 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 12:01:17.989 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 12:01:18.306 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:01:18.353 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:01:18.676 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 12:01:42.964 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:01:43.146 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 196.8487ms
+2026-03-31 12:02:47.615 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 63
+2026-03-31 12:02:48.042 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:02:48.175 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 12:02:58.925 +05:30 [INF] Executed DbCommand (794ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 12:02:59.545 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:02:59.564 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 11382.2917ms
+2026-03-31 12:02:59.566 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:02:59.601 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 11991.0221ms
+2026-03-31 12:05:32.008 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:05:32.106 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.6929ms
+2026-03-31 12:06:01.748 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 63
+2026-03-31 12:06:01.781 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:06:01.805 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 12:06:02.285 +05:30 [INF] Executed DbCommand (195ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 12:06:02.311 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:06:02.317 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 502.2961ms
+2026-03-31 12:06:02.324 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:06:02.332 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 583.6328ms
+2026-03-31 12:08:48.902 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:08:50.997 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 12:08:51.059 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 12:08:51.263 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:08:51.290 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:08:51.292 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 12:09:04.432 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:09:04.686 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.0994ms
+2026-03-31 12:09:24.665 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 57
+2026-03-31 12:09:24.962 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:09:25.154 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 12:09:33.038 +05:30 [INF] Executed DbCommand (376ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 12:09:33.651 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:09:33.662 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 8491.6906ms
+2026-03-31 12:09:33.673 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:09:33.786 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 9121.2473ms
+2026-03-31 12:14:13.646 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:14:13.709 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.1314ms
+2026-03-31 12:14:48.745 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 63
+2026-03-31 12:14:48.792 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:14:48.849 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 12:14:49.208 +05:30 [INF] Executed DbCommand (185ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 12:14:49.236 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:14:49.244 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 388.6752ms
+2026-03-31 12:14:49.250 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:14:49.261 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 516.5424ms
+2026-03-31 12:30:28.510 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:30:30.893 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 12:30:31.063 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 12:30:32.374 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:30:32.653 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:30:32.682 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 12:31:28.458 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:31:28.661 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 223.4413ms
+2026-03-31 12:31:53.914 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 63
+2026-03-31 12:31:54.209 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:31:54.323 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 12:31:59.742 +05:30 [INF] Executed DbCommand (239ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 12:32:00.016 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:32:00.063 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 5719.284ms
+2026-03-31 12:32:00.075 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 12:32:00.125 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 6212.2425ms
+2026-03-31 12:44:16.181 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 12:44:16.346 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.6545ms
+2026-03-31 14:37:24.214 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 14:37:26.466 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 14:37:26.545 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 14:37:26.904 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 14:37:26.936 +05:30 [INF] Hosting environment: Development
+2026-03-31 14:37:26.940 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 14:38:19.420 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 14:38:19.672 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 278.1218ms
+2026-03-31 15:18:05.308 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 15:18:06.163 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 15:18:06.165 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 15:18:06.232 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 15:18:06.274 +05:30 [INF] Hosting environment: Development
+2026-03-31 15:18:06.289 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 15:19:59.382 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 63
+2026-03-31 15:19:59.654 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 15:19:59.695 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 15:20:02.522 +05:30 [INF] Executed DbCommand (163ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 15:20:02.654 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 15:20:02.673 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 2970.6995ms
+2026-03-31 15:20:02.676 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 15:20:02.696 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 3338.8007ms
+2026-03-31 16:05:02.268 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 16:05:03.458 +05:30 [INF] Now listening on: https://localhost:7001
+2026-03-31 16:05:03.461 +05:30 [INF] Now listening on: http://localhost:5001
+2026-03-31 16:05:03.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 16:05:03.741 +05:30 [INF] Hosting environment: Development
+2026-03-31 16:05:03.803 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AuthService
+2026-03-31 16:09:10.119 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 16:09:10.236 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.8125ms
+2026-03-31 16:10:41.205 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7001/api/auth/login - application/json 57
+2026-03-31 16:10:41.422 +05:30 [INF] Executing endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 16:10:41.502 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(AuthService.DTOs.LoginDto) on controller AuthService.Controllers.AuthController (CapShop.AuthService).
+2026-03-31 16:10:45.293 +05:30 [INF] Executed DbCommand (112ms) [Parameters=[@dto_Email='?' (Size = 4000), @passwordHash='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FullName], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @dto_Email AND [u].[Password] = @passwordHash
+2026-03-31 16:10:45.431 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 16:10:45.444 +05:30 [INF] Executed action AuthService.Controllers.AuthController.Login (CapShop.AuthService) in 3923.1523ms
+2026-03-31 16:10:45.446 +05:30 [INF] Executed endpoint 'AuthService.Controllers.AuthController.Login (CapShop.AuthService)'
+2026-03-31 16:10:45.462 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7001/api/auth/login - 200 null text/plain; charset=utf-8 4257.0316ms
+2026-03-31 16:15:29.789 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - null null
+2026-03-31 16:15:29.811 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.7117ms

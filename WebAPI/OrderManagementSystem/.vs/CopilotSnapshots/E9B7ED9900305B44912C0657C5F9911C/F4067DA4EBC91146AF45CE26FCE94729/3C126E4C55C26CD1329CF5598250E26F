@@ -1,0 +1,61 @@
+﻿using OrderManagementSystem.Models;
+using Microsoft.EntityFrameworkCore;
+using OrderManagementSystem.Data;
+
+namespace OrderManagementSystem.Repositories
+{
+    public interface IOrderRepository
+    {
+        Task<IEnumerable<Order>> GetAllOrder();
+        Task<string> Add(Order order);
+        Task<Order> GetById(string id);
+        Task<string> Cancel(string id);
+        Task<Order> GetByCustomerId(string custid);
+    }
+
+    public class OrderRepository : IOrderRepository
+    {
+        private readonly IApplicationDbContext _dbcontext;
+
+        public OrderRepository(IApplicationDbContext dbcontext)
+        {
+            _dbcontext = dbcontext;
+        }
+
+        public async Task<IEnumerable<Order>> GetAllOrder()
+        {
+            return await Task.FromResult(_dbcontext.Orders.ToList<Order>());
+        }
+
+        public async Task<string> Add(Order order)
+        {
+            _dbcontext.Orders.Add(order);
+            await _dbcontext.SaveChanges();
+            return order.Id;
+        }
+
+        public async Task<string> Cancel(string id)
+        {
+            var orderrupt = await _dbcontext.Orders.Where(orderdet => orderdet.Id == id).FirstOrDefaultAsync();
+            if (orderrupt == null)
+                return "Order does not exists";
+            
+            orderrupt.Status = "Cancelled";
+            _dbcontext.Orders.Remove(orderrupt);
+            await _dbcontext.SaveChanges();
+            return "Order Cancelled Successfully";
+        }
+
+        public async Task<Order> GetByCustomerId(string custid)
+        {
+            var order = await _dbcontext.Orders.Where(orderdet => orderdet.CustomerId == custid).FirstOrDefaultAsync();
+            return order;
+        }
+
+        public async Task<Order> GetById(string id)
+        {
+            var order = await _dbcontext.Orders.Where(orderdet => orderdet.Id == id).FirstOrDefaultAsync();
+            return order;
+        }
+    }
+}

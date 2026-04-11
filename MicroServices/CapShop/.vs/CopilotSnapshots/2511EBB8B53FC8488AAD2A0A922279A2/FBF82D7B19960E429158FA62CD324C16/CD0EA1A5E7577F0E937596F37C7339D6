@@ -1,0 +1,14 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+    "Jwt": {
+      "Key": "THIS_IS_SUPER_SECRET_KEY_12345_6789",
+      "Issuer": "CapShop",
+      "Audience": "CapShopUsers"
+    }
+}

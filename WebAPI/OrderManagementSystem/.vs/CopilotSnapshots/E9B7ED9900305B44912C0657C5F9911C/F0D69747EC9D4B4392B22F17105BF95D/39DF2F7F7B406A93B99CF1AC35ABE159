@@ -1,0 +1,37 @@
+﻿services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: order_db_dev
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: LocalPassword123!
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data_dev:/var/opt/mssql
+    networks:
+      - order_network_dev
+
+  api:
+    build:
+      context: .
+      dockerfile: OrderManagementSystem/Dockerfile
+    container_name: order_api_dev
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5000
+      ConnectionStrings__DefaultConnection: Server=sqlserver,1433;Database=OrderDb;User Id=sa;Password=LocalPassword123!;TrustServerCertificate=true
+    ports:
+      - "5000:5000"
+    depends_on:
+      - sqlserver
+    networks:
+      - order_network_dev
+
+volumes:
+  sqlserver_data_dev:
+
+networks:
+  order_network_dev:
+    driver: bridge

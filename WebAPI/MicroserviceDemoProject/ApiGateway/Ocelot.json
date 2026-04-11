@@ -1,0 +1,37 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/product",
+      "UpstreamPathTemplate": "/products",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "productservice",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/order",
+      "UpstreamPathTemplate": "/orders",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orderservice",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth/login",
+      "UpstreamPathTemplate": "/login",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authservice",
+          "Port": 80
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://apigateway"
+  }
+}

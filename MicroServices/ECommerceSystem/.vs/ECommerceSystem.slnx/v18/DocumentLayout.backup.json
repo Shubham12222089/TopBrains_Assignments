@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\apigateway\\apigateway.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway\\apigateway.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\apigateway\\apigateway.api\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway\\apigateway.api\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AACE035-2A3B-B4E6-6AFA-4CBAE24945CE}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AACE035-2A3B-B4E6-6AFA-4CBAE24945CE}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.infrastructure\\persistence\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:userservice\\userservice.infrastructure\\persistence\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.api\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|solutionrelative:userservice\\userservice.api\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\userservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\userservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|solutionrelative:userservice\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|solutionrelative:userservice\\userservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFABDC8-6D29-2629-0586-54DFEF3CEA78}|UserService\\UserService.API\\UserService.API.csproj|solutionrelative:userservice\\userservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\deleteaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\deleteaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.application\\dtos\\emailconfirmationtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F57B1BA4-8B9A-E4FB-6DAC-4B1B45E301CE}|UserService\\UserService.Application\\UserService.Application.csproj|solutionrelative:userservice\\userservice.application\\dtos\\emailconfirmationtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:userservice\\userservice.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:userservice\\userservice.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.infrastructure\\identity\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:userservice\\userservice.infrastructure\\identity\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:userservice\\userservice.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:userservice\\userservice.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:userservice\\userservice.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:userservice\\userservice.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DEBDBF6-B35A-337B-D256-16F610D7B932}|UserService\\UserService.Domain\\UserService.Domain.csproj|solutionrelative:userservice\\userservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\userservice\\userservice.infrastructure\\migrations\\20260326102116_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D89E1BB-9F7A-70E2-90C3-CA850B288C47}|UserService\\UserService.Infrastructure\\UserService.Infrastructure.csproj|solutionrelative:userservice\\userservice.infrastructure\\migrations\\20260326102116_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\ecommercesystem\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A145B366-2D02-9613-BA53-386A42C838F7}|ApiGateway\\ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.API\\ocelot.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.API\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T10:00:59.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.API\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T10:00:57.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T10:00:58.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\EmailDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\EmailDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\EmailDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\EmailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:11:46.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ApiGateway\\ApiGateway.API\\appsettings.json",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T10:00:58.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T09:14:51.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\UserService.Application.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\UserService.Application.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\UserService.Application.csproj",
+              "RelativeToolTip": "UserService\\UserService.Application\\UserService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T08:59:15.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260326102116_mig1.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Migrations\\20260326102116_mig1.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Infrastructure\\Migrations\\20260326102116_mig1.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Migrations\\20260326102116_mig1.cs",
+              "RelativeToolTip": "UserService\\UserService.Infrastructure\\Migrations\\20260326102116_mig1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:21:17.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:11:01.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Persistence\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Infrastructure\\Persistence\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Persistence\\UserDbContext.cs",
+              "RelativeToolTip": "UserService\\UserService.Infrastructure\\Persistence\\UserDbContext.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:48:37.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\Program.cs",
+              "RelativeToolTip": "UserService\\UserService.API\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:09:12.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.API\\DTOs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "UserService\\UserService.API\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:04:11.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\UserService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\appsettings.json",
+              "RelativeToolTip": "UserService\\UserService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-26T07:06:52.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserService\\UserService.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAUwCoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:05:11.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAgwEEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:25:58.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\Services\\IUserService.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:25:16.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteAddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\DeleteAddressDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\DeleteAddressDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\DeleteAddressDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\DeleteAddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:22:59.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\AddressDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\AddressDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\AddressDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:19:55.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\ChangePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\ChangePasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:19:20.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:18:40.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPasswordResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ForgotPasswordResponseDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\ForgotPasswordResponseDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ForgotPasswordResponseDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\ForgotPasswordResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:18:10.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\UpdateProfileDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\UpdateProfileDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\UpdateProfileDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\UpdateProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:17:41.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ProfileDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\ProfileDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ProfileDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\ProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:17:10.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RefreshTokenResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RefreshTokenResponseDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\RefreshTokenResponseDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RefreshTokenResponseDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\RefreshTokenResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:16:43.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RefreshTokenRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RefreshTokenRequestDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\RefreshTokenRequestDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\RefreshTokenRequestDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\RefreshTokenRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:15:47.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\LoginResponseDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:15:20.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:14:34.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConfirmEmailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ConfirmEmailDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\ConfirmEmailDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\ConfirmEmailDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\ConfirmEmailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:13:16.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmailConfirmationTokenResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\EmailConfirmationTokenResponseDTO.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Application\\DTOs\\EmailConfirmationTokenResponseDTO.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Application\\DTOs\\EmailConfirmationTokenResponseDTO.cs",
+              "RelativeToolTip": "UserService\\UserService.Application\\DTOs\\EmailConfirmationTokenResponseDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:12:17.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserService\\UserService.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwBABAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:49:36.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Identity\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Infrastructure\\Identity\\ApplicationRole.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Identity\\ApplicationRole.cs",
+              "RelativeToolTip": "UserService\\UserService.Infrastructure\\Identity\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:47:47.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "UserService\\UserService.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:47:09.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "UserService\\UserService.Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:38:02.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "UserService\\UserService.Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:37:28.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "UserService\\UserService.Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:36:40.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "UserService\\UserService.Domain\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:36:09.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\UserService.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\ECommerceSystem\\UserService\\UserService.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "UserService\\UserService.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:35:03.286Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

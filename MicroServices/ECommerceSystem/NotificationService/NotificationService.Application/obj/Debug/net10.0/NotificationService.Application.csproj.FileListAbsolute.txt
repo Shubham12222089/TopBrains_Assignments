@@ -1,0 +1,16 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\bin\Debug\net10.0\NotificationService.Application.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\bin\Debug\net10.0\NotificationService.Application.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\bin\Debug\net10.0\NotificationService.Application.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\bin\Debug\net10.0\NotificationService.Domain.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\bin\Debug\net10.0\NotificationService.Domain.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.csproj.AssemblyReference.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\Notifica.DAFDC56B.Up2Date
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\refint\NotificationService.Application.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\NotificationService.Application.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\NotificationService\NotificationService.Application\obj\Debug\net10.0\ref\NotificationService.Application.dll

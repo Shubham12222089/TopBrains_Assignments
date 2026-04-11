@@ -1,0 +1,50 @@
+﻿version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: order_db
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: ${SA_PASSWORD:-YourStrongPassword123!}
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - order_network
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P ${SA_PASSWORD:-YourStrongPassword123!} -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: OrderManagementSystem/Dockerfile
+    container_name: order_api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:5000;https://+:5001
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /app/https/aspnetapp.pfx
+      ASPNETCORE_Kestrel__Certificates__Default__Password: ${ASPNETCORE_CERT_PASSWORD:-password}
+      ConnectionStrings__DefaultConnection: ${DB_CONNECTION_STRING:-Server=sqlserver,1433;Database=OrderDb;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=true}
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - order_network
+    volumes:
+      - ./https:/app/https:ro
+
+volumes:
+  sqlserver_data:
+
+networks:
+  order_network:
+    driver: bridge

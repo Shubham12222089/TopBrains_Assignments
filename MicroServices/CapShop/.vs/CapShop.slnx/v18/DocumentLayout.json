@@ -1,0 +1,997 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\services\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\services\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\services\\orderqueueconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\services\\orderqueueconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\capshop.orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\capshop.orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\validators\\updatecartvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\validators\\updatecartvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\validators\\cartitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\validators\\cartitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\dtos\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\dtos\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\capshop.adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\capshop.adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\capshop.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\capshop.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\capshop.catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\capshop.catalogservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\logs\\log20260330.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\logs\\log20260330.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|solutionrelative:capshop.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.apigateway\\capshop.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|solutionrelative:capshop.apigateway\\capshop.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|solutionrelative:capshop.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\capshop.catalogservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\capshop.catalogservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|solutionrelative:capshop.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC335F8F-B2AC-B4B4-C977-81AF6087F327}|CapShop.ApiGateway\\CapShop.ApiGateway.csproj|solutionrelative:capshop.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.adminservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE241A83-444B-1390-ADB7-9E68D22A546A}|CapShop.AdminService\\CapShop.AdminService.csproj|solutionrelative:capshop.adminservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\migrations\\20260328070644_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\migrations\\20260328070644_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\data\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.orderservice\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73931EFD-77AB-4EFA-E901-C96487E6AD4E}|CapShop.OrderService\\CapShop.OrderService.csproj|solutionrelative:capshop.orderservice\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\migrations\\20260328062435_adminadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\migrations\\20260328062435_adminadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\migrations\\20260328053913_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\migrations\\20260328053913_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.catalogservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480B46BD-0D49-327F-D1A3-8D14674F236A}|CapShop.CatalogService\\CapShop.CatalogService.csproj|solutionrelative:capshop.catalogservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\microservices\\capshop\\capshop.authservice\\migrations\\20260328051642_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CB9ADB-8668-97D1-655C-8A75D14A7308}|CapShop.AuthService\\CapShop.AuthService.csproj|solutionrelative:capshop.authservice\\migrations\\20260328051642_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:05:45.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:05:45.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RabbitMqConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\RabbitMqConsumer.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Services\\RabbitMqConsumer.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\RabbitMqConsumer.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Services\\RabbitMqConsumer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T06:00:37.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RabbitMqService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\RabbitMqService.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Services\\RabbitMqService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\RabbitMqService.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Services\\RabbitMqService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T05:56:18.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:40:01.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Services\\AdminService.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Services\\AdminService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:14:37.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderQueueConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Services\\OrderQueueConsumer.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Services\\OrderQueueConsumer.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Services\\OrderQueueConsumer.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Services\\OrderQueueConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T06:58:53.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvzIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:05:45.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Services\\JwtService.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:26:28.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Services\\AuthService.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:03:34.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Services\\ProductService.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:35:12.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:12:53.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:35:47.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Services\\OrderService.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Services\\OrderService.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAqwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:03:59.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Program.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Program.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:46:40.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Program.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Program.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:06:23.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CapShop.OrderService.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\CapShop.OrderService.csproj",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\CapShop.OrderService.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\CapShop.OrderService.csproj",
+              "RelativeToolTip": "CapShop.OrderService\\CapShop.OrderService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T08:45:23.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:12:33.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:04:30.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Program.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Program.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:23.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Program.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:25:27.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "CapShop.AdminService\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:14.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateCartValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Validators\\UpdateCartValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Validators\\UpdateCartValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Validators\\UpdateCartValidator.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Validators\\UpdateCartValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Validators\\CartItemValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Validators\\CartItemValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Validators\\CartItemValidator.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Validators\\CartItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateCartDto.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\DTOs\\UpdateCartDto.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\DTOs\\UpdateCartDto.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\DTOs\\UpdateCartDto.cs",
+              "RelativeToolTip": "CapShop.OrderService\\DTOs\\UpdateCartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\DTOs\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\DTOs\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\DTOs\\CartItemDto.cs",
+              "RelativeToolTip": "CapShop.OrderService\\DTOs\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Validators\\LoginValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Validators\\LoginValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Validators\\LoginValidator.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Validators\\LoginValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Validators\\RegisterValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Validators\\RegisterValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Validators\\RegisterValidator.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Validators\\RegisterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:15.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:06:14.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CapShop.AdminService.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\CapShop.AdminService.csproj",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\CapShop.AdminService.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\CapShop.AdminService.csproj",
+              "RelativeToolTip": "CapShop.AdminService\\CapShop.AdminService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T05:03:51.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CapShop.AuthService.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\CapShop.AuthService.csproj",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\CapShop.AuthService.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\CapShop.AuthService.csproj",
+              "RelativeToolTip": "CapShop.AuthService\\CapShop.AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T05:51:01.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CapShop.CatalogService.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\CapShop.CatalogService.csproj",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\CapShop.CatalogService.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\CapShop.CatalogService.csproj",
+              "RelativeToolTip": "CapShop.CatalogService\\CapShop.CatalogService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T05:26:12.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "log20260330.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\logs\\log20260330.txt",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\logs\\log20260330.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\logs\\log20260330.txt",
+              "RelativeToolTip": "CapShop.AdminService\\logs\\log20260330.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-30T10:30:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "CapShop.ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Program.cs",
+              "RelativeToolTip": "CapShop.ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:20:55.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\appsettings.json",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\appsettings.json",
+              "RelativeToolTip": "CapShop.AdminService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T05:43:15.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CapShop.ApiGateway.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\CapShop.ApiGateway.csproj",
+              "RelativeDocumentMoniker": "CapShop.ApiGateway\\CapShop.ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\CapShop.ApiGateway.csproj",
+              "RelativeToolTip": "CapShop.ApiGateway\\CapShop.ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T04:50:48.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\appsettings.json",
+              "RelativeToolTip": "CapShop.AuthService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T05:34:34.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:03:02.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Ocelot.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Ocelot.json",
+              "RelativeDocumentMoniker": "CapShop.ApiGateway\\Ocelot.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Ocelot.json",
+              "RelativeToolTip": "CapShop.ApiGateway\\Ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:19:43.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "CapShop.AdminService\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:32:39.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapShop.CatalogService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:24:50.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CapShop.CatalogService.http",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\CapShop.CatalogService.http",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\CapShop.CatalogService.http",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\CapShop.CatalogService.http",
+              "RelativeToolTip": "CapShop.CatalogService\\CapShop.CatalogService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-30T05:57:56.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "CapShop.ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\appsettings.json",
+              "RelativeToolTip": "CapShop.ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T05:43:21.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapShop.OrderService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:25:15.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapShop.ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapShop.ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:20:23.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapShop.AuthService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:24:29.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapShop.AdminService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AdminService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapShop.AdminService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:25:41.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260328070644_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Migrations\\20260328070644_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Migrations\\20260328070644_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Migrations\\20260328070644_InitialCreate.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Migrations\\20260328070644_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:06:44.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\appsettings.json",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\appsettings.json",
+              "RelativeToolTip": "CapShop.OrderService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T07:02:52.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\Order.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:01:22.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OrderDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Data\\OrderDbContext.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Data\\OrderDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Data\\OrderDbContext.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Data\\OrderDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:02:20.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\OrderItem.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:01:48.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\appsettings.json",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\appsettings.json",
+              "RelativeToolTip": "CapShop.CatalogService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T05:30:39.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CapShop.OrderService\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.OrderService\\Models\\CartItem.cs",
+              "RelativeToolTip": "CapShop.OrderService\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T07:00:54.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260328062435_AdminAdded.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Migrations\\20260328062435_AdminAdded.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Migrations\\20260328062435_AdminAdded.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Migrations\\20260328062435_AdminAdded.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Migrations\\20260328062435_AdminAdded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:24:35.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "CapShop.AuthService\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:08:27.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260328053913_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Migrations\\20260328053913_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Migrations\\20260328053913_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Migrations\\20260328053913_InitialCreate.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Migrations\\20260328053913_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:39:13.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CatalogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Data\\CatalogDbContext.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Data\\CatalogDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Data\\CatalogDbContext.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Data\\CatalogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:29:56.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:29:21.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CapShop.CatalogService\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.CatalogService\\Models\\Product.cs",
+              "RelativeToolTip": "CapShop.CatalogService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:28:53.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260328051642_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Migrations\\20260328051642_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CapShop.AuthService\\Migrations\\20260328051642_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MicroServices\\CapShop\\CapShop.AuthService\\Migrations\\20260328051642_InitialCreate.cs",
+              "RelativeToolTip": "CapShop.AuthService\\Migrations\\20260328051642_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:16:42.814Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

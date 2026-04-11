@@ -1,0 +1,67 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OrderServiceService = OrderService.Services.OrderService;
+using System.Security.Claims;
+
+namespace OrderService.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    [Authorize] // all endpoints require login
+    public class OrderController : ControllerBase
+    {
+        private readonly OrderServiceService _service;
+
+        public OrderController(OrderServiceService service)
+        {
+            _service = service;
+        }
+
+        private string GetUserEmail()
+        {
+            return User.FindFirst(ClaimTypes.Name)?.Value;
+        }
+
+        [HttpPost("cart")]
+        public IActionResult AddToCart(int productId, int qty)
+        {
+            var email = GetUserEmail();
+            return Ok(_service.AddToCart(email, productId, qty));
+        }
+
+        [HttpGet("cart")]
+        public IActionResult GetCart()
+        {
+            var email = GetUserEmail();
+            return Ok(_service.GetCart(email));
+        }
+
+        [HttpPost("place")]
+        public IActionResult PlaceOrder()
+        {
+            var email = GetUserEmail();
+            return Ok(_service.PlaceOrder(email));
+        }
+
+        [HttpPost("place/{orderId}")]
+        public IActionResult PlaceOrderById(int orderId)
+        {
+            var email = GetUserEmail();
+            return Ok(_service.PlaceOrderById(email, orderId));
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult GetOrders()
+        {
+            return Ok(_service.GetOrders());
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}/status")]
+        public IActionResult UpdateOrderStatus(int id, [FromQuery] string status)
+        {
+            return Ok(_service.UpdateOrderStatus(id, status));
+        }
+    }
+}

@@ -1,0 +1,16 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\bin\Debug\net10.0\ProductService.Infrastructure.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\bin\Debug\net10.0\ProductService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\bin\Debug\net10.0\ProductService.Infrastructure.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\bin\Debug\net10.0\ProductService.Domain.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\bin\Debug\net10.0\ProductService.Domain.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductS.4D387919.Up2Date
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\refint\ProductService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ProductService.Infrastructure.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\ProductService\ProductService.Infrastructure\obj\Debug\net10.0\ref\ProductService.Infrastructure.dll

@@ -1,0 +1,35 @@
+﻿using CityMart.API.Data;
+using CityMart.API.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CityMart.API.Controllers
+{
+    public class ProductsController : Controller
+    {
+        [Route("api/[controller]")]
+        [ApiController]
+        public class ProductsController : ControllerBase
+        {
+            private readonly ApplicationDbContext _context;
+
+            public ProductsController(ApplicationDbContext context)
+            {
+                _context = context;
+            }
+
+            [HttpGet]
+            public async Task<IActionResult> Get()
+            {
+                return Ok(await _context.Products.ToListAsync());
+            }
+
+            [HttpPost]
+            public async Task<IActionResult> Create(Product product)
+            {
+                _context.Products.Add(product);
+                await _context.SaveChangesAsync();
+                return Ok(product);
+            }
+        }
+    }
+}

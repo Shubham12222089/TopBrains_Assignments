@@ -1,0 +1,45 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using CatalogService.Models;
+using CatalogService.Services;
+using Microsoft.AspNetCore.Authorization;
+
+namespace CatalogService.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ProductController : ControllerBase
+    {
+        private readonly ProductService _service;
+
+        public ProductController(ProductService service)
+        {
+            _service = service;
+        }
+
+        [Authorize(Roles = "Admin,Customer")]
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok(_service.GetAll());
+        }
+
+        [Authorize(Roles = "Admin,Customer")]
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var product = _service.GetById(id);
+
+            if (product == null)
+                return NotFound();
+
+            return Ok(product);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult Add(Product product)
+        {
+            return Ok(_service.Add(product));
+        }
+    }
+}

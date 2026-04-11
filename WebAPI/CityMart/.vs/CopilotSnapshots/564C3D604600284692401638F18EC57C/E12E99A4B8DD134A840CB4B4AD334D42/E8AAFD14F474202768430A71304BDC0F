@@ -1,0 +1,42 @@
+﻿using CityMart.API.Data;
+using CityMart.API.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductsController : ControllerBase
+    {
+        private readonly ApplicationDbContext _context;
+
+        public ProductsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        /// <summary>
+        /// Get all products - PUBLIC (no auth required)
+        /// </summary>
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var products = await _context.Products.ToListAsync();
+            return Ok(products);
+        }
+
+        /// <summary>
+        /// Get product by ID - PUBLIC (no auth required)
+        /// </summary>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound(new { message = "Product not found" });
+
+            return Ok(product);
+        }
+    }
+}

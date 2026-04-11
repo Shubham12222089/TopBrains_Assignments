@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CapShop.AuthService\\CapShop.AuthService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CapShop.CatalogService\\CapShop.CatalogService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CapShop.OrderService\\CapShop.OrderService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CapShop.AdminService\\CapShop.AdminService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CapShop.ApiGateway\\CapShop.ApiGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

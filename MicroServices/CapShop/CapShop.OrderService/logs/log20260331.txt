@@ -1,0 +1,524 @@
+2026-03-31 09:38:54.193 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:38:57.211 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 09:38:57.307 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 09:38:57.459 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:38:57.556 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:38:57.647 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 09:42:03.349 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:42:04.395 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 09:42:04.404 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 09:42:04.635 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:42:04.646 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:42:04.649 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 09:43:41.515 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:43:42.224 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 09:43:42.389 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 09:43:42.515 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:43:42.538 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:43:42.551 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 09:47:29.715 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:47:30.244 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 09:47:30.286 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 09:47:30.396 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:47:30.416 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:47:30.416 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 09:52:23.203 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 09:52:23.329 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.7712ms
+2026-03-31 09:52:42.258 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 09:52:42.269 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8655ms
+2026-03-31 09:52:56.426 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 09:52:56.662 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 09:52:56.670 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-03-31 09:52:56.673 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 403 0 null 246.9639ms
+2026-03-31 09:53:26.110 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/1 - null null
+2026-03-31 09:53:26.136 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 09:53:26.172 +05:30 [INF] Route matched with {action = "GetOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrder(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 09:53:28.156 +05:30 [INF] Executed DbCommand (103ms) [Parameters=[@id='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @id AND [o].[UserEmail] = @email
+2026-03-31 09:53:28.268 +05:30 [INF] Executing OkObjectResult, writing value of type 'OrderService.Models.Order'.
+2026-03-31 09:53:28.290 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService) in 2108.3402ms
+2026-03-31 09:53:28.293 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 09:53:28.308 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/1 - 200 null application/json; charset=utf-8 2198.6539ms
+2026-03-31 09:53:48.561 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/1 - null null
+2026-03-31 09:53:48.774 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-31 09:53:48.793 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 09:53:48.797 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/1 - 401 null null 235.4772ms
+2026-03-31 09:55:58.772 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 09:55:58.779 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 09:55:58.783 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-03-31 09:55:58.784 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 403 0 null 12.1942ms
+2026-03-31 10:10:36.124 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/cart - null null
+2026-03-31 10:10:36.215 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 10:10:36.319 +05:30 [INF] Route matched with {action = "GetCart", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCart() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 10:10:36.924 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ProductId], [c].[Quantity], [c].[UserEmail]
+FROM [CartItems] AS [c]
+WHERE [c].[UserEmail] = @email
+2026-03-31 10:10:36.945 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.CartItem, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 10:10:36.979 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetCart (CapShop.OrderService) in 655.1011ms
+2026-03-31 10:10:36.982 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 10:10:36.984 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/cart - 200 null application/json; charset=utf-8 864.928ms
+2026-03-31 10:10:45.815 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/my - null null
+2026-03-31 10:10:45.819 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 10:10:45.823 +05:30 [INF] Route matched with {action = "MyOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MyOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 10:10:46.049 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[UserEmail] = @email
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 10:10:46.063 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 10:10:46.069 +05:30 [INF] Executed action OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService) in 239.7942ms
+2026-03-31 10:10:46.070 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 10:10:46.081 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/my - 200 null application/json; charset=utf-8 259.608ms
+2026-03-31 10:36:00.135 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 10:36:00.892 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 10:36:01.026 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 10:36:01.514 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 10:36:01.538 +05:30 [INF] Hosting environment: Development
+2026-03-31 10:36:01.540 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 10:37:02.693 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 10:37:02.797 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.5574ms
+2026-03-31 10:37:34.192 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 10:37:34.206 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0837ms
+2026-03-31 10:37:46.258 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 10:37:46.486 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 10:37:46.495 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-03-31 10:37:46.497 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 403 0 null 238.8951ms
+2026-03-31 10:37:56.113 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/1 - null null
+2026-03-31 10:37:56.128 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 10:37:56.153 +05:30 [INF] Route matched with {action = "GetOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrder(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 10:37:58.204 +05:30 [INF] Executed DbCommand (73ms) [Parameters=[@id='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @id AND [o].[UserEmail] = @email
+2026-03-31 10:37:58.350 +05:30 [INF] Executing OkObjectResult, writing value of type 'OrderService.Models.Order'.
+2026-03-31 10:37:58.378 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService) in 2217.244ms
+2026-03-31 10:37:58.382 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 10:37:58.396 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/1 - 200 null application/json; charset=utf-8 2282.4027ms
+2026-03-31 10:38:14.702 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/my - null null
+2026-03-31 10:38:14.714 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 10:38:14.720 +05:30 [INF] Route matched with {action = "MyOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MyOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 10:38:14.788 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[UserEmail] = @email
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 10:38:14.794 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 10:38:14.797 +05:30 [INF] Executed action OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService) in 75.3529ms
+2026-03-31 10:38:14.800 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 10:38:14.802 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/my - 200 null application/json; charset=utf-8 99.8709ms
+2026-03-31 10:39:10.508 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 10:39:10.528 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.7262ms
+2026-03-31 10:46:01.039 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 10:46:01.053 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 10:46:01.063 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 10:46:01.065 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 401 0 null 26.1492ms
+2026-03-31 10:46:19.893 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/1 - null null
+2026-03-31 10:46:19.902 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-31 10:46:19.903 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 10:46:19.905 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/1 - 401 0 null 11.6899ms
+2026-03-31 11:06:37.565 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:06:38.031 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:06:38.035 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:06:38.176 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:06:38.204 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:06:38.210 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 11:07:17.558 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 11:07:17.651 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.4514ms
+2026-03-31 11:08:40.983 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 11:08:40.996 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9817ms
+2026-03-31 11:08:56.304 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/2 - null null
+2026-03-31 11:08:56.556 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 11:08:56.575 +05:30 [INF] Route matched with {action = "GetOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrder(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 11:08:58.335 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[@id='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @id AND [o].[UserEmail] = @email
+2026-03-31 11:08:58.367 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-03-31 11:08:58.374 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService) in 1791.6958ms
+2026-03-31 11:08:58.377 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 11:08:58.389 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/2 - 404 null text/plain; charset=utf-8 2085.5416ms
+2026-03-31 11:09:04.231 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/1 - null null
+2026-03-31 11:09:04.238 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 11:09:04.239 +05:30 [INF] Route matched with {action = "GetOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrder(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 11:09:04.265 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@id='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @id AND [o].[UserEmail] = @email
+2026-03-31 11:09:04.358 +05:30 [INF] Executing OkObjectResult, writing value of type 'OrderService.Models.Order'.
+2026-03-31 11:09:04.371 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService) in 130.6079ms
+2026-03-31 11:09:04.373 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrder (CapShop.OrderService)'
+2026-03-31 11:09:04.375 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/1 - 200 null application/json; charset=utf-8 143.485ms
+2026-03-31 11:09:11.867 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 11:09:11.892 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 11:09:11.897 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-03-31 11:09:11.899 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 403 0 null 32.4506ms
+2026-03-31 11:09:25.654 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/my - null null
+2026-03-31 11:09:25.658 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 11:09:25.663 +05:30 [INF] Route matched with {action = "MyOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MyOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 11:09:25.841 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[UserEmail] = @email
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 11:09:25.845 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 11:09:25.847 +05:30 [INF] Executed action OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService) in 182.0824ms
+2026-03-31 11:09:25.848 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 11:09:25.850 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/my - 200 null application/json; charset=utf-8 195.5077ms
+2026-03-31 11:34:15.416 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:34:17.740 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:34:17.804 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:34:18.351 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:34:18.354 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:34:18.355 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 11:35:48.279 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:35:48.902 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:35:48.963 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:35:49.114 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:35:49.130 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:35:49.139 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 11:47:05.096 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:47:06.449 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:47:06.471 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:47:06.790 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:47:07.055 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:47:07.528 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 11:52:18.919 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:52:19.759 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:52:19.803 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:52:19.947 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:52:19.959 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:52:19.978 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 11:54:18.988 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:54:20.563 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 11:54:20.725 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 11:54:20.999 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:54:21.040 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:54:21.046 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 12:01:16.650 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:01:17.891 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 12:01:17.923 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 12:01:18.270 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:01:18.476 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:01:18.749 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 12:01:38.361 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:01:38.960 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 596.8884ms
+2026-03-31 12:03:36.540 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 12:03:37.304 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:03:37.357 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:03:43.217 +05:30 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 12:03:43.417 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:03:43.505 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 6138.6696ms
+2026-03-31 12:03:43.507 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:03:43.525 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 6987.5748ms
+2026-03-31 12:06:19.338 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 12:06:19.395 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:06:19.418 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:06:19.762 +05:30 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 12:06:19.786 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:06:19.798 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 374.7897ms
+2026-03-31 12:06:19.802 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:06:19.812 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 477.2237ms
+2026-03-31 12:08:48.360 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:08:50.640 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 12:08:50.717 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 12:08:50.969 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:08:51.019 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:08:51.088 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 12:08:57.599 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:08:57.875 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.2007ms
+2026-03-31 12:10:53.683 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:10:53.737 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.3468ms
+2026-03-31 12:11:48.433 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:11:48.451 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.2272ms
+2026-03-31 12:12:07.507 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place/3 - null 0
+2026-03-31 12:12:08.071 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:12:08.146 +05:30 [INF] Route matched with {action = "PlaceOrderById", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrderById(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:12:12.949 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[@orderId='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @orderId AND [o].[UserEmail] = @email
+2026-03-31 12:12:13.020 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-03-31 12:12:13.047 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService) in 4884.5977ms
+2026-03-31 12:12:13.081 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:12:13.102 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place/3 - 404 null text/plain; charset=utf-8 5594.7634ms
+2026-03-31 12:12:30.628 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place/1 - null 0
+2026-03-31 12:12:30.653 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:12:30.657 +05:30 [INF] Route matched with {action = "PlaceOrderById", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrderById(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:12:30.771 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@orderId='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @orderId AND [o].[UserEmail] = @email
+2026-03-31 12:12:31.000 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:12:31.005 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService) in 342.3385ms
+2026-03-31 12:12:31.014 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:12:31.016 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place/1 - 200 null text/plain; charset=utf-8 388.6725ms
+2026-03-31 12:14:55.752 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:14:55.797 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.4122ms
+2026-03-31 12:15:38.874 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/cart - application/json 37
+2026-03-31 12:15:38.925 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService)'
+2026-03-31 12:15:38.967 +05:30 [INF] Route matched with {action = "AddToCart", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(OrderService.DTOs.CartItemDto) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:15:40.230 +05:30 [INF] Executed DbCommand (130ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([ProductId], [Quantity], [UserEmail])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2026-03-31 12:15:40.328 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:15:40.337 +05:30 [INF] Executed action OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService) in 1352.8589ms
+2026-03-31 12:15:40.361 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService)'
+2026-03-31 12:15:40.362 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/cart - 200 null text/plain; charset=utf-8 1488.5974ms
+2026-03-31 12:15:49.331 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/cart - null null
+2026-03-31 12:15:49.381 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 12:15:49.390 +05:30 [INF] Route matched with {action = "GetCart", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCart() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:15:49.464 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ProductId], [c].[Quantity], [c].[UserEmail]
+FROM [CartItems] AS [c]
+WHERE [c].[UserEmail] = @email
+2026-03-31 12:15:49.468 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.CartItem, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:15:49.494 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetCart (CapShop.OrderService) in 100.0412ms
+2026-03-31 12:15:49.502 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 12:15:49.504 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/cart - 200 null application/json; charset=utf-8 172.8923ms
+2026-03-31 12:16:16.140 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place/2 - null 0
+2026-03-31 12:16:16.149 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:16:16.152 +05:30 [INF] Route matched with {action = "PlaceOrderById", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrderById(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:16:16.202 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@orderId='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @orderId AND [o].[UserEmail] = @email
+2026-03-31 12:16:16.210 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-03-31 12:16:16.212 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService) in 40.5906ms
+2026-03-31 12:16:16.222 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:16:16.225 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place/2 - 404 null text/plain; charset=utf-8 85.8545ms
+2026-03-31 12:16:25.376 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/my - null null
+2026-03-31 12:16:25.391 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 12:16:25.397 +05:30 [INF] Route matched with {action = "MyOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MyOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:16:27.258 +05:30 [INF] Executed DbCommand (1,812ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[UserEmail] = @email
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 12:16:27.261 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:16:27.281 +05:30 [INF] Executed action OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService) in 1877.4243ms
+2026-03-31 12:16:27.292 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 12:16:27.295 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/my - 200 null application/json; charset=utf-8 1918.9202ms
+2026-03-31 12:16:40.064 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 12:16:40.102 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:16:40.121 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:16:40.171 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 12:16:40.177 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:16:40.192 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 66.3824ms
+2026-03-31 12:16:40.197 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:16:40.198 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 134.3312ms
+2026-03-31 12:18:28.631 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:18:28.655 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.9993ms
+2026-03-31 12:19:33.966 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place - null 0
+2026-03-31 12:19:33.979 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-31 12:19:34.000 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 12:19:34.003 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place - 401 0 null 37.3068ms
+2026-03-31 12:19:52.301 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place - null 0
+2026-03-31 12:19:52.317 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService)'
+2026-03-31 12:19:52.325 +05:30 [INF] Route matched with {action = "PlaceOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrder() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:19:52.366 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ProductId], [c].[Quantity], [c].[UserEmail]
+FROM [CartItems] AS [c]
+WHERE [c].[UserEmail] = @email
+2026-03-31 12:19:52.438 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [Status], [UserEmail])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2026-03-31 12:19:52.625 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [Id] = @p0;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [Quantity])
+OUTPUT INSERTED.[Id]
+VALUES (@p1, @p2, @p3);
+2026-03-31 12:19:54.576 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:19:54.578 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService) in 2250.1079ms
+2026-03-31 12:19:54.581 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService)'
+2026-03-31 12:19:54.582 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place - 200 null text/plain; charset=utf-8 2280.9255ms
+2026-03-31 12:30:28.152 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:30:30.825 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 12:30:31.007 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 12:30:31.472 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:30:31.596 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:30:31.671 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 12:31:11.064 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:31:11.356 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 292.5617ms
+2026-03-31 12:32:24.590 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:32:24.647 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.5301ms
+2026-03-31 12:34:37.657 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:34:37.704 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.5207ms
+2026-03-31 12:35:18.650 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:35:18.669 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.6868ms
+2026-03-31 12:35:33.223 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 12:35:33.494 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:35:33.529 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:35:35.502 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 12:35:35.597 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:35:35.625 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 2087.9712ms
+2026-03-31 12:35:35.627 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 12:35:35.643 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 2419.506ms
+2026-03-31 12:36:15.634 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:36:15.643 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.1724ms
+2026-03-31 12:38:29.388 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:38:29.400 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1486ms
+2026-03-31 12:38:44.024 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/cart - application/json 37
+2026-03-31 12:38:44.035 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-31 12:38:44.048 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 12:38:44.049 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/cart - 401 0 null 25.0324ms
+2026-03-31 12:38:53.532 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/cart - application/json 37
+2026-03-31 12:38:53.547 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService)'
+2026-03-31 12:38:53.566 +05:30 [INF] Route matched with {action = "AddToCart", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(OrderService.DTOs.CartItemDto) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:38:53.902 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([ProductId], [Quantity], [UserEmail])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2026-03-31 12:38:53.949 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:38:53.953 +05:30 [INF] Executed action OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService) in 383.524ms
+2026-03-31 12:38:53.955 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.AddToCart (CapShop.OrderService)'
+2026-03-31 12:38:53.957 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/cart - 200 null text/plain; charset=utf-8 424.256ms
+2026-03-31 12:39:03.247 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/cart - null null
+2026-03-31 12:39:03.253 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 12:39:03.259 +05:30 [INF] Route matched with {action = "GetCart", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCart() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:39:03.421 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ProductId], [c].[Quantity], [c].[UserEmail]
+FROM [CartItems] AS [c]
+WHERE [c].[UserEmail] = @email
+2026-03-31 12:39:03.425 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.CartItem, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:39:03.429 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetCart (CapShop.OrderService) in 166.7169ms
+2026-03-31 12:39:03.430 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetCart (CapShop.OrderService)'
+2026-03-31 12:39:03.432 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/cart - 200 null application/json; charset=utf-8 185.0661ms
+2026-03-31 12:39:25.032 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place/3 - null 0
+2026-03-31 12:39:25.043 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:39:25.054 +05:30 [INF] Route matched with {action = "PlaceOrderById", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrderById(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:39:25.108 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@orderId='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @orderId AND [o].[UserEmail] = @email
+2026-03-31 12:39:25.112 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-03-31 12:39:25.114 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService) in 53.5071ms
+2026-03-31 12:39:25.116 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:39:25.118 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place/3 - 404 null text/plain; charset=utf-8 86.5758ms
+2026-03-31 12:39:47.927 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place/5 - null 0
+2026-03-31 12:39:47.930 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:39:47.932 +05:30 [INF] Route matched with {action = "PlaceOrderById", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrderById(Int32) on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:39:47.954 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@orderId='?' (DbType = Int32), @email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @orderId AND [o].[UserEmail] = @email
+2026-03-31 12:39:47.958 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-03-31 12:39:47.960 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService) in 25.9607ms
+2026-03-31 12:39:47.962 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrderById (CapShop.OrderService)'
+2026-03-31 12:39:47.963 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place/5 - 404 null text/plain; charset=utf-8 35.9017ms
+2026-03-31 12:40:00.364 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7003/api/order/place - null 0
+2026-03-31 12:40:00.416 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService)'
+2026-03-31 12:40:00.418 +05:30 [INF] Route matched with {action = "PlaceOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PlaceOrder() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 12:40:00.436 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[ProductId], [c].[Quantity], [c].[UserEmail]
+FROM [CartItems] AS [c]
+WHERE [c].[UserEmail] = @email
+2026-03-31 12:40:00.460 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [Status], [UserEmail])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2026-03-31 12:40:00.516 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [Id] = @p0;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [Quantity])
+OUTPUT INSERTED.[Id]
+VALUES (@p1, @p2, @p3);
+2026-03-31 12:40:00.875 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:40:00.876 +05:30 [INF] Executed action OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService) in 445.8993ms
+2026-03-31 12:40:00.878 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.PlaceOrder (CapShop.OrderService)'
+2026-03-31 12:40:00.879 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7003/api/order/place - 200 null text/plain; charset=utf-8 514.7976ms
+2026-03-31 12:50:47.667 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 12:50:47.841 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.0805ms
+2026-03-31 14:37:24.398 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 14:37:26.538 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 14:37:26.671 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 14:37:27.428 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 14:37:27.436 +05:30 [INF] Hosting environment: Development
+2026-03-31 14:37:27.446 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 15:18:04.289 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 15:18:05.088 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 15:18:05.093 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 15:18:05.275 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 15:18:05.305 +05:30 [INF] Hosting environment: Development
+2026-03-31 15:18:05.315 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService
+2026-03-31 15:20:18.997 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - null null
+2026-03-31 15:20:19.128 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.1847ms
+2026-03-31 15:28:36.044 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 15:28:36.506 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 15:28:36.560 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 15:28:38.843 +05:30 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 15:28:38.979 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 15:28:39.023 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 2456.4552ms
+2026-03-31 15:28:39.025 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 15:28:39.042 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 2997.9916ms
+2026-03-31 15:30:19.239 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order/my - null null
+2026-03-31 15:30:19.311 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 15:30:19.322 +05:30 [INF] Route matched with {action = "MyOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MyOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 15:30:19.488 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[@email='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+WHERE [o].[UserEmail] = @email
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 15:30:19.493 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 15:30:19.497 +05:30 [INF] Executed action OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService) in 164.9155ms
+2026-03-31 15:30:19.500 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.MyOrders (CapShop.OrderService)'
+2026-03-31 15:30:19.502 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order/my - 200 null application/json; charset=utf-8 263.3894ms
+2026-03-31 15:31:18.891 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7003/api/order - null null
+2026-03-31 15:31:18.912 +05:30 [INF] Executing endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 15:31:18.914 +05:30 [INF] Route matched with {action = "GetOrders", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrders() on controller OrderService.Controllers.OrderController (CapShop.OrderService).
+2026-03-31 15:31:19.078 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[Status], [o].[UserEmail]
+FROM [Orders] AS [o]
+ORDER BY [o].[OrderDate] DESC
+2026-03-31 15:31:19.081 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OrderService.Models.Order, CapShop.OrderService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 15:31:19.083 +05:30 [INF] Executed action OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService) in 165.4638ms
+2026-03-31 15:31:19.084 +05:30 [INF] Executed endpoint 'OrderService.Controllers.OrderController.GetOrders (CapShop.OrderService)'
+2026-03-31 15:31:19.085 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7003/api/order - 200 null application/json; charset=utf-8 194.5452ms
+2026-03-31 16:05:02.282 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 16:05:03.391 +05:30 [INF] Now listening on: https://localhost:7003
+2026-03-31 16:05:03.407 +05:30 [INF] Now listening on: http://localhost:5003
+2026-03-31 16:05:03.504 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 16:05:03.636 +05:30 [INF] Hosting environment: Development
+2026-03-31 16:05:03.818 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.OrderService

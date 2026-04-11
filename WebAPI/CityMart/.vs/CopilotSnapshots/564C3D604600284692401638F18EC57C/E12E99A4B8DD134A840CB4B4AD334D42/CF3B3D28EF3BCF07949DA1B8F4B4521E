@@ -1,0 +1,158 @@
+﻿using CityMart.API.Data;
+using CityMart.API.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CartsController : ControllerBase
+    {
+        private readonly ApplicationDbContext _context;
+
+        public CartsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        /// <summary>
+        /// Get current user's cart - Requires authentication
+        /// </summary>
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<Cart>> GetCart()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var cart = await _context.Carts
+                .Include(c => c.Items)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
+            {
+                cart = new Cart { UserId = userId };
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+            }
+
+            return Ok(cart);
+        }
+
+        /// <summary>
+        /// Add product to cart - Requires authentication
+        /// </summary>
+        [HttpPost("add")]
+        [Authorize]
+        public async Task<ActionResult<Cart>> AddToCart([FromBody] AddToCartRequest request)
+        {
+            if (request == null || request.ProductId <= 0 || request.Quantity <= 0)
+                return BadRequest(new { message = "Invalid product ID or quantity" });
+
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var product = await _context.Products.FindAsync(request.ProductId);
+            if (product == null)
+                return NotFound(new { message = "Product not found" });
+
+            if (product.Stock < request.Quantity)
+                return BadRequest(new { message = "Insufficient stock" });
+
+            var cart = await _context.Carts
+                .Include(c => c.Items)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
+            {
+                cart = new Cart { UserId = userId };
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+            }
+
+            var existingItem = cart.Items.FirstOrDefault(ci => ci.ProductId == request.ProductId);
+            if (existingItem != null)
+            {
+                existingItem.Quantity += request.Quantity;
+            }
+            else
+            {
+                var cartItem = new CartItem
+                {
+                    CartId = cart.Id,
+                    ProductId = request.ProductId,
+                    Quantity = request.Quantity,
+                    Price = product.Price
+                };
+                _context.CartItems.Add(cartItem);
+            }
+
+            cart.UpdatedAt = DateTime.UtcNow;
+            await _context.SaveChangesAsync();
+
+            await _context.Entry(cart).Collection(c => c.Items).LoadAsync();
+
+            return Ok(cart);
+        }
+
+        /// <summary>
+        /// Remove item from cart - Requires authentication
+        /// </summary>
+        [HttpDelete("remove/{cartItemId}")]
+        [Authorize]
+        public async Task<IActionResult> RemoveFromCart(int cartItemId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var cartItem = await _context.CartItems
+                .Include(ci => ci.Cart)
+                .FirstOrDefaultAsync(ci => ci.Id == cartItemId && ci.Cart.UserId == userId);
+
+            if (cartItem == null)
+                return NotFound(new { message = "Cart item not found" });
+
+            _context.CartItems.Remove(cartItem);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Item removed from cart" });
+        }
+
+        /// <summary>
+        /// Clear entire cart - Requires authentication
+        /// </summary>
+        [HttpDelete("clear")]
+        [Authorize]
+        public async Task<IActionResult> ClearCart()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var cart = await _context.Carts
+                .Include(c => c.Items)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart != null)
+            {
+                _context.CartItems.RemoveRange(cart.Items);
+                await _context.SaveChangesAsync();
+            }
+
+            return Ok(new { message = "Cart cleared" });
+        }
+    }
+
+    public class AddToCartRequest
+    {
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+    }
+}

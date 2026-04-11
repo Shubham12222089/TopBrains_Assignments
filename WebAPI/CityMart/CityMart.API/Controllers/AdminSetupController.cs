@@ -1,0 +1,91 @@
+using CityMart.API.Services;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AdminSetupController : ControllerBase
+    {
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IJwtTokenService _jwtTokenService;
+        private readonly IConfiguration _configuration;
+
+        public AdminSetupController(
+            UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            IJwtTokenService jwtTokenService,
+            IConfiguration configuration)
+        {
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _jwtTokenService = jwtTokenService;
+            _configuration = configuration;
+        }
+
+        /// <summary>
+        /// Create Admin User (Development Only)
+        /// </summary>
+        [HttpPost("create-admin")]
+        public async Task<IActionResult> CreateAdmin([FromBody] CreateAdminRequest request)
+        {
+            // Only allow in Development environment
+            var environment = _configuration["ASPNETCORE_ENVIRONMENT"];
+            if (!string.Equals(environment, "Development", StringComparison.OrdinalIgnoreCase))
+            {
+                return BadRequest(new { message = "This endpoint is only available in Development" });
+            }
+
+            if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
+                return BadRequest(new { message = "Email and password are required" });
+
+            if (request.Password.Length < 6)
+                return BadRequest(new { message = "Password must be at least 6 characters" });
+
+            // Check if admin already exists
+            var existingAdmin = await _userManager.FindByEmailAsync(request.Email);
+            if (existingAdmin != null)
+                return BadRequest(new { message = "Admin user already exists" });
+
+            // Create admin user
+            var adminUser = new IdentityUser 
+            { 
+                UserName = request.Email, 
+                Email = request.Email,
+                EmailConfirmed = true
+            };
+
+            var result = await _userManager.CreateAsync(adminUser, request.Password);
+            if (!result.Succeeded)
+                return BadRequest(new { errors = result.Errors.Select(e => e.Description).ToList() });
+
+            // Ensure Admin role exists
+            if (!await _roleManager.RoleExistsAsync("Admin"))
+                await _roleManager.CreateAsync(new IdentityRole("Admin"));
+
+            // Assign Admin role
+            await _userManager.AddToRoleAsync(adminUser, "Admin");
+
+            // Generate JWT token for immediate use
+            var roles = await _userManager.GetRolesAsync(adminUser);
+            var token = _jwtTokenService.GenerateToken(adminUser, roles);
+
+            return Ok(new
+            {
+                message = "Admin user created successfully",
+                userId = adminUser.Id,
+                email = adminUser.Email,
+                token = token,
+                roles = roles
+            });
+        }
+    }
+
+    public class CreateAdminRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

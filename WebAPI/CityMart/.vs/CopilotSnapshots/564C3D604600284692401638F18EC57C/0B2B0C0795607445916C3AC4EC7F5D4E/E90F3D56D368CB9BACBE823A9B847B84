@@ -1,0 +1,108 @@
+﻿using CityMart.API.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AuthController : ControllerBase
+    {
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+
+        public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, RoleManager<IdentityRole> roleManager)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _roleManager = roleManager;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+        {
+            if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
+                return BadRequest(new { message = "Email and password are required" });
+
+            var user = new IdentityUser { UserName = request.Email, Email = request.Email };
+            var result = await _userManager.CreateAsync(user, request.Password);
+
+            if (!result.Succeeded)
+                return BadRequest(new { errors = result.Errors.Select(e => e.Description).ToList() });
+
+            // Assign Customer role by default
+            if (await _roleManager.RoleExistsAsync("Customer"))
+                await _userManager.AddToRoleAsync(user, "Customer");
+
+            // Auto-confirm email for easier testing
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            await _userManager.ConfirmEmailAsync(user, token);
+
+            // Auto-enable 2FA if required
+            await _userManager.SetTwoFactorEnabledAsync(user, false);
+
+            return Ok(new { message = "User registered successfully", userId = user.Id });
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
+                return BadRequest(new { message = "Email and password are required" });
+
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user == null)
+                return Unauthorized(new { message = "Invalid email or password" });
+
+            var result = await _signInManager.PasswordSignInAsync(user, request.Password, false, false);
+
+            if (!result.Succeeded)
+                return Unauthorized(new { message = "Invalid email or password" });
+
+            // Generate JWT token manually
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Name, user.UserName)
+            };
+
+            var roles = await _userManager.GetRolesAsync(user);
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            // For now, return a simple response with user info
+            return Ok(new
+            {
+                message = "Login successful",
+                userId = user.Id,
+                email = user.Email,
+                userName = user.UserName,
+                roles = roles
+            });
+        }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Ok(new { message = "Logged out successfully" });
+        }
+    }
+
+    public class RegisterRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    public class LoginRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

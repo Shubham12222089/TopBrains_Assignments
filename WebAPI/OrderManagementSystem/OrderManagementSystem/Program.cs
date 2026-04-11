@@ -1,0 +1,89 @@
+using OrderManagementSystem.Data;
+using OrderManagementSystem.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Asp.Versioning;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add CORS support
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Order Management System API",
+        Version = "v1",
+        Description = "API for managing orders"
+    });
+});
+
+// Register API Versioning
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ReportApiVersions = true;
+});
+
+// Register Database Context
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+    ef => ef.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
+// Register Services
+builder.Services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+builder.Services.AddTransient<IOrderRepository, OrderRepository>();
+
+var app = builder.Build();
+
+// Run migrations automatically
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    try
+    {
+        db.Database.Migrate();
+        Console.WriteLine("Database migrations applied successfully.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error running migrations: {ex.Message}");
+    }
+}
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Order Management System API V1");
+        options.RoutePrefix = string.Empty;
+    });
+}
+
+// Enable CORS before other middleware
+app.UseCors("AllowAll");
+
+//if (!app.Environment.IsDevelopment())
+//{
+//    //app.UseHttpsRedirection();
+//}
+
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
+

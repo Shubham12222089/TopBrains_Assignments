@@ -1,0 +1,16 @@
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\bin\Debug\net10.0\PaymentService.Infrastructure.deps.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\bin\Debug\net10.0\PaymentService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\bin\Debug\net10.0\PaymentService.Infrastructure.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\bin\Debug\net10.0\PaymentService.Domain.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\bin\Debug\net10.0\PaymentService.Domain.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.AssemblyInfo.cs
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.sourcelink.json
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentS.C975F968.Up2Date
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\refint\PaymentService.Infrastructure.dll
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\PaymentService.Infrastructure.pdb
+C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\ECommerceSystem\PaymentService\PaymentService.Infrastructure\obj\Debug\net10.0\ref\PaymentService.Infrastructure.dll

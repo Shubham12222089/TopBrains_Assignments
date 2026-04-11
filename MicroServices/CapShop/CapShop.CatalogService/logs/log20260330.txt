@@ -1,0 +1,6 @@
+2026-03-30 15:56:26.865 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 15:56:29.505 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-30 15:56:29.661 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-30 15:56:29.900 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 15:56:29.902 +05:30 [INF] Hosting environment: Development
+2026-03-30 15:56:29.903 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService

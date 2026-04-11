@@ -1,0 +1,8 @@
+2026-03-30 15:56:24.269 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 15:56:25.354 +05:30 [INF] Now listening on: https://localhost:7004
+2026-03-30 15:56:25.423 +05:30 [INF] Now listening on: http://localhost:5004
+2026-03-30 15:56:25.615 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 15:56:25.735 +05:30 [INF] Hosting environment: Development
+2026-03-30 15:56:26.020 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.AdminService
+2026-03-30 15:57:12.526 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7004/swagger/v1/swagger.json - null null
+2026-03-30 15:57:14.720 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2207.2509ms

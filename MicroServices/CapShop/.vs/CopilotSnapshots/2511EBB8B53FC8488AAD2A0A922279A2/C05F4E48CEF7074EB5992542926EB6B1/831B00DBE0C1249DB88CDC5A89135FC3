@@ -1,0 +1,46 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OrderService.Services;
+using System.Security.Claims;
+
+namespace OrderService.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    [Authorize] // all endpoints require login
+    public class OrderController : ControllerBase
+    {
+        private readonly OrderService _service;
+
+        public OrderController(OrderService service)
+        {
+            _service = service;
+        }
+
+        private string GetUserEmail()
+        {
+            return User.FindFirst(ClaimTypes.Name)?.Value;
+        }
+
+        [HttpPost("cart")]
+        public IActionResult AddToCart(int productId, int qty)
+        {
+            var email = GetUserEmail();
+            return Ok(_service.AddToCart(email, productId, qty));
+        }
+
+        [HttpGet("cart")]
+        public IActionResult GetCart()
+        {
+            var email = GetUserEmail();
+            return Ok(_service.GetCart(email));
+        }
+
+        [HttpPost("place")]
+        public IActionResult PlaceOrder()
+        {
+            var email = GetUserEmail();
+            return Ok(_service.PlaceOrder(email));
+        }
+    }
+}

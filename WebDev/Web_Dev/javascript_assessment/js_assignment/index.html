@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Index - Simple Calculator</h1>
+        <p class="trainer">Trainer Name:</p>
+
+        <form>
+            <label>First Number (Integer)</label>
+            <input type="number" id="num1" step="any" required>
+
+            <label>Second Number (Integer)</label>
+            <input type="number" id="num2" step="any" required>
+
+            <div class="btn-grid">
+                <button type="button" class="add" onclick="calculate('add')">Add</button>
+                <button type="button" class="sub" onclick="calculate('subtract')">Subtract</button>
+                <button type="button" class="mul" onclick="calculate('multiply')">Multiply</button>
+                <button type="button" class="div" onclick="calculate('divide')">Division</button>
+            </div>
+        </form>
+
+        <div class="result-box">
+            <h3>Calculated Result</h3>
+            <p id="result">Enter values and choose operation</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

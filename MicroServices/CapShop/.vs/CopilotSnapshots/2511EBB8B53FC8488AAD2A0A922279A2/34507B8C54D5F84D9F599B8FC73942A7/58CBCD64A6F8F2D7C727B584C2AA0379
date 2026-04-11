@@ -1,0 +1,56 @@
+﻿using System.Net.Http.Headers;
+using System.Net.Http.Json;
+
+namespace AdminService.Services
+{
+    public class AdminService
+    {
+        private readonly HttpClient _httpClient;
+        private readonly string _catalogBaseUrl;
+        private readonly string _orderBaseUrl;
+
+        public AdminService(HttpClient httpClient, IConfiguration configuration)
+        {
+            _httpClient = httpClient;
+            _catalogBaseUrl = configuration["Services:Catalog"] ?? "https://localhost:7002";
+            _orderBaseUrl = configuration["Services:Order"] ?? "https://localhost:7003";
+        }
+
+        public async Task<string> AddProduct(string token, object product)
+        {
+            var request = CreateRequest(HttpMethod.Post, $"{_catalogBaseUrl}/api/product", token);
+            request.Content = JsonContent.Create(product);
+            return await SendAsync(request);
+        }
+
+        public async Task<string> GetOrders(string token)
+        {
+            var request = CreateRequest(HttpMethod.Get, $"{_orderBaseUrl}/api/order", token);
+            return await SendAsync(request);
+        }
+
+        public async Task<string> UpdateOrderStatus(string token, int id, string status)
+        {
+            var request = CreateRequest(HttpMethod.Put, $"{_orderBaseUrl}/api/order/{id}/status?status={Uri.EscapeDataString(status)}", token);
+            return await SendAsync(request);
+        }
+
+        private static HttpRequestMessage CreateRequest(HttpMethod method, string url, string token)
+        {
+            var request = new HttpRequestMessage(method, url);
+            if (!string.IsNullOrWhiteSpace(token))
+            {
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            return request;
+        }
+
+        private async Task<string> SendAsync(HttpRequestMessage request)
+        {
+            using var response = await _httpClient.SendAsync(request);
+            var content = await response.Content.ReadAsStringAsync();
+            return response.IsSuccessStatusCode ? content : $"{(int)response.StatusCode}: {content}";
+        }
+    }
+}

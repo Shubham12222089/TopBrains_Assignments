@@ -1,0 +1,56 @@
+﻿@OrderManagementSystem_HostAddress = https://localhost:5001
+
+###############################################
+### ✅ 1. ADD ORDER (POST)
+###############################################
+
+POST {{OrderManagementSystem_HostAddress}}/api/v1/Order/Add
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "O005",
+  "productId": "P001",
+  "cost": 500.5,
+  "placed": "2022-01-05T00:00:00",
+  "customerId": "C001",
+  "status": "Process"
+}
+
+###
+
+###############################################
+### ✅ 2. GET ALL ORDERS
+###############################################
+
+GET {{OrderManagementSystem_HostAddress}}/api/v1/Order/GetAllOrders
+Accept: application/json
+
+###
+
+###############################################
+### ✅ 3. GET ORDER BY ID
+###############################################
+
+GET {{OrderManagementSystem_HostAddress}}/api/v1/Order/GetById/O005
+Accept: application/json
+
+###
+
+###############################################
+### ✅ 4. GET ORDERS BY CUSTOMER ID
+###############################################
+
+GET {{OrderManagementSystem_HostAddress}}/api/v1/Order/GetByCustomerId/C001
+Accept: application/json
+
+###
+
+###############################################
+### ✅ 5. CANCEL ORDER (DELETE)
+###############################################
+
+DELETE {{OrderManagementSystem_HostAddress}}/api/v1/Order/Cancel/O005
+Accept: application/json
+
+###

@@ -178,21 +178,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "SESSION_RESOLUTION_COMPLETE.md",
-              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
-              "RelativeDocumentMoniker": "SESSION_RESOLUTION_COMPLETE.md",
-              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
-              "RelativeToolTip": "SESSION_RESOLUTION_COMPLETE.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:42:18.23Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 39,
@@ -203,8 +190,7 @@
               "RelativeToolTip": "FIX_SUMMARY.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-14T10:41:42.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:41:42.068Z"
             },
             {
               "$type": "Document",
@@ -216,8 +202,7 @@
               "RelativeToolTip": "SESSION_FIX_DOCUMENTATION.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:41:32.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:41:32.182Z"
             },
             {
               "$type": "Document",
@@ -229,8 +214,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:32:53.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:32:53.304Z"
             },
             {
               "$type": "Document",
@@ -240,10 +224,22 @@
               "RelativeDocumentMoniker": "Student_Management_System\\Program.cs",
               "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\Student_Management_System\\Program.cs",
               "RelativeToolTip": "Student_Management_System\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAASwCwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T08:55:03.868Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SESSION_RESOLUTION_COMPLETE.md",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
+              "RelativeDocumentMoniker": "SESSION_RESOLUTION_COMPLETE.md",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\MVC\\Weekly Assessment\\Student_Management_System\\SESSION_RESOLUTION_COMPLETE.md",
+              "RelativeToolTip": "SESSION_RESOLUTION_COMPLETE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-14T10:42:18.23Z"
             },
             {
               "$type": "Document",
@@ -255,8 +251,7 @@
               "RelativeToolTip": "BEFORE_AND_AFTER.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:42:36.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:42:36.265Z"
             },
             {
               "$type": "Document",
@@ -268,8 +263,7 @@
               "RelativeToolTip": "Student_Management_System\\Controllers\\AccountController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T10:34:10.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:34:10.121Z"
             },
             {
               "$type": "Document",
@@ -281,8 +275,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:04:06.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:04:06.058Z"
             },
             {
               "$type": "Document",
@@ -294,8 +287,7 @@
               "RelativeToolTip": "COMPLETION_CHECKLIST.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:36:23.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:36:23.378Z"
             },
             {
               "$type": "Document",
@@ -307,8 +299,7 @@
               "RelativeToolTip": "QUICK_REFERENCE.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:35:43.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:35:43.992Z"
             },
             {
               "$type": "Document",
@@ -320,8 +311,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:34:42.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:34:42.227Z"
             },
             {
               "$type": "Document",
@@ -333,8 +323,7 @@
               "RelativeToolTip": "SYSTEM_COMPLETE_GUIDE.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:35:20.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:35:20.706Z"
             },
             {
               "$type": "Document",
@@ -346,8 +335,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Student\\Index.cshtml",
               "ViewState": "AgIAAD0AAAAAAAAAAAAswGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:11.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:11.526Z"
             },
             {
               "$type": "Document",
@@ -359,8 +347,7 @@
               "RelativeToolTip": "Student_Management_System\\Controllers\\StudentController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAiwBMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:05:20.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:05:20.815Z"
             },
             {
               "$type": "Document",
@@ -372,8 +359,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAlwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:12.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:12.062Z"
             },
             {
               "$type": "Document",
@@ -385,8 +371,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\CourseDetails.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:31:03.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:31:03.147Z"
             },
             {
               "$type": "Document",
@@ -398,8 +383,7 @@
               "RelativeToolTip": "Student_Management_System\\Controllers\\StudentDashboardController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:07:28.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:07:28.404Z"
             },
             {
               "$type": "Document",
@@ -411,8 +395,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\StudentDashboard\\Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:11.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:11.793Z"
             },
             {
               "$type": "Document",
@@ -424,8 +407,7 @@
               "RelativeToolTip": "Student_Management_System\\Controllers\\TeacherDashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:06:23.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:06:23.336Z"
             },
             {
               "$type": "Document",
@@ -437,8 +419,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\TeacherDashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:55:36.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:55:36.595Z"
             },
             {
               "$type": "Document",
@@ -450,8 +431,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:51:35.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:51:35.078Z"
             },
             {
               "$type": "Document",
@@ -463,8 +443,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:05:15.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:05:15.546Z"
             },
             {
               "$type": "Document",
@@ -476,8 +455,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Department\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:57:39.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:57:39.414Z"
             },
             {
               "$type": "Document",
@@ -489,8 +467,7 @@
               "RelativeToolTip": "VIEWS_SUMMARY.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-14T10:05:51.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:05:51.265Z"
             },
             {
               "$type": "Document",
@@ -502,8 +479,7 @@
               "RelativeToolTip": "Student_Management_System\\Controllers\\CourseController.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAArwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:03:31.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:03:31.6Z"
             },
             {
               "$type": "Document",
@@ -515,8 +491,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Department\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:11.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:11.938Z"
             },
             {
               "$type": "Document",
@@ -528,8 +503,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Department\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:10.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:10.424Z"
             },
             {
               "$type": "Document",
@@ -541,8 +515,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Course\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:12.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:12.188Z"
             },
             {
               "$type": "Document",
@@ -554,8 +527,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Course\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:10.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:10.784Z"
             },
             {
               "$type": "Document",
@@ -567,8 +539,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Student\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:11.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:11.65Z"
             },
             {
               "$type": "Document",
@@ -580,8 +551,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Student\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T10:03:11.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T10:03:11.336Z"
             },
             {
               "$type": "Document",
@@ -593,8 +563,7 @@
               "RelativeToolTip": "Student_Management_System\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T09:59:03.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:59:03.075Z"
             },
             {
               "$type": "Document",
@@ -606,8 +575,7 @@
               "RelativeToolTip": "Student_Management_System\\Migrations\\20260314091126_InitialCreate.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T09:11:27.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T09:11:27.011Z"
             },
             {
               "$type": "Document",

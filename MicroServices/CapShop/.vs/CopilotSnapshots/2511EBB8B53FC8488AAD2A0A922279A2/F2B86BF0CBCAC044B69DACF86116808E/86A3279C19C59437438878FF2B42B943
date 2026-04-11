@@ -1,0 +1,32 @@
+﻿using CatalogService.Data;
+using CatalogService.Models;
+
+namespace CatalogService.Services
+{
+    public class ProductService
+    {
+        private readonly CatalogDbContext _context;
+
+        public ProductService(CatalogDbContext context)
+        {
+            _context = context;
+        }
+
+        public List<Product> GetAll()
+        {
+            return _context.Products.ToList();
+        }
+
+        public Product GetById(int id)
+        {
+            return _context.Products.Find(id);
+        }
+
+        public string Add(Product product)
+        {
+            _context.Products.Add(product);
+            _context.SaveChanges();
+            return "Product Added";
+        }
+    }
+}

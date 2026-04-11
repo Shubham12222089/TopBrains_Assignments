@@ -1,0 +1,468 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.dev.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.dev.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_COMPLETE.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DOCKER_SETUP_COMPLETE.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_FILES_SUMMARY.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DOCKER_FILES_SUMMARY.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SETUP_DOCKER.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SETUP_DOCKER.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_QUICK_START.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DOCKER_QUICK_START.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_GUIDE.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DOCKER_GUIDE.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\migrations\\20260324115307_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\migrations\\20260324115307_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\ordermanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\ordermanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|c:\\users\\shubh\\onedrive\\desktop\\topbrains_assignments\\webapi\\ordermanagementsystem\\ordermanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0AC0B88-8E33-4244-743D-09DBF93D163B}|OrderManagementSystem\\OrderManagementSystem.csproj|solutionrelative:ordermanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_COMPLETE_CHECKLIST.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SETUP_COMPLETE_CHECKLIST.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_SIMPLE.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DOCKER_SETUP_SIMPLE.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-542955764\\SETUP_MIGRATIONS.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.prod.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Dockerfile",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Dockerfile",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Dockerfile",
+              "RelativeToolTip": "OrderManagementSystem\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-24T17:09:13.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.Development.json",
+              "RelativeToolTip": "OrderManagementSystem\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-25T04:16:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.json",
+              "RelativeToolTip": "OrderManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T11:39:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:38:36.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.yml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.yml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-25T06:09:15.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-25T05:33:50.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "docker-compose.prod.yml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.prod.yml",
+              "RelativeDocumentMoniker": "docker-compose.prod.yml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.prod.yml",
+              "RelativeToolTip": "docker-compose.prod.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-25T06:01:59.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "docker-compose.prod.yml",
+              "DocumentMoniker": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.prod.yml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.prod.yml",
+              "ToolTip": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.prod.yml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-131039714\\docker-compose.prod.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-25T06:02:00.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\appsettings.Production.json",
+              "RelativeToolTip": "OrderManagementSystem\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T17:10:17.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Program.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:38:48.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-24T17:10:05.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DOCKER_SETUP_SIMPLE.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_SIMPLE.txt",
+              "RelativeDocumentMoniker": "DOCKER_SETUP_SIMPLE.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_SIMPLE.txt",
+              "RelativeToolTip": "DOCKER_SETUP_SIMPLE.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T18:13:58.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SETUP_MIGRATIONS.ps1",
+              "DocumentMoniker": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-542955764\\SETUP_MIGRATIONS.ps1",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-542955764\\SETUP_MIGRATIONS.ps1",
+              "ToolTip": "C:\\Users\\shubh\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-542955764\\SETUP_MIGRATIONS.ps1",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-542955764\\SETUP_MIGRATIONS.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-25T04:14:19.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-24T17:09:39.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.dev.yml",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.dev.yml",
+              "RelativeDocumentMoniker": "docker-compose.dev.yml",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\docker-compose.dev.yml",
+              "RelativeToolTip": "docker-compose.dev.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-24T17:10:27.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DOCKER_SETUP_COMPLETE.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_COMPLETE.txt",
+              "RelativeDocumentMoniker": "DOCKER_SETUP_COMPLETE.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_SETUP_COMPLETE.txt",
+              "RelativeToolTip": "DOCKER_SETUP_COMPLETE.txt",
+              "ViewState": "AgIAAKYAAAAAAAAAAABBwHIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T17:13:27.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DOCKER_FILES_SUMMARY.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_FILES_SUMMARY.txt",
+              "RelativeDocumentMoniker": "DOCKER_FILES_SUMMARY.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_FILES_SUMMARY.txt",
+              "RelativeToolTip": "DOCKER_FILES_SUMMARY.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T17:12:46.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SETUP_COMPLETE_CHECKLIST.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_COMPLETE_CHECKLIST.txt",
+              "RelativeDocumentMoniker": "SETUP_COMPLETE_CHECKLIST.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_COMPLETE_CHECKLIST.txt",
+              "RelativeToolTip": "SETUP_COMPLETE_CHECKLIST.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T17:14:03.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SETUP_DOCKER.bat",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.bat",
+              "RelativeDocumentMoniker": "SETUP_DOCKER.bat",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.bat",
+              "RelativeToolTip": "SETUP_DOCKER.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2026-03-24T17:11:42.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SETUP_DOCKER.ps1",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.ps1",
+              "RelativeDocumentMoniker": "SETUP_DOCKER.ps1",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\SETUP_DOCKER.ps1",
+              "RelativeToolTip": "SETUP_DOCKER.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-24T17:11:32.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DOCKER_QUICK_START.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_QUICK_START.txt",
+              "RelativeDocumentMoniker": "DOCKER_QUICK_START.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_QUICK_START.txt",
+              "RelativeToolTip": "DOCKER_QUICK_START.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T17:12:27.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DOCKER_GUIDE.txt",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_GUIDE.txt",
+              "RelativeDocumentMoniker": "DOCKER_GUIDE.txt",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\DOCKER_GUIDE.txt",
+              "RelativeToolTip": "DOCKER_GUIDE.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-24T17:10:57.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260324115307_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Migrations\\20260324115307_Initial.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Migrations\\20260324115307_Initial.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Migrations\\20260324115307_Initial.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Migrations\\20260324115307_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:53:07.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:38:43.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Models\\Order.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:38:22.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\OrderManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\OrderManagementSystem.csproj",
+              "RelativeToolTip": "OrderManagementSystem\\OrderManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-24T11:39:18.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "OrderManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\shubh\\OneDrive\\Desktop\\TopBrains_Assignments\\WebAPI\\OrderManagementSystem\\OrderManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "OrderManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:38:31.314Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

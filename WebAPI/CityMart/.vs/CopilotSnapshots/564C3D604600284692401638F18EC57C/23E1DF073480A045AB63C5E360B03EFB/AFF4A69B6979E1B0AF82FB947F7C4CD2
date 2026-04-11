@@ -1,0 +1,116 @@
+﻿using CityMart.API.Data;
+using CityMart.API.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize]
+    public class OrdersController : ControllerBase
+    {
+        private readonly ApplicationDbContext _context;
+
+        public OrdersController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var orders = await _context.Orders
+                .Where(o => o.UserId == userId)
+                .Include(o => o.Items)
+                .ThenInclude(oi => oi.Product)
+                .OrderByDescending(o => o.OrderDate)
+                .ToListAsync();
+
+            return Ok(orders);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Order>> GetOrder(int id)
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var order = await _context.Orders
+                .Include(o => o.Items)
+                .ThenInclude(oi => oi.Product)
+                .FirstOrDefaultAsync(o => o.Id == id && o.UserId == userId);
+
+            if (order == null)
+                return NotFound();
+
+            return Ok(order);
+        }
+
+        [HttpPost("checkout")]
+        public async Task<ActionResult<Order>> Checkout()
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+
+            var cart = await _context.Carts
+                .Include(c => c.Items)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null || cart.Items.Count == 0)
+                return BadRequest("Cart is empty");
+
+            var order = new Order
+            {
+                UserId = userId,
+                OrderDate = DateTime.UtcNow,
+                Status = OrderStatus.Pending,
+                Items = new List<OrderItem>()
+            };
+
+            decimal totalAmount = 0;
+
+            foreach (var cartItem in cart.Items)
+            {
+                if (cartItem.Quantity <= 0)
+                    return BadRequest("Invalid quantity in cart");
+
+                var product = await _context.Products.FindAsync(cartItem.ProductId);
+                if (product == null)
+                    return BadRequest($"Product {cartItem.ProductId} not found");
+
+                if (product.Stock < cartItem.Quantity)
+                    return BadRequest($"Insufficient stock for {product.Name}");
+
+                var orderItem = new OrderItem
+                {
+                    Order = order,
+                    ProductId = cartItem.ProductId,
+                    Quantity = cartItem.Quantity,
+                    Price = cartItem.Price
+                };
+                order.Items.Add(orderItem);
+                totalAmount += cartItem.Price * cartItem.Quantity;
+
+                // Update product stock
+                product.Stock -= cartItem.Quantity;
+            }
+
+            order.TotalAmount = totalAmount;
+
+            _context.Orders.Add(order);
+            _context.CartItems.RemoveRange(cart.Items);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, order);
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@CapShop.ApiGateway_HostAddress = http://localhost:5020
+
+GET {{CapShop.ApiGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

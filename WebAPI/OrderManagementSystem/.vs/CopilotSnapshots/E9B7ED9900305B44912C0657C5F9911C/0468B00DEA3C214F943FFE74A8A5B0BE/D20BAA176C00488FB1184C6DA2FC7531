@@ -1,0 +1,251 @@
+﻿# Order Management System API
+
+A comprehensive ASP.NET Core REST API for managing orders with Entity Framework Core and SQL Server, featuring API versioning and Swagger documentation.
+
+## Features
+
+✅ Complete CRUD operations for Orders
+✅ API Versioning (v1.0)
+✅ Swagger/OpenAPI Documentation
+✅ Entity Framework Core with SQL Server
+✅ Repository Pattern Implementation
+✅ Dependency Injection
+✅ Async/Await Operations
+
+## Project Structure
+
+```
+OrderManagementSystem/
+├── Models/
+│   └── Order.cs                 # Order entity model
+├── Data/
+│   └── ApplicationDbContext.cs  # EF Core DbContext
+├── Repositories/
+│   └── OrderRepository.cs       # Data access layer
+├── Controllers/
+│   └── OrderController.cs       # API endpoints (v1)
+├── Program.cs                   # Application configuration
+├── appsettings.json            # Configuration file
+└── test-orders.http            # REST API test requests
+```
+
+## Prerequisites
+
+- .NET 10 SDK
+- SQL Server (LocalDB or full instance)
+- Visual Studio 2026 Community or higher
+- PowerShell
+
+## Setup Instructions
+
+### 1. Install NuGet Packages
+
+The following packages are already defined in the `.csproj` file:
+
+```
+- Microsoft.EntityFrameworkCore (9.0.0)
+- Microsoft.EntityFrameworkCore.Design (9.0.0)
+- Microsoft.EntityFrameworkCore.SqlServer (9.0.0)
+- Microsoft.EntityFrameworkCore.Tools (9.0.0)
+- Swashbuckle.AspNetCore (8.0.0)
+- Asp.Versioning.Mvc.ApiExplorer (8.1.0)
+- Asp.Versioning.Mvc (8.1.0)
+```
+
+Build the project to restore NuGet packages:
+```powershell
+dotnet build
+```
+
+### 2. Configure Database Connection
+
+Update the connection string in `appsettings.json`:
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=OrderDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+}
+```
+
+For a different SQL Server instance, modify the connection string accordingly.
+
+### 3. Create Database and Migrations
+
+Run the following commands in **Package Manager Console** (Tools → NuGet Package Manager → Package Manager Console):
+
+```powershell
+Add-Migration InitialMigration
+Update-Database
+```
+
+Or using .NET CLI:
+
+```powershell
+dotnet ef migrations add InitialMigration
+dotnet ef database update
+```
+
+### 4. Seed Sample Data (Optional)
+
+Execute the SQL script in `Database/seed-data.sql`:
+
+```sql
+INSERT INTO Orders (Id, ProductId, Cost, Placed, CustomerId, Status) 
+VALUES ('O001', 'P001', 500.50, '2022-01-05', 'C001', 'Process');
+
+INSERT INTO Orders (Id, ProductId, Cost, Placed, CustomerId, Status) 
+VALUES ('O002', 'P002', 600.50, '2022-06-20', 'C002', 'Not Started');
+
+INSERT INTO Orders (Id, ProductId, Cost, Placed, CustomerId, Status) 
+VALUES ('O003', 'P003', 700.50, '2022-07-20', 'C003', 'Inprogress');
+
+INSERT INTO Orders (Id, ProductId, Cost, Placed, CustomerId, Status) 
+VALUES ('O004', 'P004', 800.50, '2021-05-31', 'C004', 'Completed');
+```
+
+### 5. Run the Application
+
+```powershell
+dotnet run
+```
+
+The API will start on `https://localhost:5001` or `http://localhost:5000` (depending on your configuration).
+
+## API Endpoints
+
+All endpoints follow the versioning pattern: `/api/v1/Order/[endpoint]`
+
+### 1. Add Order (POST)
+```http
+POST /api/v1/Order/Add
+Content-Type: application/json
+
+{
+  "id": "O005",
+  "productId": "P001",
+  "cost": 500.5,
+  "placed": "2022-01-05T00:00:00",
+  "customerId": "C001",
+  "status": "Process"
+}
+```
+
+**Response:** `200 OK` - Returns the Order ID
+
+### 2. Get All Orders (GET)
+```http
+GET /api/v1/Order/GetAllOrders
+Accept: application/json
+```
+
+**Response:** `200 OK` - Returns list of all orders
+
+### 3. Get Order by ID (GET)
+```http
+GET /api/v1/Order/GetById/O005
+Accept: application/json
+```
+
+**Response:** `200 OK` - Returns order details or `404 Not Found`
+
+### 4. Get Orders by Customer ID (GET)
+```http
+GET /api/v1/Order/GetByCustomerId/C001
+Accept: application/json
+```
+
+**Response:** `200 OK` - Returns customer's order or `404 Not Found`
+
+### 5. Cancel Order (DELETE)
+```http
+DELETE /api/v1/Order/Cancel/O005
+Accept: application/json
+```
+
+**Response:** `200 OK` - Returns success message or `404 Not Found`
+
+## Testing
+
+Use the included `test-orders.http` file in Visual Studio to test all endpoints.
+
+Alternatively, use Postman:
+1. Create a new request
+2. Set the method (GET, POST, DELETE)
+3. Enter the URL: `http://localhost:5203/api/v1/Order/[endpoint]`
+4. Add headers if needed
+5. Send the request
+
+## Swagger Documentation
+
+Once the application is running, access the Swagger UI at:
+
+```
+http://localhost:5000/
+```
+
+This provides interactive API documentation and testing capabilities.
+
+## API Versioning
+
+The API uses semantic versioning:
+- **Current Version:** v1.0
+- **URL Pattern:** `/api/v1/[controller]/[action]`
+- **Default Version:** v1.0 (if not specified)
+
+To add a new version:
+1. Create a new controller with the new version attribute: `[ApiVersion("2.0")]`
+2. Update Swagger configuration to include the new version
+3. Keep previous versions for backward compatibility
+
+## Database Schema
+
+### Orders Table
+
+| Column      | Type           | Constraints    |
+|-------------|----------------|----------------|
+| Id          | NVARCHAR(50)   | PRIMARY KEY    |
+| ProductId   | NVARCHAR(50)   | NOT NULL       |
+| Cost        | FLOAT          | NOT NULL       |
+| Placed      | DATETIME2      | NOT NULL       |
+| CustomerId  | NVARCHAR(50)   | NOT NULL       |
+| Status      | NVARCHAR(50)   | NOT NULL       |
+
+## Project Layers
+
+### Models Layer
+Contains entity classes representing business objects (Order).
+
+### Data Layer
+Contains `DbContext` and database configuration using Entity Framework Core.
+
+### Repository Layer
+Implements the Repository Pattern for data access and business logic.
+
+### Controller Layer
+Exposes REST endpoints with versioning support.
+
+## Error Handling
+
+The API returns appropriate HTTP status codes:
+
+- **200 OK:** Successful request
+- **400 Bad Request:** Invalid request data
+- **404 Not Found:** Resource not found
+- **500 Internal Server Error:** Server error
+
+## Technologies Used
+
+- **Framework:** ASP.NET Core 9.0 (.NET 10)
+- **ORM:** Entity Framework Core 9.0
+- **Database:** SQL Server
+- **API Documentation:** Swagger/OpenAPI
+- **API Versioning:** Asp.Versioning
+- **Pattern:** Repository Pattern with Dependency Injection
+
+## License
+
+This project is part of TopBrains Assignments.
+
+## Support
+
+For issues or questions, contact the development team.

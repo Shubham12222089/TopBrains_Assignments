@@ -1,0 +1,108 @@
+﻿using CityMart.API.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/admin/dashboard")]
+    [ApiController]
+    [Authorize(Roles = "Admin")]
+    public class AdminDashboardController : ControllerBase
+    {
+        private readonly IOrderService _orderService;
+        private readonly ILogger<AdminDashboardController> _logger;
+
+        public AdminDashboardController(
+            IOrderService orderService,
+            ILogger<AdminDashboardController> logger)
+        {
+            _orderService = orderService;
+            _logger = logger;
+        }
+
+        /// <summary>
+        /// Get dashboard metrics - Admin only
+        /// </summary>
+        [HttpGet]
+        public async Task<ActionResult> GetDashboardMetrics()
+        {
+            try
+            {
+                var totalOrders = await _orderService.GetTotalOrdersAsync();
+                var totalRevenue = await _orderService.GetTotalRevenueAsync();
+                var allOrders = await _orderService.GetAllOrdersAsync();
+
+                var metrics = new
+                {
+                    success = true,
+                    data = new
+                    {
+                        totalOrders,
+                        totalRevenue,
+                        averageOrderValue = totalOrders > 0 ? totalRevenue / totalOrders : 0,
+                        recentOrders = allOrders.TakeLast(10).ToList()
+                    }
+                };
+
+                return Ok(metrics);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting dashboard metrics");
+                return StatusCode(500, new { success = false, message = "Error retrieving dashboard metrics" });
+            }
+        }
+
+        /// <summary>
+        /// Get all orders - Admin only
+        /// </summary>
+        [HttpGet("orders")]
+        public async Task<ActionResult> GetAllOrders()
+        {
+            try
+            {
+                var orders = await _orderService.GetAllOrdersAsync();
+                return Ok(new { success = true, data = orders });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting all orders");
+                return StatusCode(500, new { success = false, message = "Error retrieving orders" });
+            }
+        }
+
+        /// <summary>
+        /// Get revenue metrics - Admin only
+        /// </summary>
+        [HttpGet("revenue")]
+        public async Task<ActionResult> GetRevenueMetrics()
+        {
+            try
+            {
+                var totalRevenue = await _orderService.GetTotalRevenueAsync();
+                var allOrders = await _orderService.GetAllOrdersAsync();
+
+                var revenueData = new
+                {
+                    success = true,
+                    data = new
+                    {
+                        totalRevenue,
+                        totalOrders = allOrders.Count,
+                        averageOrderValue = allOrders.Count > 0 ? totalRevenue / allOrders.Count : 0,
+                        ordersByStatus = allOrders.GroupBy(o => o.Status)
+                            .Select(g => new { status = g.Key, count = g.Count(), revenue = g.Sum(o => o.TotalAmount) })
+                            .ToList()
+                    }
+                };
+
+                return Ok(revenueData);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting revenue metrics");
+                return StatusCode(500, new { success = false, message = "Error retrieving revenue metrics" });
+            }
+        }
+    }
+}

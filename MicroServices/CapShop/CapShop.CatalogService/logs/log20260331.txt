@@ -1,0 +1,361 @@
+2026-03-31 09:38:54.186 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:38:57.201 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 09:38:57.299 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 09:38:57.462 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:38:57.490 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:38:57.586 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 09:42:04.001 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:42:04.796 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 09:42:04.819 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 09:42:04.946 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:42:04.981 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:42:04.998 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 09:42:29.258 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:42:32.232 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 2973.3659ms
+2026-03-31 09:42:32.240 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:42:53.549 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:42:53.560 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 10.2429ms
+2026-03-31 09:42:53.568 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:43:41.607 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:43:42.267 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 09:43:42.400 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 09:43:42.527 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:43:42.541 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:43:42.542 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 09:43:47.636 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:43:47.899 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 266.2801ms
+2026-03-31 09:43:47.906 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:43:57.081 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:43:57.093 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 11.6455ms
+2026-03-31 09:43:57.099 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:44:38.459 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:44:38.473 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 13.8956ms
+2026-03-31 09:44:38.482 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:45:12.817 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:45:12.830 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 12.0841ms
+2026-03-31 09:45:12.839 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:45:29.899 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:45:29.904 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 4.8533ms
+2026-03-31 09:45:29.908 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:46:08.977 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:46:08.986 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 8.1984ms
+2026-03-31 09:46:08.989 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:47:29.508 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 09:47:30.007 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 09:47:30.026 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 09:47:30.128 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 09:47:30.140 +05:30 [INF] Hosting environment: Development
+2026-03-31 09:47:30.146 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 09:47:33.811 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:47:34.134 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 327.7963ms
+2026-03-31 09:47:34.145 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:47:47.164 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - null null
+2026-03-31 09:47:47.178 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/swagger/index.html - 404 null null 13.314ms
+2026-03-31 09:47:47.186 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7002/api/product/swagger/index.html, Response status code: 404
+2026-03-31 09:48:55.562 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 09:48:55.576 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.4654ms
+2026-03-31 09:49:45.558 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/1 - null null
+2026-03-31 09:49:45.695 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 09:49:45.722 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 09:49:46.467 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-31 09:49:47.552 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 09:49:47.661 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 09:49:47.692 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 1959.3177ms
+2026-03-31 09:49:47.693 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 09:49:47.708 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/1 - 200 null application/json; charset=utf-8 2149.7648ms
+2026-03-31 09:50:12.866 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?category=Electronics - null null
+2026-03-31 09:50:12.874 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:12.882 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 09:50:12.925 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 09:50:12.929 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 09:50:12.932 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 48.0323ms
+2026-03-31 09:50:12.934 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:12.937 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?category=Electronics - 200 null application/json; charset=utf-8 75.3969ms
+2026-03-31 09:50:31.527 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?query=Iphone - null null
+2026-03-31 09:50:31.540 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:31.541 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 09:50:31.662 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 09:50:31.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 09:50:31.670 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 126.0901ms
+2026-03-31 09:50:31.672 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:31.674 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?query=Iphone - 200 null application/json; charset=utf-8 146.5604ms
+2026-03-31 09:50:56.615 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?query=Samsung%20S23FE - null null
+2026-03-31 09:50:56.621 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:56.624 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 09:50:56.634 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 09:50:56.638 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 09:50:56.640 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 13.8609ms
+2026-03-31 09:50:56.640 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:50:56.641 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?query=Samsung%20S23FE - 200 null application/json; charset=utf-8 26.4022ms
+2026-03-31 09:51:14.043 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?query=Samsung%20S23FE&sort=Iphone - null null
+2026-03-31 09:51:14.046 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:51:14.047 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 09:51:14.053 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 09:51:14.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 09:51:14.057 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 8.82ms
+2026-03-31 09:51:14.059 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 09:51:14.060 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?query=Samsung%20S23FE&sort=Iphone - 200 null application/json; charset=utf-8 17.6686ms
+2026-03-31 10:36:00.046 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 10:36:00.826 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 10:36:00.854 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 10:36:00.982 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 10:36:00.991 +05:30 [INF] Hosting environment: Development
+2026-03-31 10:36:01.003 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 10:37:16.270 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 10:37:16.362 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.3758ms
+2026-03-31 10:39:02.215 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 10:39:02.233 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.1372ms
+2026-03-31 11:06:37.822 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:06:38.542 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:06:38.558 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:06:38.719 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:06:38.785 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:06:38.907 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 11:08:01.627 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 11:08:01.713 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.3753ms
+2026-03-31 11:08:22.841 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/3 - null null
+2026-03-31 11:08:23.061 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 11:08:23.094 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 11:08:23.949 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-31 11:08:25.035 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 11:08:25.141 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 11:08:25.162 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 2057.9773ms
+2026-03-31 11:08:25.164 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 11:08:25.174 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/3 - 200 null application/json; charset=utf-8 2333.0324ms
+2026-03-31 11:34:13.576 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:34:14.505 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:34:14.534 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:34:14.840 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:34:15.452 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:34:15.469 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 11:35:48.463 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:35:49.140 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:35:49.509 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:35:49.824 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:35:49.943 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:35:49.965 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 11:47:05.099 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:47:06.445 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:47:06.470 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:47:06.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:47:07.146 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:47:07.554 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 11:52:20.104 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:52:21.394 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:52:21.433 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:52:21.715 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:52:21.823 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:52:21.909 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 11:54:19.005 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 11:54:20.744 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 11:54:20.826 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 11:54:20.945 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 11:54:21.284 +05:30 [INF] Hosting environment: Development
+2026-03-31 11:54:21.588 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 12:01:16.652 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:01:17.892 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 12:01:17.943 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 12:01:18.211 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:01:18.448 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:01:18.736 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 12:05:22.434 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:05:23.609 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1191.5504ms
+2026-03-31 12:05:23.649 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:05:23.678 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.7146ms
+2026-03-31 12:08:49.071 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:08:51.042 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 12:08:51.083 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 12:08:52.156 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:08:52.228 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:08:52.289 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 12:09:43.045 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:09:43.245 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 204.4198ms
+2026-03-31 12:10:23.573 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7002/api/product - application/json 110
+2026-03-31 12:10:23.839 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 12:10:23.852 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 12:10:23.856 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7002/api/product - 401 0 null 282.658ms
+2026-03-31 12:10:43.855 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/3 - null null
+2026-03-31 12:10:43.875 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Customer)
+2026-03-31 12:10:43.879 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 12:10:43.881 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/3 - 401 0 null 25.1142ms
+2026-03-31 12:10:56.551 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:10:56.566 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5742ms
+2026-03-31 12:11:18.237 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7002/api/product - application/json 110
+2026-03-31 12:11:18.703 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-03-31 12:11:18.718 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-03-31 12:11:18.721 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7002/api/product - 403 0 null 483.3734ms
+2026-03-31 12:11:30.129 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/3 - null null
+2026-03-31 12:11:30.165 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:11:30.265 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:11:32.501 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-31 12:11:35.714 +05:30 [INF] Executed DbCommand (225ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 12:11:35.978 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 12:11:36.049 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 5762.7831ms
+2026-03-31 12:11:36.052 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:11:36.085 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/3 - 200 null application/json; charset=utf-8 5955.6148ms
+2026-03-31 12:17:02.934 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:17:02.997 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.1608ms
+2026-03-31 12:18:06.215 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7002/api/product - application/json; charset=utf-8 null
+2026-03-31 12:18:06.253 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.Add (CapShop.CatalogService)'
+2026-03-31 12:18:06.295 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(CatalogService.DTOs.ProductDto) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:18:07.626 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [Description], [Name], [Price], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-03-31 12:18:07.712 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:18:07.716 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.Add (CapShop.CatalogService) in 1409.4638ms
+2026-03-31 12:18:07.720 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.Add (CapShop.CatalogService)'
+2026-03-31 12:18:07.723 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7002/api/product - 200 null text/plain; charset=utf-8 1508.4449ms
+2026-03-31 12:30:28.317 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 12:30:30.819 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 12:30:30.869 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 12:30:32.573 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 12:30:32.673 +05:30 [INF] Hosting environment: Development
+2026-03-31 12:30:32.701 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 12:32:37.874 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:32:38.039 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 172.6976ms
+2026-03-31 12:34:10.128 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7002/api/product - application/json; charset=utf-8 null
+2026-03-31 12:34:10.384 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.Add (CapShop.CatalogService)'
+2026-03-31 12:34:10.414 +05:30 [INF] Route matched with {action = "Add", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(CatalogService.DTOs.ProductDto) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:34:11.752 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-31 12:34:16.682 +05:30 [INF] Executed DbCommand (397ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [Description], [Name], [Price], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-03-31 12:34:16.841 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-03-31 12:34:16.858 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.Add (CapShop.CatalogService) in 6434.0672ms
+2026-03-31 12:34:16.891 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.Add (CapShop.CatalogService)'
+2026-03-31 12:34:16.924 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7002/api/product - 200 null text/plain; charset=utf-8 6795.7731ms
+2026-03-31 12:35:56.021 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:35:56.069 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.9128ms
+2026-03-31 12:37:00.605 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:37:00.615 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3911ms
+2026-03-31 12:37:13.102 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/2 - null null
+2026-03-31 12:37:13.113 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Customer)
+2026-03-31 12:37:13.119 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-31 12:37:13.121 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/2 - 401 0 null 18.6061ms
+2026-03-31 12:37:33.569 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/2 - null null
+2026-03-31 12:37:33.583 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:37:33.591 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:37:34.142 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 12:37:34.154 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 12:37:34.168 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 572.0358ms
+2026-03-31 12:37:34.172 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:37:34.174 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/2 - 200 null application/json; charset=utf-8 605.3278ms
+2026-03-31 12:38:03.817 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?category=Electronics - null null
+2026-03-31 12:38:03.838 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 12:38:03.848 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:38:03.900 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 12:38:03.903 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 12:38:03.907 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 54.07ms
+2026-03-31 12:38:03.910 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 12:38:03.911 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?category=Electronics - 200 null application/json; charset=utf-8 94.9442ms
+2026-03-31 12:38:15.999 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/5 - null null
+2026-03-31 12:38:16.003 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:38:16.005 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 12:38:16.018 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 12:38:16.022 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 12:38:16.023 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 16.3045ms
+2026-03-31 12:38:16.026 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 12:38:16.029 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/5 - 200 null application/json; charset=utf-8 29.6493ms
+2026-03-31 12:44:18.153 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 12:44:18.272 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.3958ms
+2026-03-31 14:37:23.625 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 14:37:24.616 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 14:37:24.801 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 14:37:25.240 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 14:37:25.886 +05:30 [INF] Hosting environment: Development
+2026-03-31 14:37:25.955 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 15:18:04.304 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 15:18:05.074 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 15:18:05.107 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 15:18:05.254 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 15:18:05.264 +05:30 [INF] Hosting environment: Development
+2026-03-31 15:18:05.272 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 16:05:01.826 +05:30 [INF] User profile is available. Using 'C:\Users\shubh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-31 16:05:02.472 +05:30 [INF] Now listening on: https://localhost:7002
+2026-03-31 16:05:02.486 +05:30 [INF] Now listening on: http://localhost:5002
+2026-03-31 16:05:02.626 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 16:05:02.680 +05:30 [INF] Hosting environment: Development
+2026-03-31 16:05:02.681 +05:30 [INF] Content root path: C:\Users\shubh\OneDrive\Desktop\TopBrains_Assignments\MicroServices\CapShop\CapShop.CatalogService
+2026-03-31 16:12:11.609 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 16:12:11.780 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 179.4845ms
+2026-03-31 16:26:19.725 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - null null
+2026-03-31 16:26:19.817 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.3077ms
+2026-03-31 16:26:36.752 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product?category=ser - null null
+2026-03-31 16:26:37.192 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 16:26:37.252 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 16:26:38.285 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-31 16:26:43.448 +05:30 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-03-31 16:26:43.578 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CatalogService.Models.Product, CapShop.CatalogService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-31 16:26:43.601 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService) in 6340.5136ms
+2026-03-31 16:26:43.603 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetAll (CapShop.CatalogService)'
+2026-03-31 16:26:43.618 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product?category=ser - 200 null application/json; charset=utf-8 6865.8559ms
+2026-03-31 16:27:03.732 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/3 - null null
+2026-03-31 16:27:03.778 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:03.789 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 16:27:04.116 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 16:27:04.124 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 16:27:04.134 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 340.3053ms
+2026-03-31 16:27:04.142 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:04.145 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/3 - 200 null application/json; charset=utf-8 412.9946ms
+2026-03-31 16:27:09.633 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/9 - null null
+2026-03-31 16:27:09.655 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:09.656 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 16:27:09.769 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 16:27:09.776 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-03-31 16:27:09.816 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 155.9174ms
+2026-03-31 16:27:09.818 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:09.822 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/9 - 404 null application/problem+json; charset=utf-8 188.7023ms
+2026-03-31 16:27:59.224 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7002/api/product/2 - null null
+2026-03-31 16:27:59.228 +05:30 [INF] Executing endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:59.230 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller CatalogService.Controllers.ProductController (CapShop.CatalogService).
+2026-03-31 16:27:59.245 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Category], [p].[Description], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @p
+2026-03-31 16:27:59.250 +05:30 [INF] Executing OkObjectResult, writing value of type 'CatalogService.Models.Product'.
+2026-03-31 16:27:59.251 +05:30 [INF] Executed action CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService) in 18.2013ms
+2026-03-31 16:27:59.258 +05:30 [INF] Executed endpoint 'CatalogService.Controllers.ProductController.GetById (CapShop.CatalogService)'
+2026-03-31 16:27:59.260 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7002/api/product/2 - 200 null application/json; charset=utf-8 36.2424ms

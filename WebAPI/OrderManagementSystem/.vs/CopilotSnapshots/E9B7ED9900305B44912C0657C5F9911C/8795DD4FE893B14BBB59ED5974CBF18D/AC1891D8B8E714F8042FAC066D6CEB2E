@@ -1,0 +1,13 @@
+﻿# SQL Server Configuration
+SA_PASSWORD=LocalPassword123!
+MSSQL_SA_PASSWORD=LocalPassword123!
+
+# Database Configuration
+DB_CONNECTION_STRING=Server=sqlserver,1433;Database=OrderDb;User Id=sa;Password=LocalPassword123!;TrustServerCertificate=true
+
+# ASP.NET Core Configuration
+ASPNETCORE_ENVIRONMENT=Development
+ASPNETCORE_URLS=http://+:5000
+
+# SSL Certificate Password (for HTTPS)
+ASPNETCORE_CERT_PASSWORD=password

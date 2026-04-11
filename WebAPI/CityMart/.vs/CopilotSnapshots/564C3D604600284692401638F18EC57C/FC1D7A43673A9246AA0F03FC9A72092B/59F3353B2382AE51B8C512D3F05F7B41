@@ -1,0 +1,201 @@
+﻿using CityMart.API.Application.Interfaces;
+using CityMart.API.DTOs;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+
+namespace CityMart.API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CartsController : ControllerBase
+    {
+        private readonly ICartService _cartService;
+        private readonly ILogger<CartsController> _logger;
+
+        public CartsController(ICartService cartService, ILogger<CartsController> logger)
+        {
+            _cartService = cartService;
+            _logger = logger;
+        }
+
+        /// <summary>
+        /// Get current user's cart - Requires authentication
+        /// </summary>
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<CartDto>> GetCart()
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var cart = await _cartService.GetCartAsync(userId);
+                return Ok(new { success = true, data = cart });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting cart");
+                return StatusCode(500, new { success = false, message = "Error retrieving cart" });
+            }
+        }
+
+        /// <summary>
+        /// Add product to cart - Requires authentication
+        /// </summary>
+        [HttpPost("add")]
+        [Authorize]
+        public async Task<ActionResult<CartDto>> AddToCart([FromBody] AddToCartRequest request)
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var cart = await _cartService.AddToCartAsync(userId, request.ProductId, request.Quantity);
+                return Ok(new { success = true, message = "Product added to cart", data = cart });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { success = false, message = ex.Message });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error adding to cart");
+                return StatusCode(500, new { success = false, message = "Error adding product to cart" });
+            }
+        }
+
+        /// <summary>
+        /// Update cart item quantity - Requires authentication
+        /// </summary>
+        [HttpPut("items/{cartItemId}")]
+        [Authorize]
+        public async Task<ActionResult<CartDto>> UpdateCartItem(int cartItemId, [FromBody] UpdateCartItemRequest request)
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var cart = await _cartService.UpdateCartItemAsync(userId, cartItemId, request.Quantity);
+                return Ok(new { success = true, message = "Cart item updated", data = cart });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { success = false, message = ex.Message });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error updating cart item");
+                return StatusCode(500, new { success = false, message = "Error updating cart item" });
+            }
+        }
+
+        /// <summary>
+        /// Remove item from cart - Requires authentication
+        /// </summary>
+        [HttpDelete("remove/{cartItemId}")]
+        [Authorize]
+        public async Task<IActionResult> RemoveFromCart(int cartItemId)
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var result = await _cartService.RemoveFromCartAsync(userId, cartItemId);
+                if (!result)
+                    return NotFound(new { success = false, message = "Cart item not found" });
+
+                return Ok(new { success = true, message = "Item removed from cart" });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error removing from cart");
+                return StatusCode(500, new { success = false, message = "Error removing item from cart" });
+            }
+        }
+
+        /// <summary>
+        /// Clear entire cart - Requires authentication
+        /// </summary>
+        [HttpDelete("clear")]
+        [Authorize]
+        public async Task<IActionResult> ClearCart()
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var result = await _cartService.ClearCartAsync(userId);
+                if (!result)
+                    return NotFound(new { success = false, message = "Cart not found" });
+
+                return Ok(new { success = true, message = "Cart cleared" });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error clearing cart");
+                return StatusCode(500, new { success = false, message = "Error clearing cart" });
+            }
+        }
+
+        /// <summary>
+        /// Get cart total - Requires authentication
+        /// </summary>
+        [HttpGet("total")]
+        [Authorize]
+        public async Task<ActionResult> GetCartTotal()
+        {
+            try
+            {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return Unauthorized(new { success = false, message = "User not authenticated" });
+
+                var total = await _cartService.GetCartTotalAsync(userId);
+                return Ok(new { success = true, data = new { totalPrice = total } });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting cart total");
+                return StatusCode(500, new { success = false, message = "Error getting cart total" });
+            }
+        }
+    }
+
+    public class AddToCartRequest
+    {
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+    }
+
+    public class UpdateCartItemRequest
+    {
+        public int Quantity { get; set; }
+    }
+}
